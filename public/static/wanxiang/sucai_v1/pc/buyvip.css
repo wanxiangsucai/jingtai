@@ -1,0 +1,40 @@
+/*vip升级-积分金币充值*/
+main {background:#fff;}
+.banner {height:220px; text-align: center; background-size: cover; background-position: center center; background-image: url(vipbn.jpg);}
+.banner .title {padding-top:61px; font-size:48px; color:#FFFFFF;}
+.banner .title p {padding-top:5px; font-size:24px; color:#FFFFFF; opacity:0.7;}
+
+
+.vipbox{width:1200px; height:auto; margin:0 auto; padding-bottom:50px;}
+.vipbox h1{margin-top:40px; font-size:26px;font-weight:600;color:#666; text-align:center;}
+.vipbox h1 i{margin-right:5px; color:#00c901;}
+
+.flexcont{margin-top:40px; display:flex; justify-content:center; flex-wrap:wrap;}
+
+.vipbox .vl{margin:0px 15px 30px;width:200px;height:auto;background:#fff; border:2px solid #eeeeee; border-radius:10px;cursor: pointer;position:relative; display:flex; flex:1; justify-content:center; align-items:center; flex-direction:column; font-size:16px; padding:40px 20px; background-size: cover; background-position: center center; background-image: url(vipbj.jpg);}
+.vipbox .xz{width:40px;height:40px;position: absolute;bottom:0; right:0;background-image:url(xz2.png);}
+.vipbox .vlb{border:2px solid #ffa7ac;}
+.vipbox .vlc{border:2px solid #ffa7ac;}
+.vipbox h3{margin-top:30px; font-weight:bold;font-size:20px; color:#E80F1F; text-align:center;}
+.form1{margin-top:10px; text-align:center;}
+.fonta{text-align:center;}
+.fonta em{color:#666; font-size:24px; font-weight:bold;}
+.fonta em i{margin-right:5px; color:#E80F1F;}
+.fonta p{margin-top:10px; color:#999; font-size:14px;}
+.fontb{padding:20px 0; color:#E80F1F; font-size:35px; font-weight:bold;}
+.fontb em{color:#666; font-size:16px; font-weight:100; margin-left:5px;}
+.fontc{color:#999;}
+.fontc em{margin-left:5px;}
+.subb{margin-top:30px;  color:rgb(255,51,0); text-align:center;}
+.subb .btn{padding:10px 40px; opacity:0.85;border-radius:.3rem;font-size:18px; background-color:#E80F1F; color:#FFF;border:0;cursor: pointer;}
+.subb .btn:hover{opacity:1;}
+.form-check{display:inline-block; margin:0 15px; padding:10px 20px; border:1px solid #eeeeee; border-radius:5px;}
+.form-check input{margin-right:10px;}
+
+/*积分金币充值*/
+.banner2 {height:220px; text-align: center; background-size: cover; background-position: center center; background-image: url(vipbn2.jpg);}
+.banner2 .title {padding-top:61px; font-size:48px; color:#FFFFFF;}
+.banner2 .title p {padding-top:5px; font-size:24px; color:#FFFFFF; opacity:0.7;}
+.vipbox .cz{background-image:none!important; border:dashed 2px #ddd; width:165px; flex:none;}
+.vipbox .cz.vlb{border:dashed 2px #ffa7ac;}
+.vipbox .cz.vlc{border:dashed 2px #ffa7ac;}

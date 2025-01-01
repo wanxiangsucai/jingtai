@@ -1,0 +1,67 @@
+/*首页头部*/
+.sy-main {width:100%; overflow:hidden;}
+.sy-main .index-top {margin:0 auto; padding-top:60px; position:relative; left:-20%; width:140%; height:370px; border-radius:0 0 70% 70%; background-image:linear-gradient(180deg, #E80F1F 0%, #F52242 100%);}
+.sy-main .index-top .w1200 {position:relative; padding-top:30px; width:1200px; margin:0 auto;}
+.sy-main .index-top .search {margin:0 auto; display:inline-block; left:50%; position:relative; -webkit-transform:translate(-50%, 0); -moz-transform:translate(-50%, 0); -ms-transform:translate(-50%, 0); -o-transform:translate(-50%, 0); transform:translate(-50%, 0); z-index:9; width:100%; text-align:center;}
+.sy-main .index-top .search p {font-size:36px; font-weight:bold; color:#FFFFFF; text-align:center; position:relative;  margin:0 auto 30px auto;}
+.sy-main .index-top .search h1 {font-size:36px; font-weight:bold; color:#FFFFFF; text-align:center; position:relative;  margin:0 auto 30px auto;}
+.sy-main .index-top .search .sst {position:relative; display:inline-block; left:0; top:0; width:800px; border:6px solid rgba(144, 25, 58, 0.4); border-radius:12px;}
+.sy-main .index-top .search .sst .lie{height:50px; width:105px; position:absolute;}
+.sy-main .index-top .search .sst .lie .moren{position:absolute; top:15px; left:20px; user-select:none; font-size:14px; font-weight:400; color:#666666; line-height:20px; text-align:center;}
+.sy-main .index-top .search .sst .lie .moren i{margin-left:10px; font-size:12px;}
+.sy-main .index-top .search .sst .lie ul{display:none; top:49px; position:absolute; width:800px; padding-top:5px; padding-bottom:5px; background:#FFFFFF; border-radius:6px; box-shadow:0 5px 6px #80808066;}
+.sy-main .index-top .search .sst .lie ul li {float: left;width: 114px;color:#202020; height:35px; cursor:pointer; line-height:35px; background:#FFFFFF; font-size:14px; font-weight:400; text-align:center;}
+.sy-main .index-top .search .sst .lie ul li:hover{color:#E80F1F; background:#ffe7e9;}
+.sy-main .index-top .search .sst input.sr{border-radius:6px; color:#ADADAD; width:800px; height:48px; line-height:48px; text-indent:8px; border:none; background:#FFFFFF; font-size:14px; box-sizing:border-box; background-color:rgba(255, 255, 255, 1); padding:0 112px 0 106px; outline:0; font-family:inherit;}
+.sy-main .index-top .search .sst input.ss{float:left; position:absolute; right:0px; top:0px; height:48px; line-height:48px; font-size:16px; width:170px; border:none; cursor:pointer; background:linear-gradient(90deg, rgba(255, 206, 5, 1), rgba(255, 232, 81, 1)); border-radius:0px 6px 6px 0px; text-align:center; font-weight:bold; color:rgba(61, 31, 65, 1); outline:0; font-family:inherit;}
+.sy-main .index-top .search .re {display:inline-block; width:800px; font-size:14px; color:#FFFFFF; font-weight:400; line-height:34px; text-align:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.sy-main .index-top .search .re a {cursor:pointer; color:#FFFFFF; padding:10px 10px; display:inline-block;}
+
+
+
+/*首页版块*/
+.bankuai {position:relative; margin:0 auto; margin-top:33px; width:1220px;}
+.bankuai .title-box {padding:0 10px; line-height:35px;}
+.bankuai .title-box a.title {display:inline-block; color:#666; font-size:24px; vertical-align:middle;}
+.bankuai .title-box ul {display:inline-block; margin-left:51px;}
+.bankuai .title-box ul li{position:relative; display:inline-block; margin-right:20px; text-align:center; font-size:14px; color:#888; background-color:#eeeeee; border-radius:25px;}
+.bankuai .title-box ul li:hover{color:#E80F1F; background-color:#f1f1f1;}
+.bankuai .title-box ul li a{display:block; padding:0px 24px;}
+.bankuai .title-box a.more {display:inline-block; float:right; color:#888; font-size:14px;}
+
+
+.bankuai ul.list {width:100%; margin-top:15px; display:inline-block;}
+.bankuai ul.list li{width:33.3%; float:left;overflow: hidden;position: relative;margin-bottom:10px; border-radius:8px;}
+.bankuai ul.list li .tu {display:block; padding:10px; position:relative;}
+.bankuai ul.list li .tu .img {width:100%; height:100%; border-radius:8px; overflow:hidden;}
+.bankuai ul.list li .tu .img a {display:block;}
+.bankuai ul.list li .tu .img a img{width:100%; height:210px; border-radius:8px; object-fit:cover; transition:all 0.6s; border:1px solid #eeeeee; box-sizing:border-box;}
+.bankuai ul.list li .tu .model-box {display:none; width:100%; height:100%; z-index:1; top:0; left:0; border-radius:8px; box-sizing:border-box;}
+.bankuai ul.list li .tu .model-box a {position:absolute; padding:0 10px; height:30px; line-height:30px; font-size:14px; color:#fff; background:rgba(0, 0, 0, 0.3); border-radius:5px; z-index:2;}
+.bankuai ul.list li .tu .model-box a:nth-child(1){top:20px; left:20px;}
+.bankuai ul.list li .tu .model-box a:nth-child(2){top:20px; right:20px;}
+.bankuai ul.list li .tu .model-box a:nth-child(3){bottom:20px; right:20px; color:#666; background:#fff;}
+.bankuai ul.list li .tu .model-box a:nth-child(3):hover{color:#E80F1F; background:#ffe7e9;}
+.bankuai ul.list li .tu .model-box a i {margin-right:5px; font-size:12px;}
+.bankuai ul.list li:hover{background-color:#eeeeee;}
+.bankuai ul.list li:hover .tu .img img{transform:scale(1.1);}
+.bankuai ul.list li:hover .tu .model-box {display:block;}
+.bankuai ul.list li .tu .model-box a:hover{color:#666; background:#fff;}
+
+
+
+.bankuai ul.list li .wen {padding:0 10px 10px 10px; height:60px; line-height:30px; font-size:14px;}
+.bankuai ul.list li .wen .s{width:100%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.bankuai ul.list li .wen .s a {color:#333;}
+.bankuai ul.list li .wen .s a:hover {color:#E80F1F;}
+.bankuai ul.list li .wen .s a span {margin-right:10px; border-radius:5px; font-size:12px; padding:3px 8px; color:#E80F1F; border:1px solid #E80F1F;}
+.bankuai ul.list li .wen .s a span:hover {background:#ffe7e9;}
+
+.bankuai ul.list li .wen .x {width:100%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.bankuai ul.list li .wen .x span {font-size:12px; color:#aaa; margin-right:10px;}
+.bankuai ul.list li .wen .x span i {margin-right:5px;}
+.bankuai ul.list li .wen .x em {float:right; margin-right:5px;}
+.bankuai ul.list li .wen .x em a {display:block;}
+.bankuai ul.list li .wen .x em a img{width:25px; height:25px; border-radius:50%; border:1px solid #eeeeee; transition:all 0.6s; object-fit:cover;}
+.bankuai ul.list li .wen .x em a img:hover{transform:scale(1.2);}
+
