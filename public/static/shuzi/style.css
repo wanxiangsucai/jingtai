@@ -1,5 +1,6 @@
 .container {
-    max-width: 800px;
+    width: 1314px;
+    font-size: 14px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -11,6 +12,8 @@ h1 {
     color: #333;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 h2 {
@@ -28,7 +31,7 @@ h2 {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 14px;
     font-weight: bold;
 }
 
@@ -73,7 +76,7 @@ button:hover {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 15px;
-    min-height: 30px;
+    min-height: 55.6px;
     border-radius: 4px;
     font-size: 18px;
     font-weight: bold;
@@ -111,6 +114,17 @@ ul {
 li {
     margin-bottom: 10px;
 }
+.col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
 
 @media (max-width: 600px) {
     .container {
@@ -124,4 +138,38 @@ li {
     .result-box {
         font-size: 16px;
     }
+}
+
+.text-center {
+    text-align: center !important;
+}
+.mt-2, .my-2 {
+    margin-top: .5rem !important;
+}
+.table-active, .table-active>td, .table-active>th {
+    background-color: rgba(0, 0, 0, .075);
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+table {
+    border-collapse: collapse;
+}
+.table>tbody>tr>td a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.table>tbody>tr>td a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+.bottom{
+    text-align: center;
+    color: #adadad;
 }

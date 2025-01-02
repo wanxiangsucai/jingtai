@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        fetch('shuzi.php', {
+        fetch('seo1/jine.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
