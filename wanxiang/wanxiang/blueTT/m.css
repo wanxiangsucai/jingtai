@@ -1,0 +1,68 @@
+@charset "utf-8";
+body,h2,h3{margin:0;padding: 0;font-family: "微软雅黑", "Microsoft YaHei", "Microsoft YaHei UI", "Hiragino Sans GB W3", "Segoe UI", Arial, Verdana, Sans-Serif, sans-serif;
+}
+body a{color:#000;}
+body a,body a:hover{text-decoration:none!important;}
+/*******top nav、logo style*************/
+.m-logo{position:fixed;top:0;left:0; right:0; z-index:99;background:#FFF;
+    border-bottom:1px solid #999;}
+.m-logo .col-xs-4{height:45px;}
+.m-logo i{font-size:26px;}
+.m-logo .navmenu {margin-left:10px;margin-top:10px;}
+.m-logo .search-submit{margin-right:15px;margin-top:8px;}
+.m-logo a{color:#666;}
+.navmenu .navlist{display:none;position:fixed;width:100%;height:100%;overflow-y: auto;z-index:999;
+    left:0;top:0;
+}
+.navmenu .navlist .navname{position:absolute;width:0%;height:100%;background:#333;overflow-x:hidden;
+    overflow-y:auto;left:0;top:0;
+}
+.navmenu .navlist .navmask{position:absolute;width:100%;height:100%;background: rgba(0,0,0,0.7);
+    left:0;top:0;}
+.navname a{color:#FFF;font-size:18px;}
+.navname ul{margin:25px;width:80%;}
+.navname ul >li{border-bottom:1px solid #4C4C4C;width:100%;padding:2px 10px 5px;text-align:center;}
+/*******重写搜索样式***********/
+.searchbox{border:1px solid #0078d7 !important;}
+.searchbox form input.btn{font-size:16px;line-height:18px;background-color:#0078d7;}
+
+
+/******轮播图css********/
+.swiper-container{width:100%;height:220px;}
+.swiper-container img{width:100%;height:220px;}
+.swiper-container .swiper-pagination {text-align:center;}
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #0078d7;
+}
+.swiper-container .swiper-pagination-bullet{
+    background:#666;
+    width:8px;
+    height:8px;
+    opacity:0.8;
+}
+
+/********首页文章列表*****************/
+
+.m-index-name{width:100%;}
+.m-index-name article {width:100%;height:110px;padding:5px 10px;border-bottom:1px solid #ccc;}
+.m-index-name article h4{margin-bottom:15px;}
+.m-index-name article h4 >a{font-weight:bold;}
+.m-index-name .m-tags .sortname >a{color:#0078d7;}
+.m-index-name .m-tags .taglink >a{color:#999;}
+.m-index-name .m-tags i{margin-right:3px;}
+
+
+/***********内容页面相关**************/
+.MainInfos .title h4{font-weight:bold;}
+.ShowMoreInfos{border-top:2px solid #999;}
+.taglink >a{color:#999;}
+.ShowContent ul.pagination{text-align:center;display:block;}
+.ShowContent ul.pagination li {margin:0 3px;display:inline-block;}
+.ShowContent .pagination li span{border:0;color:#FFF;padding:0 2px;}
+.ShowContent .pagination li a{padding:0 8px;background:#0078d7;border:0;color:#FFF;}
+.ShowContent .pagination li .ac{background:#F60;}
+
+
+
+

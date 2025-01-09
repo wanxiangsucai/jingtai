@@ -1,0 +1,37 @@
+.WapCommentBox{background:#FFF; margin-top:15px; font-size:14px;}
+.WapCommentBox .head{height:40px; line-height:40px; overflow:hidden; margin-bottom:10px;}
+.WapCommentBox .head .tag{float:left; color:#666; font-size:16px;}
+.WapCommentBox .head .tag span {color:#bbb; font-size:14px; margin-left:10px;}
+.WapCommentBox .head .more{float:right;}
+.WapCommentBox .head .more button{line-height:38px; padding:0 15px; border:solid #F30 1px; background:#F60; color:#FFF;}
+.WapCommentBox .ListComment .lists{display:table; padding:10px 0; width:100%; border-top:1px solid #f1f1f1;}
+.WapCommentBox .ListComment .lists .icon,.WapCommentBox .ListComment .lists .infos{display:table-cell; padding:10px 0 10px 0; vertical-align:top;}
+.WapCommentBox .ListComment .lists .icon{width:48px; padding-right:20px;}
+.WapCommentBox .ListComment .lists .icon img{max-width:100%; border-radius:50%; box-shadow:1px 1px 1px #ddd;}
+.WapCommentBox .ListComment .lists .infos dl{display:table; width:100%; margin-bottom:5px;}
+.WapCommentBox .ListComment .lists .infos dl dt,.WapCommentBox .ListComment .lists .infos dl dd{display:table-cell; vertical-align:middle; color:#bbb;}
+.WapCommentBox .ListComment .lists .infos dl dt span{color:#bbb; font-size:12px; margin-left:10px;}
+.WapCommentBox .ListComment .lists .infos dl dd{text-align:right;}
+.WapCommentBox .ListComment .lists .infos dl dd em i{margin-right:3px;}
+.WapCommentBox .ListComment .lists .infos dl dd em a{color:#bbb;}
+.WapCommentBox .ListComment .lists .infos dl dd span a{color:#777;}
+.WapCommentBox .ListComment .lists .infos dl dd span{display:inline-block; padding-left:30px;}
+.WapCommentBox .ListComment .lists .infos dl dd span i{margin-right:3px;}
+.WapCommentBox .ListComment .lists .repalyinfs{position:relative; background:#F7F7F7;}
+.WapCommentBox .ListComment .lists .repalyinfs div{padding:20px; line-height:20px; border-bottom:#FFF solid 20px; color:#666; font-size:14px;}
+.WapCommentBox .ListComment .lists .repalyinfs div a{color:#888;}
+.WapCommentBox .ListComment .lists .infos .comment{line-height:20px; margin-bottom:15px;}
+.PostCommentBox{text-align:center;}
+.PostCommentBox textarea{width:92%; padding:2%; height:150px; margin:10px auto; outline:none; border-radius:5px; border:#DDD solid 1px;}
+.PostCommentBox button{padding:8px 30px; border:#CCC solid 1px; background:#CCC; color:#FFF; margin:0 10px; cursor:pointer; border-radius:5px;}
+.PostCommentBox button:nth-child(1){border:#E80F1F solid 1px; background:#E80F1F;}
+.ShowMoreComment{text-align:center; padding:10px;}
+.ShowMoreComment button{padding:5px 10px; color:#999;}
+.PostCommentBox1 ol{position:relative; padding-left:70px;}
+.PostCommentBox1 ol i{display:block; width:50px; height:50px; text-align:center; line-height:50px; background:#CCC; border-radius:5px; position:absolute; left:0; top:0; font-size:30px; color:#FFF; border-radius:5px}
+.PostCommentBox1 ol textarea{border:#DDD solid 1px; width:97.5%; padding:1%; height:100px; outline:none; border-radius:5px; resize:vertical;}
+.PostCommentBox1 li{text-align:right;}
+.PostCommentBox1 li span,.PostCommentBox1 li button{display:inline-block; margin-top:8px; line-height:24px; padding:6px 30px; font-size:16px; background:#AAA; border-radius:5px; color:#FFF; cursor:pointer; border:0px;}
+.PostCommentBox1 li button{background:#E80F1F;}
+.PostCommentBox1 li button:hover{color:#4e2b0e; background:#ffdb00;}
+

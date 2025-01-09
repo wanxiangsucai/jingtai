@@ -1,0 +1,206 @@
+#wp,.wp{width:100%}
+body{background: url(../img/bg.jpg) center bottom no-repeat fixed rgb(244, 244, 244);}
+.flexslider{height:400px;overflow:hidden;background:url(/public/static/blansj_xin/pc/neoconex/flash/loading.gif) 50% no-repeat;width:100%;left:0;top:0;z-index:11;position:relative;min-width:1180px}
+.slides{position:relative;z-index:1}
+.slides li{height:400px}
+.slides li a{display:block;width:100%;min-width:1180px;height:400px}
+.nexsidebar{width:200px;height:400px;background-color:#fff;background:rgba(255,255,255,1);position:absolute;top:0;left:2px;z-index:11;border-left: 3px solid #8092e7;}
+.nexsidebar ul li{height:30px;line-height:30px;width:160px;padding:10px 20px;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nexsidebar ul li:hover{background:#f1f1f1;cursor:pointer;padding-left:30px}
+.nexsidebar ul li:hover h5 i{background:url(/public/static/blansj_xin/pc/neoconex/fl/arrow_rx.png) center no-repeat}
+.nexsidebar ul li h5 i{float:right;display:block;width:6px;height:11px;margin:10px 10px 0 0;background:url(/public/static/blansj_xin/pc/neoconex/fl/arrow_r.png) center no-repeat}
+.nexsidebar ul li h5{font-weight:400;height:30px;line-height:30px}
+.nexsidebar ul li h5 span{display:block;float:left;font-size:14px;color:#666;padding-left:45px}
+.nexsidebar ul li:hover h5 span{color:#8092e7}
+.nexsidebar ul li h5 span.nexbjq{background:url(/public/static/blansj_xin/pc/neoconex/fl/bjq.png) left center no-repeat}
+.nexsidebar ul li:hover h5 span.nexbjq{background:url(/public/static/blansj_xin/pc/neoconex/fl/bjq1.png) left center no-repeat}
+.nexsidebar ul li h5 span.nexpmsj{background:url(/public/static/blansj_xin/pc/neoconex/fl/pmsj.png) left center no-repeat}
+.nexsidebar ul li:hover h5 span.nexpmsj{background:url(/public/static/blansj_xin/pc/neoconex/fl/pmsj1.png) left center no-repeat}
+.nexsidebar ul li h5 span.nexpptmuban{background:url(/public/static/blansj_xin/pc/neoconex/fl/ppt.png) left center no-repeat}
+.nexsidebar ul li:hover h5 span.nexpptmuban{background:url(/public/static/blansj_xin/pc/neoconex/fl/ppt1.png) left center no-repeat}
+.nexsidebar ul li h5 span.nexvideosucai{background:url(/public/static/blansj_xin/pc/neoconex/fl/spsc.png) left center no-repeat}
+.nexsidebar ul li:hover h5 span.nexvideosucai{background:url(/public/static/blansj_xin/pc/neoconex/fl/spsc1.png) left center no-repeat}
+.nexsidebar ul li h5 span.nexdianshang{background:url(/public/static/blansj_xin/pc/neoconex/fl/dianshang.png) left center no-repeat}
+.nexsidebar ul li:hover h5 span.nexdianshang{background:url(/public/static/blansj_xin/pc/neoconex/fl/dianshang1.png) left center no-repeat}
+.nexsidebar ul li h5 span.nexsjys{background:url(/public/static/blansj_xin/pc/neoconex/fl/sjys.png) left center no-repeat}
+.nexsidebar ul li:hover h5 span.nexsjys{background:url(/public/static/blansj_xin/pc/neoconex/fl/sjys1.png) left center no-repeat}
+.nexsidebar ul li h5 span.nexmbzy{background:url(/public/static/blansj_xin/pc/neoconex/fl/mbsc.png) left center no-repeat}
+.nexsidebar ul li:hover h5 span.nexmbzy{background:url(/public/static/blansj_xin/pc/neoconex/fl/mbsc1.png) left center no-repeat}
+.nexsidebar ul li h5 span.nexmoresucai{background:url(/public/static/blansj_xin/pc/neoconex/fl/moresc.png) left center no-repeat}
+.nexsidebar ul li:hover h5 span.nexmoresucai{background:url(/public/static/blansj_xin/pc/neoconex/fl/moresc1.png) left center no-repeat}
+.nexhiddenmenu{padding:20px 10px 0;background:#fff url(/public/static/blansj_xin/pc/neoconex/fl/fl_bg.png) right bottom no-repeat;position:absolute;border:1px solid #ededed;left:200px;top:0;width:958px;height:378px;z-index:581;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear;display:none}
+.nexsidebar ul li:hover .nexhiddenmenu{display:block}
+.nexinnercontents{width:268px;margin:0 25px;margin-bottom:10px;float:left}
+.nexinnercontents h3{line-height:30px;border-bottom:#e2e2e2 1px solid;padding-bottom:5px}
+.nexinnercontents h3 a{color:#333;font-size:14px;font-weight:500;letter-spacing:2px}
+.nexinnertxts{width:305px;color:#333;padding:8px 0 20px;margin-left:-3px;overflow:hidden;height:55px}
+.nexinnertxts a{color:#666;display:inline;float:left;font-size:13px;border-left:1px #b2b2b2 solid;height:17px;line-height:13px;margin:8px 10px 5px -8px;padding-left:11px;white-space:nowrap;padding-right:11px;overflow:hidden;text-overflow:ellipsis;max-width:90px}
+.nexinnertxts a:hover{color:#8092e7}
+.nexinnertxts a.orangetxt{color:#ffa200}
+.nex_common_tops{padding:10px 20px 0 20px;height: 56px;line-height: 56px;color: #4C4C4C;margin-left: -20px;margin-right: -20px;}
+.nex_CT_txt{float:left;display:inline-block;vertical-align:middle;height:38px;line-height:38px;padding-left:30px;font-size:24px;color:#000000;font-weight:400}
+.nex_CT_txt1{background:url(/public/static/blansj_xin/pc/neoconex/index/praise_home.png) left center no-repeat}
+.nex_CT_ul{float:left;margin-left:20px}
+.nex_CT_ul em{display:block;width:50px;text-indent:22px;margin-top:9px;height:22px;line-height:22px;padding:0 10px;border-radius:24px;font-size:12px;background:#ffe5b9 url(/public/static/blansj_xin/pc/neoconex/index/bells.png) 10px center no-repeat;float:left;color:#ffa200}
+.nex_CT_ullists{float:left;margin-left:15px;margin-top:9px;padding-left:20px;background:url(/public/static/blansj_xin/pc/neoconex/index/pos.png) left center no-repeat}
+.nex_CT_ullists ul li{height:22px;line-height:22px;overflow:hidden}
+.nex_CT_ullists ul li a{font-size:14px;color:#666}
+.nex_CT_ullists ul li a:hover{color:#ffa200}
+.nex_CT_more{float:right}
+.nex_CT_more a{display:block;padding:0 10px;height:20px;line-height:20px;margin-top:8px;font-size:14px;color:#000000;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nex_CT_more a:hover{border: 1px solid #ffffff;background: #000000;color: #fff;}
+.nexsortbox{width: 1200px;margin:25px auto;background: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;}
+.nexsortboxes ul{width:1205px}
+.nexsortboxes ul li{float:left;margin-right:10px;}
+.nexsortboxes ul li a{display:block;width:160px;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nexsortboxes ul li a img{width:160px;height:55px}
+.nexsortboxes ul li a h5{height:42px;line-height:42px;padding:0 10px;margin-top: -4px;overflow:hidden;border-top:0;font-size:14px;text-align:center;background: url(/public/static/blansj_xin/pc/img/btmex-v1gl2.svg) repeat-x left bottom;color: #e5e5e5;font-weight: bold;}
+.nexsortboxes ul li a:hover{-webkit-transform:translate(0,-5px);-moz-transform:translate(0,-5px);-o-transform:translate(0,-5px);-ms-transform:translate(0,-5px);transform:translate(0,-5px)}
+.nexsortboxes ul li a:hover h5{color:#ff0000;text-shadow:0 1px 1px rgba(11,144,118,.5)}
+.nex_Hot_tags{margin-top:10px}
+.nex_Hot_tags ul{width:1205px}
+.nex_Hot_tags ul li{float:left;margin:0 10px 10px 0;background: url(/public/static/blansj_xin/pc/img/btmex-v1gl2.svg) repeat-x left bottom;}
+.nex_Hot_tags ul li a{display:block;width:160px;height:43px;line-height:43px;font-size:14px;color:#e5e5e5;font-weight: bold;text-align:center;overflow:hidden;position:relative}
+.nex_Hot_tags ul li a b{display:block;width:0%;height:100%;background:#fec665;position:absolute;left:0;top:0;z-index:-1;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nex_Hot_tags ul li a:hover{color:#fff;}
+.nex_Hot_tags ul li a:hover b{width:100%}
+.nex_Hot_tags ul li a i{display:block;width:30px;height:13px;position:absolute;background:url(/public/static/blansj_xin/pc/neoconex/index/hot.png) no-repeat;top:16px;right:20px}
+.nex_Hot_tags ul li a em{display:block;width:30px;height:13px;position:absolute;background:url(/public/static/blansj_xin/pc/neoconex/index/new.png) no-repeat;top:16px;right:20px}
+.nexpubtop{padding:10px 20px 0 20px;text-align: right;height: 56px;line-height: 56px;color: #4C4C4C;margin-left: -20px;margin-right: -20px}
+.nexpubtop_jc{padding:10px 20px 0 20px;text-align: right;height: 56px;line-height: 56px;color: #4C4C4C;margin-left: 20px;margin-right: 0px;}
+.nexpubtop span{display:block;float:left;padding-left:45px;height:38px;line-height:38px}
+.nexpubtop span a{font-size:24px;color:#000000}
+.nexpubtop span.nex_JX_icon{padding-left:35px;background:url(/public/static/blansj_xin/pc/neoconex/index/nex_icon2.png) left center no-repeat}
+.nexpubtop span.nex_DM_icon{padding-left:35px;background:url(/public/static/blansj_xin/pc/neoconex/index/nex_icon3.png) left center no-repeat}
+.nexpubtop span.nex_PPT_icon{padding-left:35px;background:url(/public/static/blansj_xin/pc/neoconex/index/nex_icon4.png) left center no-repeat}
+.nexpubtop span.nex_SP_icon{padding-left:35px;background:url(/public/static/blansj_xin/pc/neoconex/index/nex_icon5.png) left center no-repeat}
+.nexpubtop span.nex_YC_icon{padding-left:35px;background:url(/public/static/blansj_xin/pc/neoconex/index/nex_icon6.png) left center no-repeat}
+.nexpubtop span.nex_JC_icon{padding-left:35px;background:url(/public/static/blansj_xin/pc/neoconex/index/nex_icon7.png) left center no-repeat}
+.nexpubtop span.nex_SA_icon{padding-left:35px;background:url(/public/static/blansj_xin/pc/neoconex/index/nex_icon8.png) left center no-repeat}
+.nexpubtop ul{float:right;margin-top:6px}
+.nexpubtop ul li{float:left;padding:0 18px;margin-left:10px;border:1px solid #949494;height:25px;line-height:25px;border-radius:2px;font-size:14px;color:#000;cursor:pointer}
+.nexpubtop ul li:hover{color:#ff0000}
+.nexpubtop ul li.cur{background:#000000;color:#fff;}
+.nexsucai{margin: 25px auto;background: #ffffff;border-radius: 4px;overflow: hidden;width: 1200px;}
+.nexsucaibox_jc{margin-left: 40px;margin-right:15px;margin-bottom: 15px;}
+.nexsucaibox ul li{display:none}
+.nexscfl dl{width:1207px}
+.nexscfl dl dd{float:left;width:223.2px;margin:0 16px 16px 0;box-shadow:0 2px 3px rgba(0,0,0,.06);border-radius:5px;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nexscfl dl dd:hover{box-shadow:0 0 8px rgba(0,0,0,.2);transform:translate(0,-5px);-webkit-transform:translate(0,-5px);-moz-transform:translate(0,-5px);-o-transform:translate(0,-5px);-ms-transform:translate(0,-5px)}
+.nex_sucaipic{width:223.2px;height:320px;position:relative;overflow:hidden}
+.nex_sucaipictops{width:223.2px;height:320px;position:absolute;top:0;left:0}
+.nex_sucaipictops img{width:223.2px;height:320px;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear}
+
+.jingxuan .nex_sucaipic,.dianshang .nex_sucaipic{width:223.2px;height:240px;position:relative;overflow:hidden}
+.jingxuan .nex_sucaipictops,.dianshang .nex_sucaipictops{width:223.2px;height:240px;position:absolute;top:0;left:0}
+.jingxuan .nex_sucaipictops img,.dianshang .nex_sucaipictops img{width:223.2px;height:240px;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear}
+
+.nex_sucaifgs{height:22px;line-height:22px;padding:10px 15px 5px 15px;width:193px;background:#fff;position:absolute;left:0;bottom:-50px;-webkit-transition:all .1s linear;-moz-transition:all .1s linear;-o-transition:all .1s linear;-ms-transition:all .1s linear;transition:all .1s linear}
+.nexscfl dl dd:hover .nex_sucaipictops img{-webkit-transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+.nexscfl dl dd:hover .nex_sucaifgs{bottom:0}
+.nex_sucainames{float:left}
+.nex_sucainames a{display:block;height:22px;line-height:22px;overflow:hidden;max-width:120px;overflow:hidden}
+.nex_sucainames a img{display:block;float:left;width:22px;line-height:22px;border-radius:100%;float:left;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear}
+.nex_sucainames a em{display:block;float:left;margin-left:10px;font-size:12px;color:#999;height:22px;line-height:22px}
+.nex_sucainames a:hover img{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
+.nex_sucaifgs span{display:block;float:right;height:22px;line-height:22px;font-size:12px;color:#999;padding-left:20px;background:url(/public/static/blansj_xin/pc/neoconex/index/ddate.png) left center no-repeat}
+.nex_sucaiinfo{padding:15px;background:#fff}
+.nex_sucaiinfo h5{height:25px;line-height:25px;overflow:hidden}
+.nex_sucaiinfo h5 a{font-size:14px;color:#666;font-weight:400}
+.nex_sucaiinfo h5 a:hover{color:#8092e7}
+.nex_sucaiinbtns{height:20px;line-height:20px;margin-top:10px}
+.nex_sucaiinbtnls{float:left;font-size:12px;color:#666;height:20px;line-height:20px}
+.nex_sucaiinbtnls em{color:#ffa200;padding:0 5px}
+.nex_sucaiinbtnrs{float:right;height:20px;line-height:20px;font-size:12px;color:#999;background:url(/public/static/blansj_xin/pc/neoconex/index/heats.png) left center no-repeat;padding-left:20px}
+.nexads{width: 1200px;background: #ffffff;margin: auto;padding:10px 0 10px 0;overflow: hidden;border-radius: 4px;}
+.nexads img{width:1180px}
+.nexhdboty dl{width:1210px}
+.nexhdboty dl dd{width:223.2px;height:230px;float:left;margin:0 16px 16px 0;position:relative}
+.nexMass_course_top{width:223.2px;height:140px;position:absolute;top:0;left:0}
+.nexMass_course_top a{display:block;width:223.2px;height:140px;position:relative}
+.nexMass_course_top a img{width:223.2px;height:140px}
+.nexMass_show_mask{width:100%;height:100%;position:absolute;left:0;top:0;background:rgba(0,0,0,.3);opacity:0;-ms-filter:Alpha(Opacity=0);filter:Alpha(Opacity=0);-webkit-transition:all .25s ease-in;-o-transition:all .25s ease-in;transition:all .25s ease-in;z-index:5}
+.nexMass_show_mask span{display:block;width:60px;height:60px;-webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);opacity:0;position:absolute;left:50%;top:50%;margin:-30px -30px;z-index:1;background:url(/public/static/blansj_xin/pc/neoconex/index/look.png) no-repeat;-webkit-transition:all .25s ease-in;-o-transition:all .25s ease-in;transition:all .25s ease-in;z-index:5}
+.nexhdboty dl dd:hover .nexMass_show_mask{opacity:1}
+.nexhdboty dl dd:hover .nexMass_show_mask span{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:1;-ms-filter:Alpha(Opacity=100);filter:Alpha(Opacity=100)}
+.nexMass_course_btm{position:absolute;width:183px;height:50px;padding:20px;left:0;top:140px;overflow:hidden;background:#fff;box-shadow:0 2px 3px #ededed;z-index:22;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nexMass_course_slidebox{height:20px;overflow:hidden;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nexkc_tops{height:20px;overflow:hidden}
+.nexkc_tops h5{float:left;width:140px;height:20px;line-height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nexkc_tops h5 a{font-size:16px;color:#333;font-weight:500}
+.nexkc_tops h5 a:hover{color:#8092e7}
+.nexhdboty dl dd:hover .nexMass_course_btm{height:130px}
+.nexhdboty dl dd:hover .nexMass_course_slidebox{height:100px}
+.nexkc_tops span{display:block;float:right;width:36px;height:16px;line-height:16px;text-align:center;font-size:12px;margin-top:2px;color:#fff;background:#8092e7}
+.nexkc_tops em{display:block;float:right;width:36px;height:16px;line-height:16px;text-align:center;font-size:12px;margin-top:2px;color:#fff;background:#4eacff}
+.nexkc_tops i{display:block;float:right;width:36px;height:16px;line-height:16px;text-align:center;font-size:12px;margin-top:2px;color:#fff;background:#ff6f69}
+.nexkc_intros{height:70px;line-height:22px;font-size:12px;color:#aaa;margin:10px 0 15px 0;overflow:hidden}
+.nexkc_intels{height:20px;line-height:20px;margin-top:10px}
+.nexkc_intels span{display:block;float:left;font-size:12px;color:#999}
+.nexkc_intels em{display:block;float:right;padding-left:25px;font-size:12px;color:#999;background:url(/public/static/blansj_xin/pc/neoconex/index/view_po.png) left center no-repeat}
+.nex_jiaocheng{margin-left: -20px;margin-right: -20px;background:#f2f2f2;}
+.nex_jc_L{width:935px;float:left;background: #ffffff;margin-left: -20px;margin-right: -20px;}
+.nex_jclists dl dd{margin-bottom:18.5px}
+.nex_jclists dl dd:last-child{margin-bottom:0}
+.nexnewsl_piv{float:left;width:220px;height:160px;position:relative}
+.nexnewpifg{width:220px;height:160px;position:absolute;left:0;top:0;overflow:hidden}
+.nexnewpifg a i{width:160px;height:100px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.4);position:absolute;top:30px;left:30px;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nexnewpifg a:hover i{transform:scale(1.7);-moz-transform:scale(1.7);-webkit-transform:scale(1.7);-o-transform:scale(1.7);-ms-transform:scale(1.7)}
+.nexnewpifg img{width:220px;height:160px}
+.nexarti_avators{width:30px;height:30px;padding:4px;background:#fff;border-radius:100%;position:absolute;top:5px;right:-24px}
+.nexarti_avators img{width:30px;height:30px;border-radius:100%}
+
+.nexart_names{margin-top:17px;height:15px;line-height:15px;margin-bottom:7px;overflow:hidden}
+.nexart_names a{color:#ffffff;letter-spacing:2px;font-weight:400;font-size:14px}
+.nexnewsr_info h5{height:30px;line-height:30px;overflow:hidden;margin-bottom:6px}
+.nexnewsr_info h5 a{color:#666;font-size:16px;color: #000000;font-weight: bold;height: 30px;line-height: 30px;padding-top: 2px;display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.nexnewsr_info p{height:71px;line-height:25px;overflow:hidden;font-size:14px;color:#000}
+.nexdecore_line{width:100%;height:1px;background:#ededed;position:relative;margin:8px 0}
+.nexdecore_line em{width:50px;height:1px;background:#000000;position:absolute;display:block;right:50px;top:0}
+.nexnewsdf_btnsd{height:20px;line-height:20px;overflow:hidden}
+.nexnewsfrom{float:left;padding-left:18px;background:url(/public/static/blansj_xin/pc/neoconex/index/tag.png) left center no-repeat}
+.nexnewsfrom a{font-size:12px;color:#000000}
+
+.nexnewsterfds{float:right;height:20px;line-height:20px;font-size:12px;}
+.nexnewsterfds em{padding:0 5px;color:#ddd}
+.nex_jc_R{float:right;width:350px;margin-right: 10px;background: #ffffff;}
+.nex_jcbds{margin-bottom:16px;background: #ffffff;}
+.nex_jc_bdtops{width:320px;height:83px;background:#ffa200;padding:15px;line-height: 109px;margin-right: 10px;}
+.nex_jc_bdtops em{display:block;width:112px;height:20px;line-height:20px;background:url(/public/static/blansj_xin/pc/neoconex/index/bg1.png) no-repeat;text-align:center;font-size:12px;color:#ffa200;overflow:hidden}
+.nex_jc_bdtops h5{height:30px;line-height:30px;overflow:hidden;margin:10px 0 5px 0;font-size:24px;color:#fff;font-weight:500}
+.nex_jc_bdtops p{height:20px;line-height:20px;overflow:hidden;font-size:12px;color:#fff}
+.nex_jc_bdbtms{padding:0px 15px 15px 15px;}
+.nex_jc_bdbtms ul li{height:33px;line-height:33px;overflow:hidden;position:relative;padding-left:15px}
+.nex_jc_bdbtms ul li i{display:inline-block;width:5px;height:5px;position:absolute;left:0;top:14px;background:url(/public/static/blansj_xin/pc/neoconex/index/indicator.png) no-repeat;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.nex_jc_bdbtms ul li a{font-size:14px;color:#666}
+
+.nex_jc_bdbtms ul li:hover i{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);background:url(/public/static/blansj_xin/pc/neoconex/index/indicator1.png) left center no-repeat}
+.nex_jc_bdtops1 em{background:url(/public/static/blansj_xin/pc/neoconex/index/bg2.png) no-repeat;color:#4eacff}
+.nex_jc_bdtops2 em{background:url(/public/static/blansj_xin/pc/neoconex/index/bg3.png) no-repeat;color:#78bea6}
+.nex_Nav_box dd{width:105px;display:none;padding:0;border:none;background:#fff;border-radius:0 0 3px 3px;position:absolute;z-index:301;top:235px;padding:4px;border:1px solid;min-width:60px;border-color:#8092e7;background:#fefefe;box-shadow:1px 2px 2px rgba(0,0,0,.3)}
+.nex_Nav_box div{border-bottom:1px solid #8092e7;height:40px;line-height:40px}
+.nex_Nav_box div a{display:block;padding:0;font-size:14px;text-align:center;color:#555;border-radius:0}
+.nex_Nav_box div a:hover{background:#8092e7;color:#fff}
+.nex_Nav_box .ck{background:#2392d2;color:#fff}
+.nexdenglu ul{margin-left:10px;/* border: #8092e7 1px solid; */;width:110px;height:30px;position:relative;z-index:7; /* background-color: #fff; */border-radius:2px}
+.nexdenglu ul li{width:50%;height:35px;color:#8092e7;float:left}
+.nexdenglu ul li a{display:block;width:100%;height:30px;line-height:30px;text-align:center;color:#8092e7;position:relative;z-index:9;transition:all .2s}
+.nexdenglu ul li.nexDL_sliders{width:50%;height:100%;position:absolute;left:50%;top:0;background-color:#8092e7;z-index:8;-webkit-transition:left .4s,background-color .4s;transition:left .4s,background-color .4s}
+.nexdenglu ul li.cur a{color:#fff}
+.nexdenglu ul li.nexDL_DL a{color:#fff}
+.wi-center{width:1180px;margin:0 auto;line-height:30px;word-spacing:10px}
+#hd .top{height:40px;border-bottom:1px solid #eee;background: black;min-width:1000px}
+#hd .top-left{float:left;line-height:35px;word-spacing:10px;color: #fff;}
+#hd .top-left a{width:90px;height:23px;padding-top:8px;display:block;float:left;margin-right:10px}
+#hd .top-left a img{width:100%;height:100%}
+#hd .top-right{line-height:40px;word-spacing:10px;margin-top:5px;float:right}
+.qb_pc_topBox{margin-top:-5px}
+.qb_pc_topBox a{color: #fff;}
+.qb_pc_topBox a dd{padding: 2px;}
+.my-audio{display:none}
+.boxs{width:1300px;margin:0px auto;}
+@media only screen and (max-width:1360px){.boxs{width:1000px !important;box-sizing:border-box;}}
+.com-2-footer{width:100%;margin-top:20px;float:left;}.com-2-footer .com-2-footer-tongji{width:100%;float:left;background:#fff;padding:30px 0px;}.com-2-footer .com-2-footer-tongji .item_box{width:9%;float:left;padding:0px 6.5px;}.com-2-footer .com-2-footer-tongji .item_box .item{width:100%;float:left;padding:15px 0px;background:#f9f9f9;}.com-2-footer .com-2-footer-tongji .item_box .iconfont,.com-2-footer .com-2-footer-tongji .item_box .nub,.com-2-footer .com-2-footer-tongji .item_box .txt{width:100%;float:left;text-align:center;}.com-2-footer .com-2-footer-tongji .item_box .iconfont{font-size:25px;color:#444;}.com-2-footer .com-2-footer-tongji .item_box .nub{font-size:20px;color:#D22525;margin:3px 0px 4px 0px;font-family:castellar;}.com-2-footer .com-2-footer-tongji .item_box .txt{font-size:12px;color:#999;}.com-2-footer .copyright{width:100%;padding:20px 0px;float:left;background:rgba(255,255,255,0.7);}.com-2-footer .copyright .friendlink{width:100%;float:left;line-height:30px;padding-bottom:10px;border-bottom:1px solid #eee;}.com-2-footer .copyright .friendlink span{display:inline-block;color:#222;font-size:13px;padding:0 13px 0 0;}.com-2-footer .copyright .friendlink a{color:#666;padding:0 13px 0 0;display:inline-block;font-size:13px;}.com-2-footer .copyright p{width:100%;float:left;text-align:center;color:#666;font-size:13px;margin-top:15px;}.com-2-footer .copyright a{color:#666;font-size:13px;transition:color 0.6s;}.com-2-footer .copyright a:hover{color:#D22525;}.com-2-footer .copyright .idc{position:relative;top:-20px;}.com-2-footer .copyright .idc span{margin:0px 10px;}.com-2-footer .copyright .idc img{position:relative;top:20px;margin:0px 5px;}

@@ -1,0 +1,178 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+ul,ol,li{list-style:none;}
+a{text-decoration:none;color:#666;}
+img {vertical-align:middle;border:0;}
+body {
+background:#f7f7f7;
+font-family:"Microsoft yahei";
+color:#666;
+font-size:14px;
+}
+input,button,select,textarea{outline:0}
+em{font-style:normal;}
+/**/
+.main-boxs{max-width:640px;margin:0 auto;}
+.member_commonnote{padding:10px; margin:10px 10px 0 10px; border-radius:5px; background:#fff;font-size:16px;text-align: center;}
+
+
+/*通用头部样式*/
+.wap_xfg_header{color:#fff; height:45px; width:100%; top:0; z-index:99; background-image:linear-gradient(120deg, #FF3E3F 0%, #FF7414 100%); }
+.wap_xfg_header>div{display:inline-block; height:45px; line-height:45px; vertical-align:top;}
+.wap_xfg_header .left{width:45px; font-size:20px; text-align:center;}
+.wap_xfg_header .right{width:45px; font-size:20px; text-align:center;}
+.wap_xfg_header .seachbox{width: calc(100% - 100px);}
+.wap_xfg_header .seachbox .top_name{position:relative; color:#fff; font-size:16px; text-align:center; height:30px; line-height:30px; margin:7.5px 10px 0 10px; padding:0px 15px;}
+
+
+/**/
+.qb_ui_page_menu{background:#fff;padding:10px;overflow:hidden; margin:10px; border-radius:5px;}
+.qb_ui_page_menu li{float:left;font-size:13px;margin:5px 0 5px 0;}
+.qb_ui_page_menu li a{background:#F5F5F5;border-radius:5px;padding:5px 10px;text-align:center; margin-right:10px;color:#333;display:inline-block; height:22px; line-height:22px; box-sizing:inherit;}
+
+.qb_ui_page_menu li .bgtext{background:#FF353A; color:#fff;border:none;padding:5px 10px;}
+.qb_ui_page_menu .right{float:right;}
+.qb_ui_page_menu .right a, .qb_ui_page_menu li .red{color:#fff;background:#FF7414; margin-right:10px;}
+.maincont{overflow:hidden;margin:10px; padding:10px; background:#FFF; border-radius: 5px;}
+.maincont .head{color:#666;padding-bottom:10px;font-size:15px;border-bottom:1px #eee solid;font-weight:700; text-align:center;}
+.maincont .aboutnote{padding: 10px ;}
+/**/
+
+
+
+/*发布选择分类样式开始*/
+.ShowSortTable td{width:48%; vertical-align:top;}
+.ShowSortTable .listshorts{padding:5px;}
+.listshorts ul{margin:auto; overflow:auto; overflow-x:hidden; border:#EEE solid 1px; padding:5px 3px 0 3px;}
+.listshorts li{height:25px; overflow:hidden; padding:0; margin:0;}
+.listshorts li div{padding:3px 15px 0 15px; line-height:22px;}
+.listshorts li div.more{background:url(more.gif) right 9px no-repeat; cursor:pointer;}
+.listshorts li.ck{border:#EEE solid 1px; background:#EFEFEF;}
+/*发布选择分类样式结束*/
+
+
+/*发布样式开始*/
+.layui-form .WapFormContainer{padding-bottom:25px;}
+.layui-form .WapFormContainer .tag{background:#fff;padding:10px;margin:10px; border-radius:5px;font-size:16px;text-align:center;}
+.layui-form .WapFormContainer dl{background:#fff;margin:10px;padding:10px;border-radius:5px;}
+.layui-form .WapFormContainer dl dt{padding-bottom:8px;font-weight:700;}
+.WapFormContainer dl dd{background:#fefefe;}
+.layui-form .WapFormContainer dl dd input{border:1px solid #eee; padding:8px 0 8px 10px;}
+.layui-form .WapFormContainer dl dd input::placeholder, .layui-form .WapFormContainer dl dd textarea::placeholder{color:#999;}
+.layui-form .WapFormContainer dl dd .m_title{display:none;}
+.layui-form .WapFormContainer .layui-tab{margin:10px; border-radius:5px; background:#fff;} 
+.form_about{color:#c1c1c1; font-size:13px; line-height:150%; padding-top:5px;}
+.layui-form .butter{margin-top:10px;text-align:center;}
+.layui-form .butter button{width:90%;margin:0 auto; background:#FF353A;padding:10px 0px;border-radius:5px;color:#fff;border:none;}
+.layui-form .layui-form-radioed>i{color:red;}
+.layui-form .WapFormContainer dl dd .layui-unselect{margin-bottom:10px;}
+
+/*发布样式结束*/
+
+
+
+/*店铺管理样式开始*/
+.MainCont{/*width:98%;*/ overflow:hidden; /*margin:10px auto;*/ /*border:#DDD solid 1px;*/ background:#FFF; /*border-radius:5px;*/}
+.MainCont .head {color:#666; background:#FFF; border-bottom: 1px #eee solid;}
+.MainCont .head:after{content:''; display:block; width:100%; height:1px; clear:both;}
+.MainCont .head .tag{padding:8px 0; font-size:16px;  text-align: center;}
+.MainCont .head .more{ float:right; padding:5px 10px 5px 0; line-height:25px;}
+.MainCont .head a{ color:#FFF;}
+
+
+.MainCont .FormTable th,.MainCont .FormTable td,.MainCont .ListTable th,.MainCont .ListTable td{ border-top:#DDD solid 1px; padding:5px; line-height:25px; font-size:14px;} 
+.MainCont .FormTable td.tdL{width:120px; text-align:right; border-right:#DDD solid 1px;}
+.MainCont .FormTable td.nostyle	{padding:0; border:0;}
+#showRegDiv dl{ display: table; width: 100%; border-top:#DDD solid 1px;}
+#showRegDiv dl dt,#showRegDiv dl dd{display: table-cell; padding:5px; line-height:25px;}
+#showRegDiv dl dt{width:120px; text-align:right; border-right:#DDD solid 1px;}
+.MainCont .ListTable th,.MainCont .ListTable td{text-align:center; border-left:#DDD solid 1px;}
+
+table.ListTable td a.editPic, table.ListTable td a.delPic{display: inline-block; width: 25px; height: 25px; overflow: hidden; line-height: 65px;}
+table.ListTable td a.editPic {background: url(editPic.png) center top no-repeat; background-size: 25px 25px;}
+table.ListTable td a.delPic {background: url(delPic.png) center top no-repeat; background-size: 25px 25px;}
+table.ListTable .submitNa{}
+.submitNa input[type=submit]{border-radius:3px; padding:0 8px; background:#fff; border:1px solid #999; margin-left:30px; margin-top:5px;}
+
+.MainCont .ListTable td.tL{text-align:left;}
+.MainCont .ListTable th:nth-child(1),.MainCont .ListTable td:nth-child(1){border-left:0;}
+.MainCont .Showpage{text-align:center; padding:5px; line-height:25px; border-top:#DDD solid 1px;}
+.MainCont .Showpage a{border:#DDD solid 1px; padding:3px 5px 2px 5px; border-radius:3px; font-size:12px;}
+.MainCont .aboutnote{padding:10px 0 10px 0;}
+.MainCont .aboutnote li{padding:5px 5px 0 10px; line-height:20px;}
+
+.layui-card-header {position: relative}
+.layui-card-header .layui-icon {line-height: initial; position: absolute; right: 15px; top: 50%; margin-top: -7px}
+.layui-card-header .layui-a-tips {position: absolute; right: 15px; color: #01AAED}
+
+.layadmin-carousel {height: 185px!important; background-color: #fff}
+.layadmin-carousel .layui-col-space10 {margin: 0}
+.layadmin-shortcut li {text-align: center}
+
+.layadmin-shortcut li .layui-icon {display: inline-block; width: 100%; height: 60px; line-height: 60px; text-align: center; border-radius: 2px; font-size: 30px; background-color: #F8F8F8; color: #333; transition: all .3s; -webkit-transition: all .3s}
+.layadmin-shortcut li cite {position: relative; top: 2px; display: block; color: #666; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-size: 14px}
+.layadmin-shortcut li:hover .layui-icon {background-color: #f2f2f2}
+
+.layadmin-backlog .layadmin-backlog-body {display: block; padding: 10px 15px; background-color: #f8f8f8; color: #999; border-radius: 2px; transition: all .3s; -webkit-transition: all .3s}
+.layadmin-backlog-body h3 {padding-bottom: 10px; font-size: 12px}
+.layadmin-backlog-body p {font-size:16px;}
+.layadmin-backlog-body p cite {font-style: normal; font-size: 30px; font-weight: 300; color: #009688}
+.layadmin-backlog-body:hover {background-color: #f2f2f2; color: #888}
+/*店铺管理样式结束*/
+
+.listcontainer{padding-bottom:1px;overflow:hidden;}
+.commentlist{padding:10px; margin:10px; border-radius:5px; background:#FFF;margin-bottom:8px;}
+.commentlist .title{line-height:20px;font-size:14px;padding-bottom:8px;}
+.commentlist .info .usertime{
+	height:20px;
+	line-height:20px;
+	overflow:hidden;
+	text-align:right;
+	color:#999;
+	font-size:12px;
+}
+.commentlist .info .usertime .userleft{float:left;}
+.commentlist .info .usertime .timeright{float:right;}
+.commentlist .info .commentsubmits{border-top:#DDD dotted 1px;text-align:center;padding-top:5px;
+	margin-top:5px;}
+.commentlist .info .commentsubmits a{display:inline-block;padding:2px 10px;border:#DDD solid 1px;
+	margin:5px 5px 0 5px;color:#666;border-radius:5px;font-size:12px;}	
+.commentlist .info .commentsubmits .views{background-image:linear-gradient(180deg, #FFAC4D 0%, #FFCD22 100%);
+	box-shadow:0 2px 5px #FFE384;border:#FFAC4D solid 1px;color:#fff;}
+/*分页*/
+.mui-content-padded {margin:10px;}
+.mui-pager {padding-left: 0;list-style: none;text-align: center;}
+.mui-pager:after,.mui-pager:before {display: table;content: ' '}
+.mui-pager:after {clear: both}
+.mui-pager li {display: inline}
+.mui-pager li>a,.mui-pager li>span {
+	display: inline-block;
+	padding: 5px 14px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	background-color: #fff;
+	background-clip: padding-box
+}
+.mui-pager li.mui-active>a,.mui-pager li.mui-active>span,.mui-pager li:active>a,.mui-pager li:active>span {
+	cursor:default;
+	text-decoration:none;
+	background:#FF353A;
+	color:#fff;
+}
+.mui-pager .mui-next>a,.mui-pager .mui-next>span {float: right}
+.mui-pager .mui-previous>a,.mui-pager .mui-previous>span {float: left}
+.mui-pager .mui-disabled>a,.mui-pager .mui-disabled>a:active,.mui-pager .mui-disabled>span,.mui-pager .mui-disabled>span:active {opacity:0.6;color: #777;border: 1px solid #ddd;background-color: #fff}
+/*发布页*/
+.ChooseSort{background: #F7F7F7;}
+.ChooseSort dl{padding: 10px;}	
+.ChooseSort dl dd{padding:5px 0 20px 20px;background: #FFF;box-shadow:2px 2px 2px #DDD;border-radius:5px;}
+.ChooseSort dl dd ul li{height:45px;line-height: 45px;overflow: hidden;border-bottom: #EEE solid 1px;font-size:16px;}
+
+
+/*部分记录页及其他样式替换*/
+.ListContainer{margin:10px; border-radius:5px;}
+.ListContainer .CommentList{padding:10px; border-radius:5px; border-top:none; border-bottom:none;}
+.ListContainer .CommentList .info .CommentSubmits{border-top:none;}
+
+.MemberContainer .ShowType {margin:0 10px; border-radius:5px 5px 0 0;}
+.ListMember .list {margin:0 10px 10px 10px; border-radius:5px;}
+.ListMember .list:nth-child(1) {margin:0 10px 10px 10px; border-radius:0 0 5px 5px;}

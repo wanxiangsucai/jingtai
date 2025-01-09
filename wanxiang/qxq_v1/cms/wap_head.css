@@ -1,0 +1,12 @@
+/*CMS滚动弹出式导航*/
+.cms_head{width:100%; background:#fff; white-space:nowrap; display:inline-block; overflow-y:hidden; height:50px;}
+.cms_head li.one{display:inline-block; text-align:center;}
+.cms_head li.one a{display: inline-block; margin:0 10px; height:50px; line-height:50px; position:relative; font-size:15px; color:#333;}
+.cms_head li.one i{display:inline-block; color:#EF0E0E; margin-left:-15px;}
+.cms_head li.one .ck{color:#EF0E0E; font-size:16px; font-weight:bold;}
+.cms_head li.one .ck:before{content:''; display:block; position:absolute; width:80%; height:2px; background:#EF0E0E; left:10%; bottom:0px;}
+.cms_head .two{display:none; position:absolute; padding:15px; margin:auto; left:0; right:0; border-top:1px solid #eee; background:#fff; box-shadow:0 3px 3px rgba(0,0,0,0.16);  z-index:10;}
+.cms_head .two li{float:left; margin:10px; padding:3px 15px; border-radius:5px; background:#f9f9f9;}
+.cms_head .two li a{color:#aaa; font-size:15px;}
+.cms_head .two li.jh{background:#EF0E0E;}
+.cms_head .two li .ck{color:#fff;}

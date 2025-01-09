@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*fontface*/
+
+
+
+@font-face {
+  font-family: "nexzhu";
+  src: url(../image/blockdole.woff2) format("woff2"),
+       url(../image/blockdole.woff) format("woff"),
+       url(../image/blockdole.ttf) format("truetype"),
+       url(../image/blockdole.eot) format("embedded-opentype"),
+       url(../image/blockdole.svg) format("svg");
+	   
+}
+/*=======头部样式=======*/
+.nex_rolltoptop{}
+.nex_rolltoptop a{ display:block; width:35px; height:35px;  background:url(../index/rocket.png) center no-repeat; background-size:35px; position:fixed; right:3%; bottom:10%; z-index:222;}
+
+.header{ width: 100%; height: 70px; line-height: 70px; position: fixed; top: 0px; font-size: 19px; text-align: center; background:#007aff; z-index: 10; transition: all 0.5s; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s;}
+
+.nex_navbar{height: 50px; background:#fff; width: 100%; line-height: 50px; transition:all 0.3s linear; position:relative; border-bottom:1px solid #f3f3f3; }
+.nex_navleft{ position:absolute; top:0; left:0;height: 50px; width:50px;}
+.nex_navtop_column{}
+.nex_navtop_column .nex_active_nav{ display:block; width:50px; height:50px; border:0;background:#fff url(../image/menu.png) center no-repeat; background-size:20px;}
+.nextoplogo{width:106px; height:30px;margin:0px auto;top:10px;font-size: 25px;color: #2B2D42;}
+
+.nex_navright{ position:absolute; top:0; right:0;height: 50px; width:50px;}
+.nex_navright img{ width:25px; height:25px; border-radius:100%; display:block; margin:12px;}
+.nex_navright em{width:30px; height:30px; border-radius:100%; display:block; margin:10px; background:url(../image/default_avator.png) center no-repeat; background-size:20px;}
+/*搜索*/
+.nex_navsearch{ }
+
+#scbar{}
+.nex_scbar{background:#fff; width:88%;  height:30px!important; line-height:30px!important; border:0;border-radius:8px; overflow:hidden; position:relative;}
+.nex_scbartxt{ float:left;width:75%!important; height: 30px;line-height: 30px; border:0; background:#fff; position:absolute; top:0; left:7%;}
+.nex_scbartxt input::-webkit-input-placeholder{color:#aaa;font-size: 12px;}
+#scbar_txt{width:95%; height: 30px;line-height: 30px; color:#ccc; background:#fff; font-size: 14px; border:0; font-family:Microsoft Yahei; overflow:hidden;text-overflow:ellipsis; white-space:nowrap;}
+
+#scbar_btn{ border: 0; width:45px; height: 30px; background:url(../image/search.png) center no-repeat!important; background-size:15px!important; position:absolute; top:0; right:0; }
+
+/*footer*/
+.nex_footer{  padding:0!important; background: #111; background: -webkit-linear-gradient(top, #333 0, #111 100%); background: linear-gradient(to bottom, #333 0, #111 100%);}
+.nex_footer_btm{ padding:20px 20px 0px 20px;}
+
+.nex_ft_intel_links{ height: 16px;  line-height: 16px;  margin: 15px 0 0 0;  font-size: 12px;  color: #888; text-align:center;  overflow: hidden;}
+.nex_ft_intel_links a{  font-size: 12px;  color: #ddd;overflow:hidden;text-overflow:ellipsis; white-space:nowrap; }
+.nex_ft_intel_links em{padding: 0 2px; color: #888;}
+.nex_footer_qcode{}
+.nex_footer_qcodepic{ width:90px; height:90px; margin:0 auto 10px;}
+.nex_footer_qcodepic img{width:90px; height:90px;}
+.nex_footer_qcode p{ height:20px; line-height:20px; text-align:center; margin-bottom:5px; font-size:12px; color:#888;}
+
+.nex_footer_btmintel{ margin-top:15px;}
+.nex_footer_btmintel ul{text-align: center;}
+.nex_footer_btmintel ul li{ height:20px; line-height:20px; margin-bottom:5px; font-size:12px; color:#999;}
+.nex_footer_btmintel ul li a{ font-size:12px; color:#999;}
+/*搜索*/

@@ -1,0 +1,498 @@
+/*
+*文字广告
+*/
+.tag{
+	font-size:14px;
+	font-weight:bold;
+	display:block;
+}
+.more{
+	display:block;
+}
+.SideL{
+	width:280px;
+	float:left;
+}
+.SideC{
+	width:630px;
+	float:left;
+	padding-left:10px;
+}
+.SideR{
+	width:270px;
+	float:right;
+}
+.SideC1{
+	width:280px;
+	float:left;
+	padding-left:10px;
+}
+.SideR1{
+	width:330px;
+	float:right;
+}
+.MainR{
+	width:910px;
+	float:right;
+}
+.MainWordAd{
+	border:#DDD solid 1px;
+	background:#fbfbfb;
+	height:58px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.MainWordAd li{
+	width:16.5%;
+	float:left;
+	padding-top:8px;
+	line-height:23px;
+}
+.MainWordAd li div{
+	height:23px;
+	overflow:hidden;
+	text-align:center;
+}
+/*
+*图片广告
+*/
+.MainPicAd{
+	margin-bottom:10px;
+	height:50px;
+}
+.MainPicAd li{
+	width:200px;
+	height:50px;
+	float:left;
+	overflow:hidden;
+}
+.MainPicAd li.li5{
+	width:200px;
+	height:50px;
+	overflow:hidden;
+}
+.MainPicAd li.li6{
+	width:200px;
+	height:50px;
+	overflow:hidden;
+	float: right;
+}
+/*
+*精品
+*/
+.TzHotDownload{
+	border:#BED2E4 solid 1px;
+	margin-bottom:10px;
+	background:url(bg1.gif) repeat-x;
+	position:relative;
+	height:205px;
+	overflow:hidden;
+	background: #fff;
+}
+.TzHotDownload .head{
+	border:#FFF solid 1px;
+	background: url(bg1.gif) repeat-x;
+}
+.TzHotDownload .head .tag{
+	position:absolute;
+	width:90px;
+	height:90px;
+	z-index:100px;
+	line-height:40px;
+	padding-left:15px;
+	background:url(icon1.gif) 10px 35px no-repeat;
+}
+.TzHotDownload .head .more{
+	line-height:40px;
+	text-align:right;
+	padding-right:15px;	
+}
+.TzHotDownload .cont{
+	height:150px;
+	padding-top:3px;
+	overflow:hidden;
+}
+.TzHotDownload .cont .up{
+	width:30px;
+	float:left;
+	padding-left:10px;
+}
+.TzHotDownload .cont .up a{
+	display:block;
+	padding:60px 0 60px 0;
+}
+.TzHotDownload .cont .down{
+	width:20px;
+	padding-right:10px;
+	float:right;
+}
+.TzHotDownload .cont .down a{
+	display:block;
+	padding:60px 0 60px 5px;
+}
+.TzHotDownload .cont .up a.hidefocus,.TzHotDownload .cont .down a.hidefocus{ 
+	outline: none; 
+}
+.TzHotDownload .cont .up a.hidefocus::-moz-focus-inner,.TzHotDownload .cont .down a.hidefocus::-moz-focus-inner {  
+	border:none; 
+}
+.TzHotDownload ul{
+	height:150px;
+	width:1120px;
+	float:left;	
+	overflow:hidden;
+}
+.TzHotDownload ul li{
+	width:160px;
+	height:150px;
+	float:left;
+	background:url(bg2.gif) center top no-repeat;
+}
+.TzHotDownload ul li div{
+	width:120px;
+	margin:auto;
+}
+.TzHotDownload ul li div.img{
+	padding-top:7px;
+}
+.TzHotDownload ul li div.img a{
+	display:block;
+	width:120px;
+	height:90px;
+	overflow:hidden;
+}
+.TzHotDownload ul li div.t{
+	height:20px;
+	line-height:20px;
+	padding-top:10px;
+	overflow:hidden;
+	text-align:center;
+	font-weight:bold;
+}
+.TzHotDownload ul li div.t a{
+	color:red;
+}
+.TzHotDownload ul li div.c{
+	display:none;
+}
+/*
+*MainContainer1
+*/
+.MainContainer1{
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.SideCont .head{
+	height:36px;
+	overflow:hidden;
+	background:url(head3.gif) right top no-repeat;
+	line-height:40px;
+}
+.SideCont .head .tag{
+	float:left;
+	background:url(head1.gif) left top no-repeat;
+	padding-left:15px;
+}
+.SideCont .head .more{
+	float:right;
+	padding:0 10px 0 10px;
+	background:url(icon2.gif) left 16px no-repeat;
+}
+.SideCont .cont{
+	border:#DDD solid 1px;
+	padding:10px;
+	background: #fcfdff;
+}
+.SideCont .cont .list{
+	height:27px;
+	line-height:27px;
+	overflow:hidden;
+}
+.SideCont .cont .list span{
+	display:block;
+	float:left;
+	width:20px;
+	text-align:center;
+	background:url(icon3.gif) center -23px no-repeat;
+	color:#6F6F6F;
+	font-weight:bold;
+}
+.SideCont .cont .list1 span,.SideCont .cont .list2 span,.SideCont .cont .list3 span{
+	background:url(icon3.gif) center 5px no-repeat;
+	color:#FFF;
+}
+.SideCont .cont .list a{
+	display:block;
+	float:left;
+	font-size:14px;
+	padding-left:5px;
+	width:190px;
+	color:#0072C4;
+}
+.SideCont .cont .list em{
+	display:block;
+	float:right;
+	font-style:normal;
+	color:#888;
+}
+.SideCont .cont .lista{
+	height:75px;
+	overflow:hidden;
+	border-bottom:#DDD dotted 1px;
+	padding-left:5px;
+	margin-bottom:7px;
+}
+.SideCont .cont .lista dt{
+	width:70px;
+	border:#DDD solid 1px;
+	padding:2px;
+	float:left;
+}
+.SideCont .cont .lista dt a{
+	display:block;
+	width:70px;
+	height:60px;
+	overflow:hidden;
+}
+.SideCont .cont .lista dd{
+	width:510px;
+	float:left;
+	padding-left:10px;
+}
+.SideCont .cont .lista dd .t{
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+	font-weight:bold;
+}
+.SideCont .cont .lista dd a{
+	color:#c00;
+}
+.SideCont .cont .lista dd .c{
+	height:40px;
+	line-height:20px;
+	overflow:hidden;
+}
+.SideCont .cont .listb{
+	height:22px;
+	overflow:hidden;
+	line-height:22px;
+	background:url(icon4.gif) 3px 9px no-repeat;
+	padding-left:10px;
+}
+.SideCont .cont .listb5{
+	border-top:#DDD dotted 1px;
+	margin-top:5px;
+	padding-top:5px;
+	background:url(icon4.gif) 3px 14px no-repeat;
+}
+.SideCont .cont .listb a{
+	float:left;
+	font-size:14px;
+}
+.SideCont .cont .listb a.f{
+	color:#0072C4;
+	padding-right:5px;
+}
+.SideCont .cont .listb span{
+	float:right;
+	color:#888;
+}
+.DownloadInfo{
+	height:95px;
+	overflow:hidden;
+	background:url(bg3.gif) no-repeat;
+	margin-bottom:10px;
+}
+.DownloadInfo .head{
+	height:35px;
+	overflow:hidden;
+	line-height:40px;
+	padding-left:15px;
+}
+.DownloadInfo .cont{
+	padding-left:15px;
+	line-height:25px;
+	color:#666;
+}
+.DownloadInfo .cont span{
+	color:red;
+}
+.DownloadInfo .cont em{
+	font-weight:bold;
+	font-style:normal;
+}
+.ChangeShow{
+	background:url(head2.gif) left 1px repeat-x;
+}
+.ChangeShow .head{
+	height:37px;
+	overflow:hidden;
+	line-height:45px;
+}
+#Span1,#Span2{
+	display:block;
+	width:85px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	cursor:pointer;
+}
+.ChangeShow .cont{
+	border-top:0;
+}
+.SideCont .head .choose{
+	background:url(over1.gif) center 5px no-repeat;
+}
+.SideCont .cont .listc{
+	height:50px;
+	padding-top:5px;
+	overflow:hidden;
+}
+.SideCont .cont .listc dt{
+	width:35px;
+	border:#DDD solid 1px;
+	padding:1px;
+	float:left;
+	margin-top:2px;
+}
+.SideCont .cont .listc dt a{
+	display:block;
+	height:35px;
+	width:35px;
+	overflow:hidden;
+}
+.SideCont .cont .listc dd{
+	width:200px;
+	float:left;
+	padding-left:8px;
+	height:40px;
+	line-height:20px;
+	overflow:hidden;
+}
+.SideCont .cont .listc dd a{
+	color:#0072C4;
+}
+.SideCont .cont1 .list2 span{
+	background:url(icon5.gif) center 5px no-repeat;
+	color:#FFF;
+}
+.SideCont .cont1 .list3 span{
+	background:url(icon5.gif) center -23px no-repeat;
+	color:#FFF;
+}
+.ShowSortCont{
+	height:300px;
+	overflow:hidden;
+	background:url(head3.gif) no-repeat;
+	margin-bottom:10px;
+}
+.ShowSortCont dl{
+	width:14.28%;
+	height:300px;
+	float:left;
+}
+.ShowSortCont dl dt{
+	height:37px;
+	overflow:hidden;
+	border-left:#DCDCDC solid 1px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	line-height:42px;
+}
+.ShowSortCont dl.first dt{
+	border:0;
+}
+.ShowSortCont dl dd{
+	height:260px;
+	overflow:hidden;
+	border-left:#DCDCDC solid 1px;
+	border-bottom:#DCDCDC solid 1px;
+}
+.ShowSortCont dl.end dd{
+	border-right:#DCDCDC solid 1px;
+}
+.ShowSortCont dl dd div{
+	height:26px;
+	overflow:hidden;
+	line-height:30px;
+	text-align:center;
+}
+.ShowSortCont dl dd div.bg{
+	background:#fbfbfb;
+}
+.ShowSortCont a:link,.ShowSortCont a:visited,.ShowSortCont a:hover{
+	font-size:14px;
+	color:#0072C4;
+}
+/*
+*MainContainer2
+*/
+.MainContainer2{
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.SideLAd{
+	margin:10px auto 10px;
+}
+.SideCont .cont .listd{
+	height:23px;
+	line-height:23px;
+	overflow:hidden;
+	background:url(icon4.gif) left 9px no-repeat;
+	padding-left:8px;
+}
+.SideCont .cont .listd a{
+	font-size:14px;
+	float:left;
+	color:#666;
+}
+.SideCont .cont .listd span{
+	float:right;
+	color:#888;
+}
+.ChangeShow .head .tag1{
+	display:block;
+	width:85px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	background:url(over1.gif) center 5px no-repeat;
+}
+.FrendLinkTable .head{
+	height:37px;
+	overflow:hidden;
+	line-height:42px;
+	background:url(head3.gif) right top no-repeat;
+}
+.FrendLinkTable .head .tag{
+	float:left;
+	background:url(head3.gif) left top no-repeat;
+	width:300px;
+	padding-left:15px;
+}
+.FrendLinkTable .head .more{
+	float:right;
+	padding-right:15px;
+	color:#666;
+}
+.FrendLinkTable .head .more a{
+	color:#666;
+}
+.FrendLinkTable .cont{
+	border:#DDD solid 1px;
+	border-top:0;
+	padding:10px;
+}
+.FrendLinkTable .cont .pic{
+	padding-bottom:5px;
+}
+.FrendLinkTable .cont .word{
+	line-height:20px;
+}
+.FrendLinkTable .cont .word span{
+	color:#c00;
+}

@@ -1,0 +1,293 @@
+/**
+浼氬憳涓績棣栭〉
+ */
+.user-info {
+    overflow: hidden;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.user-info .user-avatar {
+    position: relative;
+    flex-shrink: 0;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
+
+.user-info .user-avatar .avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-info .user-avatar .edit-avatar {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    line-height: 1.8;
+    font-size: 12px;
+}
+
+.user-info .user-list {
+    float: left;
+    margin-left: 25px;
+    padding-top: 7px;
+    width: 100%;
+}
+
+.user-info .user-list p.nickname {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user-info .user-list p.nickname i.icon-edit {
+    font-size: 14px;
+    position: relative;
+    font-weight: normal;
+    color: #5291fc;
+    top: -2px;
+    cursor: pointer;
+    left: 10px;
+}
+
+.user-info .user-list p.money {
+    font-size: 12px !important;
+    margin-top: 18px;
+    color: #888;
+}
+
+.user-info .user-list p.money span {
+    margin-right: 20px;
+    line-height: 28px;
+    height: 28px;
+    display: block;
+    float: left;
+}
+
+.user-info .user-list p.money .layui-btn {
+    display: block;
+    background-color: #ff7950;
+    padding: 0 20px;
+    line-height: 24px;
+    height: 24px;
+    margin-top: 2px;
+}
+
+.user-info .user-list p.money i {
+    font-size: 15px;
+    color: #FF9D52;
+}
+
+.user-info .user-list p.money i.layui-icon-diamond {
+    color: rgba(216, 181, 125, 1);
+}
+
+.user-info .user-list p.money b {
+    padding: 0 9px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #5291fc;
+}
+
+.user-info .user-right {
+    float: right;
+}
+
+.user-info .user-right .lastnumber {
+    color: #888;
+    text-align: right;
+}
+
+.user-info .user-right .lastnumber b {
+    color: #5291fc;
+    padding: 0 3px;
+    font-weight: normal;
+}
+
+.user-info .user-right .common-signin .layui-btn {
+    line-height: 42px;
+    height: 42px;
+}
+
+/**
+蹇嵎鎿嶄綔
+ */
+.user-data {
+    display: flex;
+}
+
+.user-data .item {
+    padding: 20px;
+    width: 25%;
+    box-sizing: border-box;
+    display: flex;
+    line-height: 34px;
+    border-right: 1px solid #f5f5f5;
+}
+
+.user-data .item img {
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+}
+
+.user-data .item p {
+    flex: 10;
+}
+
+.user-data .item .layui-btn {
+    float: right;
+    margin-top: 6px;
+}
+
+/**
+绔欏唴鍏憡/鎺ㄥ箍涓績
+ */
+.main-content {
+
+}
+
+.main-content .title {
+    line-height: 45px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.main-content .title span {
+    color: #888888;
+    float: right;
+    align-items: center;
+}
+
+.main-content .title span button {
+    margin-left: 15px;
+    display: flex;
+}
+
+.main-content .title span button i {
+    margin-right: 5px;
+    font-size: 12px !important;
+}
+
+.main-content .promote {
+    width: 100%;
+    margin-right: 15px;
+}
+
+.main-content .promote .promote-main {
+    padding: 15px;
+}
+
+.main-content .promote .promote-main .alert {
+    line-height: 2;
+    font-size: 13px;
+    padding: 10px 15px;
+    color: #444444;
+}
+
+.main-content .promote .promote-main .alert em {
+    padding: 0 5px;
+    font-weight: bold;
+    color: #cc0000;
+}
+
+.main-content .promote .promote-link .layui-textarea {
+    border-right: none !important;
+    min-height: auto;
+    font-size: 13px;
+}
+
+.main-content .promote .promote-link button {
+    border-radius: 0 3px 3px 0;
+    height: 54px;
+}
+
+.main-content .promote .promote-link button + button {
+    margin: 0 !important;
+}
+
+.main-content .promote .promote-link .bg-green.copy-clipboard {
+    border-radius: 0 !important;
+}
+
+.main-content .promote .promote-data ul {
+    margin-top: 15px;
+}
+
+.main-content .promote .promote-data ul li {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    width: 100%;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+    margin-right: -1px;
+}
+
+.main-content .promote .promote-data ul li em {
+    color: rgb(204, 0, 0);
+    font-weight: bold;
+}
+
+.main-content .notice {
+    flex-shrink: 0;
+}
+
+.main-content .notice .notice-main ul {
+    padding: 5px 15px;
+}
+
+.main-content .notice .notice-main ul li {
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-content .notice .notice-main ul li:before {
+    content: " ";
+    width: 5px;
+    height: 5px;
+    border-radius: 0;
+    top: 50%;
+    left: 5px;
+    margin-top: -2px;
+    background-color: #000;
+    position: absolute;
+}
+
+.main-content .notice .notice-main ul li span {
+    min-width: 45px;
+    flex-shrink: 0;
+    text-align: right;
+    color: #888888;
+}
+
+.main-content .notice .notice-main ul li a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.main-b-right {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.main-b-right .pay-vip img {
+    width: 100%;
+}

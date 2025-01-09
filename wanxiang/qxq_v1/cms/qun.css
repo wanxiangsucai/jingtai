@@ -1,0 +1,20 @@
+/*圈子样式*/
+.search_qun {background:#FFF; margin-top:10px; padding:20px 15px; display:flex;  flex-direction:column;}
+.search_qun .show {display:flex; position:relative;}
+.search_qun .show .left {position:relative; width:100px; height:100px; margin-top:5px;}
+.search_qun .show .left img {width:100px; height:100px; border-radius:10px;}
+.search_qun .show .left img.vip{position:absolute; width:20px; height:20px; right:0px; bottom:0px; z-index:9;}
+.search_qun .show .right {margin-left:10px;}
+.search_qun .show .right a{display:block;}
+.search_qun .show .right .title {color:#333; font-size:16px; padding-bottom:5px;}
+.search_qun .show .right .dizhi {font-size:14px; color:#888888; line-height:22px;}
+.search_qun .show .right .time {font-size:14px; color:#888888; line-height:22px;}
+.search_qun .show .right .shuju {display:flex; margin-top:5px;}
+.search_qun .show .right .shuju p {background:#f5f5f5; border-radius:15px 0 15px; color:#888888; font-size:12px; padding:0px 10px; margin-left:10px;}
+.search_qun .show .right .shuju p i{margin-right:5px;}
+.search_qun .show .right .shuju p:first-child {margin-left:0;}
+.search_qun .show .right .shuju p:nth-child(2) {background:#e7f5ff;}
+.search_qun .show .right .shuju p:nth-child(3) {background:#fff1e1;}
+.search_qun .show .qunliao {background-color: #FF3E3F; font-size:12px; border-radius:15px 0 15px; position:absolute; top:13px; right:10px; padding:0 10px;}
+.search_qun .qunliao a{color:#fff;}
+.search_qun .des{font-size:14px; color:#888888; line-height:22px; padding-top:10px;}

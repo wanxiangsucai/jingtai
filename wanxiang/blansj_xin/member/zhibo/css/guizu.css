@@ -1,0 +1,504 @@
+.wrap{margin:0 auto;width:775px;height:537px;background-repeat:no-repeat}
+.box-head{height:80px;padding:0 25px}
+.no-open,.yes-open{padding-top:10px}
+.no-open p,.yes-open p{height:30px;line-height:30px}
+.no-open p span,.yes-open p span{color:#ccc}
+.no-open .te-quan,.yes-open .te-quan{float:right;width:110px;height:51px;margin-top:3px;background-repeat:no-repeat}
+.cs-icon,.dw-icon,.gj-icon,.js-icon,.jw-icon,.lz-icon,.qs-icon{display:block;margin:21px auto 3px;width:46px;height:46px}
+.cs-icon{background-repeat:no-repeat}
+.dw-icon{background-repeat:no-repeat}
+.jw-icon{background-repeat:no-repeat}
+.gj-icon{background-repeat:no-repeat}
+.lz-icon{background-repeat:no-repeat}
+.qs-icon{background-repeat:no-repeat}
+.js-icon{background-repeat:no-repeat}
+.on .cs-icon{background-repeat:no-repeat}
+.on .dw-icon{background-repeat:no-repeat}
+.on .jw-icon{background-repeat:no-repeat}
+.on .gj-icon{background-repeat:no-repeat}
+.on .lz-icon{background-repeat:no-repeat}
+.on .qs-icon{background-repeat:no-repeat}
+.on .js-icon{background-repeat:no-repeat}
+.yes-open .yes-open-conf{height:30px;line-height:30px}
+.yes-open span{color:#ccc}
+.yes-open small{color:#c8ae7a;font-style:normal;font-size:12px}
+.yes-open a{color:#4f7be0;margin-left:3px}
+.yes-open .question-icon{margin-left:3px;position:relative;width:14px;height:14px;display:inline-block;vertical-align:middle;zoom:1;background-repeat:no-repeat}
+.yes-open .question-icon:hover .question-layer{display:block}
+.yes-open .question-layer{display:none;position:absolute;top:-42px;left:-150px;width:260px;height:32px;line-height:32px;text-align:center;color:#999;background:#404040;border:1px solid #4a4a4a;border-radius:3px}
+.yes-open .question-layer .triangle-bottom{width:11px;height:6px;overflow:hidden;position:absolute;bottom:-7px;left:150px;background-repeat:no-repeat}
+.box-main-tab{height:101px;padding:0 0 0 38px}
+.box-main-tab li{float:left;width:80px;height:101px;cursor:pointer;text-align:center;font-size:14px;font-weight:700;margin-right:24px}
+.box-main-tab li .contrast-icon{width:16px;height:14px;background-repeat:no-repeat}
+.box-main-tab li.on{color:#ffe1ac;background-repeat:no-repeat}
+.box-main-tab li.on .contrast-icon{background-repeat:no-repeat}
+.box-main-tab .tab-tip{color:#6b6b6b;padding-right:20px}
+.box-main-tab .tab-tip a{color:#4f7be0}
+.box-main-content{height:356px}
+.box-main-content .contrast .qidai{width:184px;height:44px;background:url(//hd.huya.com/gzopen/img/qidai_1253ed7.png) no-repeat;margin:120px 50px 0 0;display:inline}
+.box-main-content .contrast .contrast-table{width:100%;border-right:1px solid #383838}
+.box-main-content .contrast .contrast-table tr{height:30px;line-height:30px}
+.box-main-content .contrast .contrast-table tr td{text-align:center;border-bottom:1px solid #383838}
+.box-main-content .contrast .contrast-table tr .golden{color:#f29a00}
+.box-main-content .contrast .contrast-table tr .purple{color:#c142f0}
+.box-main-content .contrast .contrast-table tr .red{color:#cf3f3f}
+.box-main-content .contrast .contrast-table tr .rule{color:#1787cf}
+.box-main-content .contrast .contrast-table tr .red2{color:#04721a}
+.box-main-content .contrast .contrast-table tr .zong{color:#c85e36}
+.box-main-content .contrast .contrast-table .right-icon{width:15px;height:11px;display:inline-block;vertical-align:middle;zoom:1;background-repeat:no-repeat}
+.box-main-content .identity{position:relative}
+.box-main-content .identity:after,.box-main-content .identity:before{content:"";display:table;line-height:0}
+.box-main-content .identity:after{clear:both}
+.box-main-content .identity .card{padding:25px 0 0 40px;float:left}
+.box-main-content .identity .card ul{text-align:center;margin-top:10px}
+.box-main-content .identity .card ul li{display:inline-block;vertical-align:middle;zoom:1;width:12px;height:12px;margin-right:10px;cursor:pointer;background-repeat:no-repeat}
+.box-main-content .identity .card ul li.on{width:14px;height:14px;background-repeat:no-repeat}
+.box-main-content .identity .card .card-animate{height:280px;width:280px;background-repeat:no-repeat}
+.box-main-content .identity .card .card-animate.cs-logo-an{background-image:url(//v-cms-img.huya.com/huya/guizu/cs-logo-an.png)}
+.box-main-content .identity .card .card-animate.dw-logo-an{background-image:url(//v-cms-img.huya.com/huya/guizu/dw-logo-an.png)}
+.box-main-content .identity .card .card-animate.jw-logo-an{background-image:url(//v-cms-img.huya.com/huya/guizu/jw-logo-an.png)}
+.box-main-content .identity .card .card-animate.gj-logo-an{background-image:url(//v-cms-img.huya.com/huya/guizu/gj-logo-an.png)}
+.box-main-content .identity .card .card-animate.lz-logo-an{background-image:url(//v-cms-img.huya.com/huya/guizu/lz-logo-an.png)}
+.box-main-content .identity .card .card-animate.qs-logo-an{background-image:url(//v-cms-img.huya.com/huya/guizu/qs-logo-an.png)}
+.box-main-content .identity .card .card-animate.js-logo-an{background-image:url(//v-cms-img.huya.com/huya/guizu/js-logo-an.png)}
+.box-main-content .identity .card .card-animate.cs-pet-an{background-image:url(//v-cms-img.huya.com/huya/guizu/cs-pet-an.png)}
+.box-main-content .identity .card .card-animate.dw-pet-an{background-image:url(//v-cms-img.huya.com/huya/guizu/dw-pet-an.png)}
+.box-main-content .identity .card .card-animate.jw-pet-an{background-image:url(//v-cms-img.huya.com/huya/guizu/jw-pet-an.png?v1)}
+.box-main-content .identity .card .card-animate.gj-pet-an{background-image:url(//v-cms-img.huya.com/huya/guizu/gj-pet-an.png?v1)}
+.box-main-content .identity .card .card-animate.lz-pet-an{background-image:url(//v-cms-img.huya.com/huya/guizu/lz-pet-an.png?v1)}
+.box-main-content .identity .card .card-animate.qs-pet-an{background-image:url(//v-cms-img.huya.com/huya/guizu/qs-pet-an.png?v1)}
+.box-main-content .identity .card .card-animate.js-pet-an{background-image:url(//v-cms-img.huya.com/huya/guizu/js-pet-an.png?v1)}
+.box-main-content .identity .card .card-animate img{width:100%;height:100%}
+.box-main-content .identity .card-info{width:416px;height:355px;overflow-y:hidden;margin-left:38px;float:left}
+.box-main-content .identity .card-info ul{overflow-y:auto;padding-top:35px;width:428px;margin-left:-12px}
+.box-main-content .identity .card-info li{float:left;margin:0 0 23px 12px;overflow:hidden;zoom:1;width:196px}
+.box-main-content .identity .card-info li em{width:46px;height:46px;float:left;margin-right:10px}
+.box-main-content .identity .card-info li .dw-card-icon1{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon2{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon3{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon4{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon5{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon6{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon7{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon8{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon9{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon10{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon11{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon12{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon13{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon-pet1{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon-pet2{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon-pet3{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon-pet4{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon-pet5{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon-pet6{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .dw-card-icon-pet7{background-repeat:no-repeat}
+.box-main-content .identity .card-info li .card-icon-intro{float:left;width:140px;color:#6e6e6e;font-size:12px;line-height:20px}
+.box-main-content .identity .card-info li .card-icon-intro h3{color:#c9c9c9;margin-top:5px;font-weight:700;font-size:14px}
+.box-foot{height:79px}
+.box-foot .cs-progress-wrapper{margin:5px 0 2px}
+.box-foot .cs-progress-wrapper:after,.box-foot .cs-progress-wrapper:before{content:"";display:table;line-height:0}
+.box-foot .cs-progress-wrapper:after{clear:both}
+.box-foot .cs-progress-wrapper .cs-tips-text{float:left;margin-left:10px}
+.box-foot .cs-progress-wrapper .cs-tips-text i{width:14px;height:14px;display:inline-block;vertical-align:middle;zoom:1;margin-right:3px;vertical-align:middle}
+.box-foot .cs-progress-wrapper .cs-tips-text.error{color:#b56434}
+.box-foot .cs-progress-wrapper .cs-tips-text.error i{background-repeat:no-repeat}
+.box-foot .cs-progress-wrapper .cs-tips-text.ok{color:#4f8521}
+.box-foot .cs-progress-wrapper .cs-tips-text.ok i{background-repeat:no-repeat}
+.box-foot .cs-progress-wrapper .cs-progress-bar{width:194px;height:16px;background-color:#815b3a;border-radius:10px;overflow:hidden;position:relative}
+.box-foot .cs-progress-wrapper .cs-progress-bar .cs-progress-num{position:absolute;left:0;top:0;width:100%;color:#fff;font-size:12px;height:16px;line-height:16px;text-align:center}
+.box-foot .cs-progress-wrapper .cs-progress-bar.cs-protect .cs-progress-current{background-color:#cfa394}
+.box-foot .cs-progress-wrapper .cs-progress-bar .cs-progress-current{height:100%;background-color:#e6663e}
+.box-foot .user-avatar{width:48px;margin:17px 0 0 29px;height:48px;overflow:hidden;border:2px solid #efc697;border-radius:48px;margin-right:9px}
+.box-foot .user-avatar img{width:100%;height:100%}
+.box-foot .open-conf{padding:13px 0 0}
+.box-foot .open-conf p{font-size:14px;height:24px;color:#b9a27e;line-height:24px;font-weight:700}
+.box-foot .open-conf p span{color:#ffdcac}
+.box-foot .open-conf .open-conf-div{color:#6d6d6d}
+.box-foot .open-conf .open-conf-div i{display:inline-block;vertical-align:middle;zoom:1;width:36px;height:18px;margin-right:5px;margin-top:-5px;background-repeat:no-repeat}
+.box-foot .open-conf .open-conf-div span{color:#b9a27e}
+.box-foot .open-conf .open-conf-div .question-icon{position:relative;margin-left:3px;width:14px;height:14px;display:inline-block;vertical-align:middle;zoom:1;background-repeat:no-repeat}
+.box-foot .open-conf .open-conf-div .question-icon:hover .question-layer{display:block}
+.box-foot .open-conf .open-conf-div .question-layer{display:none;position:absolute;top:-142px;left:26px;width:358px;height:160px;line-height:32px;text-align:center;color:#999;background:#404040;border:1px solid #4a4a4a;border-radius:3px}
+.box-foot .open-conf .open-conf-div .question-layer h3{text-align:left;color:#c8ae7a;font-size:14px;padding-left:15px}
+.box-foot .open-conf .open-conf-div .question-layer p{font-size:12px;text-align:left;padding-left:15px;line-height:25px}
+.box-foot .open-conf .open-conf-div .question-layer .triangle-bottom{width:6px;height:10px;overflow:hidden;position:absolute;bottom:6px;left:-6px;background-repeat:no-repeat}
+.box-foot .box-foot-btn{width:169px;height:60px;text-align:center;line-height:54px;cursor:pointer;color:#fff;font-size:14px;font-weight:700;margin:15px 18px 0 0;display:inline;background-repeat:no-repeat}
+.box-foot .box-foot-btn:hover{background-repeat:no-repeat}
+#mask{position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity:.4;z-index:3}
+.layer-head{height:25px;background:#3d404b;color:#ccc;line-height:25px;padding-left:15px;font-size:15px;font-weight:800}
+.close-layer,.close-yxq-layer{width:15px;height:15px;top:14px;right:14px;position:absolute;cursor:pointer;-webkit-transition:-webkit-transform .5s ease;transition:transform .5s ease;background-repeat:no-repeat}
+.close-layer:hover,.close-yxq-layer:hover{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+#pop-layer{width:480px;position:absolute;background:#3d404b;border-radius:10px;overflow:hidden;left:50%;top:50%;margin:-160px 0 0 -253px;z-index:5}
+#pop-layer .layer-content{overflow:hidden;zoom:1;min-height:195px}
+#pop-layer .layer-content .dw-big-icon{width:120px;height:120px;float:left;margin:0 18px 0 22px;background-repeat:no-repeat}
+#pop-layer .layer-content .jw-big-icon{width:120px;height:120px;float:left;margin:0 18px 0 22px;background-repeat:no-repeat}
+#pop-layer .layer-content .gj-big-icon{width:120px;height:120px;float:left;margin:0 18px 0 22px;background-repeat:no-repeat}
+#pop-layer .layer-content .lz-big-icon{width:120px;height:120px;float:left;margin:0 18px 0 22px;background-repeat:no-repeat}
+#pop-layer .layer-content .qs-big-icon{width:120px;height:120px;float:left;margin:0 18px 0 22px;background-repeat:no-repeat}
+#pop-layer .layer-content .js-big-icon{width:120px;height:120px;float:left;margin:0 18px 0 22px;background-repeat:no-repeat}
+#pop-layer .layer-content .layer-info{float:left;width:315px}
+#pop-layer .layer-content .layer-info span{color:#ffdcac}
+#pop-layer .layer-content .layer-info p{color:#6d6d6d;font-size:14px}
+#pop-layer .layer-content .layer-info .nobel-tip{font-size:14px;color:#666;margin-top:37px;height:37px;line-height:37px;border-bottom:1px solid #404040;width:280px}
+#pop-layer .layer-content .layer-info .soon-pay{color:#b9a27e;font-size:22px;height:42px;font-weight:700;line-height:42px}
+#pop-layer .layer-content .layer-info .not-renew{font-size:18px;color:#ccc;padding:50px 10px 25px 0;line-height:30px}
+#pop-layer .layer-content .layer-info .item{overflow:hidden;zoom:1}
+#pop-layer .layer-content .layer-info input{height:30px;line-height:30px;background:#999;border-radius:3px;padding:0 5px;border:0;color:#666;float:left}
+#pop-layer .layer-content .layer-info input:focus{outline:0}
+#pop-layer .layer-content .layer-info .mb10{margin-bottom:10px}
+#pop-layer .layer-content .layer-info .mt10{margin-top:10px}
+#pop-layer .layer-content .layer-info .act-code{width:234px}
+#pop-layer .layer-content .layer-info .pic-code{width:165px;margin-right:8px}
+#pop-layer .layer-content .layer-info .pic-captcha{cursor:pointer}
+#pop-layer .layer-content .layer-info .phone-code{width:100px}
+#pop-layer .layer-content .layer-info .get-code{color:#4f7be0!important;float:left;margin:5px 0 0 5px;cursor:pointer}
+#pop-layer .layer-content .layer-info .get-code:hover{text-decoration:underline}
+#pop-layer .layer-content .replace-type{padding-top:0}
+#pop-layer .layer-content .open-success{padding-top:10px}
+#pop-layer .layer-content .open-success h3{color:#b9a27e;font-size:28px}
+#pop-layer .layer-content .open-success p{line-height:30px}
+#pop-layer .layer-content .renew{margin:30px 30px 0;border-bottom:1px solid #404040}
+#pop-layer .layer-content .renew ul{padding:10px 0}
+#pop-layer .layer-content .renew li{float:left;height:27px;line-height:27px;cursor:pointer;margin-right:10px}
+#pop-layer .layer-content .renew li em{width:14px;height:14px;display:inline-block;vertical-align:middle;zoom:1;margin-right:5px;background-repeat:no-repeat}
+#pop-layer .layer-content .renew li.on em{background-repeat:no-repeat}
+#pop-layer .layer-content .renew li .input-mon{width:27px;height:22px;background:#303030;text-align:center;border:1px solid #404040;margin-right:5px;color:#999}
+#pop-layer .layer-content .renew-tip{margin:0 30px;line-height:25px;border-bottom:1px solid #404040;padding:10px 0}
+#pop-layer .layer-content .renew-tip span{color:#ff8a00;font-size:14px}
+#pop-layer .layer-content .renew-tip .renew-date{color:#999;font-size:12px}
+#pop-layer .layer-content .renew-pay{color:#ccc;font-size:18px;margin:15px 30px 30px}
+#pop-layer .layer-content .renew-pay span{color:#ff8a00}
+#pop-layer .layer-content .renew-btn{margin:0 auto 30px;float:none}
+#pop-layer .layer-btn{margin-top:15px;width:115px;height:42px;line-height:42px;text-align:center;font-size:16px;font-weight:800;border-radius:20px;cursor:pointer;color:#fff;background:#ff9600;float:left}
+#pop-layer .layer-btn:hover{background:#f7a13c}
+#pop-layer .cancel-btn{margin:15px 0 0 10px;width:85px;height:42px;line-height:42px;text-align:center;font-size:16px;font-weight:800;border-radius:20px;cursor:pointer;color:#fff;background:#6d6f78;float:left}
+#pop-layer .cancel-btn:hover{background:#e8ddd0}
+#pop-layer .item .verify-tip{padding:0;float:none}
+#pop-layer .verify-tip{float:left;padding:25px 0 0 10px;color:gray!important}
+#pop-layer .verify-tip em{width:16px;height:16px;margin-right:5px;background:url(//hd.huya.com/gzopen/img/sigh-icon_f188c1e.png) no-repeat;display:inline-block;vertical-align:middle;zoom:1}
+#yxq-layer{width:310px;position:absolute;background:#333;left:50%;top:50%;margin:-135px 0 0 -155px;z-index:5}
+#yxq-layer .yxq-tit{height:32px;line-height:32px;font-size:14px;color:#b2b2b2;background:#3d3d3d}
+#yxq-layer ul li{height:32px;line-height:32px;border-bottom:1px solid #404040}
+#yxq-layer .fl{padding-left:30px}
+#yxq-layer .fr{width:95px}
+#yxq-layer .yxq-tip{color:#666;padding:10px 30px 20px;line-height:25px}
+.icenter{background-color:#fff;color:#333}
+.icenter .no-open p span,.icenter .yes-open p span,.icenter .yes-open span{color:#666}
+.icenter .yes-open .question-layer{color:#666;background-color:#fafafa;border-color:#e3e3e3}
+.icenter .yes-open .question-layer .triangle-bottom{background-repeat:no-repeat}
+.icenter .yes-open-conf .fr{color:#666}
+.icenter .box-main-tab{background:#f5f5f5;color:#666;border-bottom:1px solid #fff}
+.icenter .box-main-tab li.on{background:#fff}
+.icenter .box-foot{background:#f5f5f5;border-top:1px solid #f5f5f5}
+.icenter .box-main-content .identity .card-info li .card-icon-intro h3{color:#333}
+.icenter .box-foot .open-conf .open-conf-div .question-icon,.icenter .yes-open .question-icon{background-repeat:no-repeat}
+.icenter .box-main-content .contrast .contrast-table{color:#999;border-right:1px solid #f5f5f5}
+.icenter .box-main-content .contrast .contrast-table tr td{border-bottom:1px solid #f5f5f5}
+.icenter .box-main-content .identity .card-info li .dw-card-icon1{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon2{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon3{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon4{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon5{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon6{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon7{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon8{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon9{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon10{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon11{background-repeat:no-repeat}
+.icenter .box-main-content .identity .card-info li .dw-card-icon12{background-repeat:no-repeat}
+.icenter .box-foot .open-conf .open-conf-div .question-layer{background-color:#fafafa;color:#999;border:1px solid #e3e3e3}
+.icenter .box-foot .open-conf .open-conf-div .question-layer .triangle-bottom{background-repeat:no-repeat}
+.icenter .box-main-tab li{display:none}
+.icenter .box-main-tab li.on{display:block}
+.icenter .yxq-layer{background:#fff}
+.icenter .layer-head{background:#eee;color:#333}
+.icenter .close-layer,.icenter .close-yxq-layer{width:19px;height:19px;top:10px;background-repeat:no-repeat}
+.icenter #yxq-layer .yxq-tit{background:#f5f5f5;color:#666}
+.icenter #yxq-layer{background:#fff}
+.icenter #yxq-layer ul li{border-bottom:1px solid #ebebeb}
+.icenter #pop-layer{background:#fff}
+.wrap{background-position:0 0}
+.no-open .te-quan,.yes-open .te-quan{background-position:-665px -540px}
+.cs-icon{background-position:-729px -594px}
+.dw-icon{background-position:-729px -643px}
+.jw-icon{background-position:-729px -692px}
+.gj-icon{background-position:-729px -741px}
+.lz-icon{background-position:-729px -790px}
+.qs-icon{background-position:-729px -839px}
+.js-icon{background-position:-729px -888px}
+.on .cs-icon{background-position:-729px -937px}
+.on .dw-icon{background-position:-729px -986px}
+.on .jw-icon{background-position:-729px -1035px}
+.on .gj-icon{background-position:-729px -1084px}
+.on .lz-icon{background-position:-729px -1133px}
+.on .qs-icon{background-position:-729px -1182px}
+.on .js-icon{background-position:-729px -1231px}
+.yes-open .question-icon{background-position:-761px -1280px}
+.box-foot .open-conf .open-conf-div .question-icon{background-position:-761px -1280px}
+.yes-open .question-layer .triangle-bottom{background-position:-764px -1297px}
+.box-main-tab li .contrast-icon{background-position:-759px -1306px}
+.box-main-tab li.on{background-position:-695px -1321px}
+.box-main-tab li.on .contrast-icon{background-position:-759px -1425px}
+.box-main-content .contrast .contrast-table .right-icon{background-position:-760px -1440px}
+.box-main-content .identity .card ul li{background-position:-763px -1454px}
+.box-main-content .identity .card ul li.on{background-position:-761px -1469px}
+.box-main-content .identity .card-info li .dw-card-icon1{background-position:-729px -1486px}
+.box-main-content .identity .card-info li .dw-card-icon2{background-position:-729px -1535px}
+.box-main-content .identity .card-info li .dw-card-icon3{background-position:-729px -1584px}
+.box-main-content .identity .card-info li .dw-card-icon4{background-position:-729px -1633px}
+.box-main-content .identity .card-info li .dw-card-icon5{background-position:-729px -1682px}
+.box-main-content .identity .card-info li .dw-card-icon6{background-position:-729px -1731px}
+.box-main-content .identity .card-info li .dw-card-icon7{background-position:-729px -1780px}
+.box-main-content .identity .card-info li .dw-card-icon8{background-position:-729px -1829px}
+.box-main-content .identity .card-info li .dw-card-icon9{background-position:-729px -1878px}
+.box-main-content .identity .card-info li .dw-card-icon10{background-position:-729px -1927px}
+.box-main-content .identity .card-info li .dw-card-icon11{background-position:-729px -1976px}
+.box-main-content .identity .card-info li .dw-card-icon12{background-position:-729px -2025px}
+.box-main-content .identity .card-info li .dw-card-icon13{background-position:-729px -2074px}
+.box-main-content .identity .card-info li .dw-card-icon-pet1{background-position:-729px -2123px}
+.box-main-content .identity .card-info li .dw-card-icon-pet2{background-position:-729px -2172px}
+.box-main-content .identity .card-info li .dw-card-icon-pet3{background-position:-729px -2221px}
+.box-main-content .identity .card-info li .dw-card-icon-pet4{background-position:-729px -2270px}
+.box-main-content .identity .card-info li .dw-card-icon-pet5{background-position:-729px -2319px}
+.box-main-content .identity .card-info li .dw-card-icon-pet6{background-position:-729px -2368px}
+.box-main-content .identity .card-info li .dw-card-icon-pet7{background-position:-729px -2417px}
+.box-foot .cs-progress-wrapper .cs-tips-text.error i{background-position:-761px -2466px}
+.box-foot .cs-progress-wrapper .cs-tips-text.ok i{background-position:-761px -2483px}
+.box-foot .open-conf .open-conf-div i{background-position:-739px -2500px}
+.box-foot .open-conf .open-conf-div .question-layer .triangle-bottom{background-position:-769px -2521px}
+.box-foot .box-foot-btn{background-position:-606px -2534px}
+.box-foot .box-foot-btn:hover{background-position:-606px -2597px}
+.close-layer,.close-yxq-layer{background-position:-760px -2660px}
+#pop-layer .layer-content .dw-big-icon{background-position:-655px -2678px}
+#pop-layer .layer-content .jw-big-icon{background-position:-655px -2801px}
+#pop-layer .layer-content .gj-big-icon{background-position:-655px -2924px}
+#pop-layer .layer-content .lz-big-icon{background-position:-655px -3047px}
+#pop-layer .layer-content .qs-big-icon{background-position:-655px -3170px}
+#pop-layer .layer-content .js-big-icon{background-position:-655px -3293px}
+#pop-layer .layer-content .renew li em{background-position:-761px -3416px}
+#pop-layer .layer-content .renew li.on em{background-position:-761px -3433px}
+.icenter .yes-open .question-layer .triangle-bottom{background-position:-764px -3450px}
+.icenter .box-foot .open-conf .open-conf-div .question-icon,.icenter .yes-open .question-icon{background-position:-761px -3459px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon1{background-position:-705px -3476px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon2{background-position:-705px -3549px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon3{background-position:-705px -3622px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon4{background-position:-705px -3695px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon5{background-position:-705px -3768px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon6{background-position:-705px -3841px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon7{background-position:-705px -3914px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon8{background-position:-705px -3987px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon9{background-position:-705px -4060px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon10{background-position:-705px -4133px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon11{background-position:-705px -4206px}
+.icenter .box-main-content .identity .card-info li .dw-card-icon12{background-position:-705px -4279px}
+.icenter .box-foot .open-conf .open-conf-div .question-layer .triangle-bottom{background-position:-769px -4352px}
+.icenter .close-layer,.icenter .close-yxq-layer{background-position:-756px -4365px}
+.box-foot .open-conf .open-conf-div .question-icon,.box-main-content .contrast .contrast-table .right-icon,.box-main-content .identity .card ul li,.box-main-content .identity .card ul li.on,.box-main-content .identity .card-info li .dw-card-icon1,.box-main-content .identity .card-info li .dw-card-icon2,.box-main-content .identity .card-info li .dw-card-icon3,.box-main-content .identity .card-info li .dw-card-icon4,.box-main-tab li .contrast-icon,.box-main-tab li.on,.box-main-tab li.on .contrast-icon,.cs-icon,.dw-icon,.gj-icon,.js-icon,.jw-icon,.lz-icon,.no-open .te-quan,.on .cs-icon,.on .dw-icon,.on .gj-icon,.on .js-icon,.on .jw-icon,.on .lz-icon,.on .qs-icon,.qs-icon,.wrap,.yes-open .question-icon,.yes-open .question-layer .triangle-bottom,.yes-open .te-quan{background-image:url(//hd.huya.com/gzopen/css/main_z_bc630c1.png)}
+#pop-layer .layer-content .dw-big-icon,#pop-layer .layer-content .gj-big-icon,#pop-layer .layer-content .js-big-icon,#pop-layer .layer-content .jw-big-icon,#pop-layer .layer-content .lz-big-icon,#pop-layer .layer-content .qs-big-icon,.box-foot .box-foot-btn,.box-foot .box-foot-btn:hover,.box-foot .cs-progress-wrapper .cs-tips-text.error i,.box-foot .cs-progress-wrapper .cs-tips-text.ok i,.box-foot .open-conf .open-conf-div .question-layer .triangle-bottom,.box-foot .open-conf .open-conf-div i,.box-main-content .identity .card-info li .dw-card-icon-pet1,.box-main-content .identity .card-info li .dw-card-icon-pet2,.box-main-content .identity .card-info li .dw-card-icon-pet3,.box-main-content .identity .card-info li .dw-card-icon-pet4,.box-main-content .identity .card-info li .dw-card-icon-pet5,.box-main-content .identity .card-info li .dw-card-icon-pet6,.box-main-content .identity .card-info li .dw-card-icon-pet7,.box-main-content .identity .card-info li .dw-card-icon10,.box-main-content .identity .card-info li .dw-card-icon11,.box-main-content .identity .card-info li .dw-card-icon12,.box-main-content .identity .card-info li .dw-card-icon13,.box-main-content .identity .card-info li .dw-card-icon5,.box-main-content .identity .card-info li .dw-card-icon6,.box-main-content .identity .card-info li .dw-card-icon7,.box-main-content .identity .card-info li .dw-card-icon8,.box-main-content .identity .card-info li .dw-card-icon9,.close-layer,.close-yxq-layer{background-image:url(//hd.huya.com/gzopen/css/main_z_bc630c1.png)}
+#pop-layer .layer-content .renew li em,#pop-layer .layer-content .renew li.on em,.icenter .box-foot .open-conf .open-conf-div .question-icon,.icenter .box-foot .open-conf .open-conf-div .question-layer .triangle-bottom,.icenter .box-main-content .identity .card-info li .dw-card-icon1,.icenter .box-main-content .identity .card-info li .dw-card-icon10,.icenter .box-main-content .identity .card-info li .dw-card-icon11,.icenter .box-main-content .identity .card-info li .dw-card-icon12,.icenter .box-main-content .identity .card-info li .dw-card-icon2,.icenter .box-main-content .identity .card-info li .dw-card-icon3,.icenter .box-main-content .identity .card-info li .dw-card-icon4,.icenter .box-main-content .identity .card-info li .dw-card-icon5,.icenter .box-main-content .identity .card-info li .dw-card-icon6,.icenter .box-main-content .identity .card-info li .dw-card-icon7,.icenter .box-main-content .identity .card-info li .dw-card-icon8,.icenter .box-main-content .identity .card-info li .dw-card-icon9,.icenter .close-layer,.icenter .close-yxq-layer,.icenter .yes-open .question-icon,.icenter .yes-open .question-layer .triangle-bottom{background-image:url(//hd.huya.com/gzopen/css/main_z_bc630c1.png)}
+
+noblePay--pay .banks ul,.noblePay--pay .item,.noblePay--popup .popup__con .btnArea{zoom:1}
+.noblePay .ico{display:inline-block;background-repeat:no-repeat}
+.noblePay .i-close:hover{background-position:-180px -174px}
+.noblePay .i-error{width:16px;height:17px;left:15px;background-position:-229px -170px}
+.noblePay .i-selector{width:22px;height:19px;background-position:-208px -60px}
+.noblePay .i-bank-ICBC{width:16px;height:16px;left:15px;margin-top:-8px;background-position:-180px -94px}
+.noblePay .i-bank-ABC{width:18px;height:17px;left:14px;margin-top:-9px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-208px -149px}
+.noblePay .i-bank-CCB,.noblePay .i-bank-CMB{height:16px;margin-top:-8px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072)}
+.noblePay .i-bank-CMB{width:19px;left:14px;background-position:-253px -149px}
+.noblePay .i-bank-CCB{width:16px;left:15px;background-position:-270px -170px}
+.noblePay .i-bank-BOC{width:17px;height:17px;left:15px;margin-top:-9px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-208px -170px}
+.noblePay .i-bank-BCOM,.noblePay .i-bank-PSBC{height:18px;left:14px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);margin-top:-9px}
+.noblePay .i-bank-PSBC{width:19px;background-position:-231px -83px}
+.noblePay .i-bank-BCOM{width:18px;background-position:-208px -127px}
+.noblePay .i-bank-GDB{width:20px;height:17px;left:13px;margin-top:-9px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-254px -83px}
+.noblePay .i-bank-CMBC,.noblePay .i-bank-PAB{left:14px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072)}
+.noblePay .i-bank-CMBC{width:19px;height:16px;margin-top:-8px;background-position:-230px -149px}
+.noblePay .i-bank-PAB{width:18px;height:9px;margin-top:-4px;background-position:-59px -198px}
+.noblePay .i-bank-CEB{width:14px;height:18px;left:16px;margin-top:-9px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-274px -105px}
+.noblePay .i-bank-CIB{width:22px;height:14px;left:12px;margin-top:-7px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-252px -127px}
+.noblePay .i-bank-CITIC,.noblePay .i-bank-HZB{width:18px;left:14px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072)}
+.noblePay .i-bank-HZB{height:13px;margin-top:-6px;background-position:-180px -138px}
+.noblePay .i-bank-CITIC{height:18px;margin-top:-9px;background-position:-230px -127px}
+.noblePay .i-bank-BJRCB{width:17px;height:13px;left:15px;margin-top:-7px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-19px -198px}
+.noblePay .i-bank-SPDB,.noblePay .i-bank-SRCB{left:14px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072)}
+.noblePay .i-bank-SRCB{width:18px;height:18px;margin-top:-9px;background-position:-252px -105px}
+.noblePay .i-bank-SPDB{width:15px;height:12px;margin-top:-6px;background-position:-40px -198px}
+.noblePay .i-bank-SHB{width:19px;height:19px;left:12px;margin-top:-9px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-257px -60px}
+.noblePay .i-bank-NJCB{width:17px;height:16px;left:14px;margin-top:-8px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-249px -170px}
+.noblePay .i-bank-CBHB{width:22px;height:12px;left:12px;margin-top:-6px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-180px -78px}
+.noblePay .i-bank-BEA,.noblePay .i-bank-GZCB,.noblePay .i-bank-HXB,.noblePay .i-bank-NBCB{margin-top:-9px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072)}
+.noblePay .i-bank-NBCB{width:18px;height:18px;left:14px;background-position:-230px -105px}
+.noblePay .i-bank-HXB{width:19px;height:18px;left:12px;background-position:-208px -83px}
+.noblePay .i-bank-GZCB{width:18px;height:18px;left:14px;background-position:-208px -105px}
+.noblePay .i-bank-BEA{width:13px;height:19px;left:17px;background-position:-180px -114px}
+.noblePay .i-arrow-d{width:9px;height:5px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-278px -83px}
+.noblePay .i-weixin{width:19px;height:19px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-234px -60px}
+.noblePay .i-alipay{width:16px;height:16px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-188px -39px}
+.noblePay .i-close{width:15px;height:15px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:0 -198px}
+.noblePay .i-fail,.noblePay .i-success,.noblePay .i-warning{width:24px;height:24px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072)}
+.noblePay .i-fail{background-position:-264px -32px}
+.noblePay .i-success{background-position:-208px -32px}
+.noblePay .i-warning{background-position:-236px -32px}
+.noblePay .i-loading{width:23px;height:23px}
+.noblePay .i-noble-1,.noblePay .i-noble-2,.noblePay .i-noble-3,.noblePay .i-noble-4,.noblePay .i-noble-5,.noblePay .i-noble-6{width:56px;height:56px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072)}
+.noblePay .i-noble-1{background-position:-120px -138px}
+.noblePay .i-noble-2{background-position:-60px -138px}
+.noblePay .i-noble-3{background-position:0 -138px}
+.noblePay .i-noble-4{background-position:-120px -78px}
+.noblePay .i-noble-5{background-position:-60px -78px}
+.noblePay .i-noble-6{background-position:0 -78px}
+.noblePay--popup{position:absolute;left:50%;width:340px;height:240px;margin:0 0 0 -170px;z-index:999;text-align:center;color:#fff;font-size:14px;background-color:#333}
+.noblePay--popup .close{position:absolute;right:0;top:0;padding-top:9px;height:25px;width:34px;text-align:center}
+.noblePay--popup .close .i-close{width:15px;height:15px;vertical-align:top;background-repeat:no-repeat;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:0 -198px}
+.noblePay--popup .close:hover .i-close{background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-180px -174px}
+.noblePay--popup .popup__con .btnArea .b-submit,.noblePay--popup .popup__con .btns .b-submit{background-position:-208px 0;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072)}
+.noblePay--popup .header{text-align:left;height:34px;line-height:34px;font-size:14px;color:#ccc;background-color:#191919}
+.noblePay--popup .header h3{font-size:14px;margin:0 0 0 15px}
+.noblePay--popup .popup__con{padding:43px 16px 0 28px;color:#ccc}
+.noblePay--popup .popup__con .tips{line-height:24px}
+.noblePay--popup .popup__con .tips em{display:inline-block;vertical-align:top;margin-left:10px;line-height:24px;font-size:16px}
+.noblePay--popup .popup__con .tips b{font-weight:400;color:#ff8a00}
+.noblePay--popup .popup__con .tips span{font-size:12px}
+.noblePay--popup .popup__con .desc{min-height:70px;margin:12px 0 0;color:#8b8b8b;font-size:12px;line-height:20px}
+.noblePay--popup .popup__con .desc b{color:#ff8a00}
+.noblePay--popup .popup__con .desc img{vertical-align:middle}
+.noblePay--popup .popup__con .desc a{text-decoration:none;color:#09b3f1}
+.noblePay--popup .popup__con .desc a:hover{text-decoration:underline}
+.noblePay--popup .popup__con .btnArea:after{content:"";display:table;clear:both}
+.noblePay--popup .popup__con .btnArea .checkArea{float:left;line-height:28px;color:#8e8f8f;font-size:12px}
+.noblePay--popup .popup__con .btnArea .checkArea input{width:14px;height:14px;vertical-align:middle;cursor:pointer}
+.noblePay--popup .popup__con .btnArea .checkArea label{padding:0 0 0 4px;cursor:pointer}
+.noblePay--popup .popup__con .btnArea .btn{float:right;width:80px;height:28px;line-height:28px;font-size:12px}
+.noblePay--popup .popup__con .btns{font-size:0}
+.noblePay--popup .popup__con .btns .b-normal{margin-left:5px;background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-104px -39px}
+.noblePay--popup .popup__con .btns .btn{margin:0;width:80px;height:28px;line-height:28px;font-size:12px}
+.noblePay--popup .qrcode{display:none;position:absolute;right:25px;top:62px;border-color:#434343;width:140px;height:162px}
+.noblePay--popup .qrcode__desc{width:100%;line-height:16px;color:#fff;text-align:center}
+.noblePay--popup .qrCode__img{display:none;position:relative;overflow:hidden;width:139px;height:139px;background:#fff}
+.noblePay--popup .qrCode__img.clickAble{cursor:pointer;background:#ccc}
+.noblePay--popup .qrCode__img img{position:absolute;left:-25px;top:-25px;width:190px;height:190px}
+.noblePay--popup .qrCode__img p{display:none;position:absolute;top:50%;left:0;margin-top:-22px;text-align:center;font-size:12px;line-height:22px;height:44px;padding:0 10px;color:#333}
+.noblePay--popup .qrCode__img p b{color:#000;margin:0 3px}
+.noblePay--popup .qrCode_loading{padding-top:46px;text-align:center;height:92px;width:139px;border:1px solid #8b8b8b}
+.noblePay--popup .qrCode_loading p{font-size:12px;line-height:30px;color:#fff}
+.popup-big{width:440px;height:260px;margin:-130px 0 0 -220px;text-align:left}
+.popup-big .popup__con{padding:36px 0 0 32px}
+.popup-big .popup__con .desc{margin:8px 0 0;width:250px;min-height:72px}
+.popup-page{position:relative;z-index:1;left:0;height:225px;margin:0 auto}
+.popup-page .popup__con .desc{position:relative;min-height:50px;padding:0 0 20px 34px}
+.popup-page .popup__con .errorTips{display:none;position:absolute;bottom:10px;left:34px;line-height:20px;color:#c00}
+.icenter .noblePay--popup .popup__con .tips em,.noblePay{color:#333}
+.popup-page .b-submit{margin-left:34px}
+.popup-page .qrcode{top:30px;right:20px;background:0 0;border:none}
+.pop-mask{position:fixed;z-index:998;top:0;left:0;width:100%;height:100%;background:#000;opacity:.4}
+.popup-tips .popup__con{padding-top:30px}
+.popup-tips .popup__con .tips{text-align:left;padding-left:0}
+.popup-tips .popup__con .desc{text-align:left;padding-left:34px;padding-bottom:10px}
+.icenter .noblePay--popup{background-color:#fff}
+.icenter .noblePay--popup .header{background-color:#eee;color:#333}
+.icenter .noblePay--popup .close .i-close{background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-180px -174px}
+article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0;outline:0}
+li{list-style:none}
+em{font-style:normal}
+.hide{display:none}
+.noblePay{font:12px/1.5 "Microsoft YaHei",Tahoma,Arial,"Helvetica Neue",Helvetica,sans-serif}
+.noblePay .btn,.noblePay .btn:hover{color:#fff;text-decoration:none}
+.noblePay .btn{display:inline-block;vertical-align:middle;width:100px;height:35px;text-align:center;line-height:35px;font-size:14px;background-repeat:no-repeat}
+.noblePay .b-submit--invalid,.noblePay .b-submit--invalid:hover{background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:0 0}
+.noblePay .b-submit{margin:0 0 0 62px;background-color:#ff9600;border-radius:20px}
+.noblePay .b-submit.disable{background-color:#4e515a;color:#81848f;cursor:default}
+.noblePay--pay,.noblePay--pay .header{background-color:#3d404b;text-align:left}
+.noblePay--pay .banks li em,.noblePay--pay .inline{display:inline-block;vertical-align:middle}
+.clearfix:after,.clearfix:before{content:"";display:table;line-height:0}
+.clearfix:after{clear:both}
+#noblePay-businessName{display:block}
+.noblePay--pay{position:absolute;z-index:999;left:50%;top:4px;margin-left:-262.5px;width:525px;min-height:320px;color:#ccc;overflow:hidden;border-radius:10px}
+.noblePay--pay .banks ul:after,.noblePay--pay .item:after,.noblePay--pay .item__con__options:after{content:"";display:table;clear:both}
+.noblePay--pay .header{position:relative;width:100%;height:50px}
+.noblePay--pay .header h1{font-size:14px;margin-left:18px;line-height:42px}
+.noblePay--pay .header a{position:absolute;right:0;top:0;height:42px;width:42px}
+.noblePay--pay .header .ico{position:absolute;right:13px;top:13px}
+.noblePay--pay .con{width:485px;padding:0 20px 20px}
+.noblePay--pay .payDes{border-bottom:1px solid #3b3b3b}
+.noblePay--pay .payDes h2{font-size:12px;line-height:24px;font-weight:400;padding:7px 14px;color:#a8aab1;border-radius:6px;margin-bottom:18px;background-color:#4c505b}
+.noblePay--pay .payDes h2 b{color:#fff;font-size:16px;font-weight:700}
+.noblePay--pay .payDes h2 span b{font-size:14px;font-weight:400;margin:0;color:#fff}
+.noblePay--pay .payDes h2 .ico{margin-right:10px;vertical-align:top;position:relative;top:2px;float:left}
+.noblePay--pay .payDes h2 .pay-info{float:left;width:354px;margin-top:5px}
+.noblePay--pay .payDes h2 .timeTips{font-size:12px;margin-left:68px;color:#909090}
+.noblePay--pay .item{min-height:36px}
+.noblePay--pay .item .item__label{float:left;width:65px;line-height:36px;color:#9397a4}
+.noblePay--pay .item .item__con{float:left;width:420px;color:#e0e0e0}
+.noblePay--pay .item .banks{visibility:hidden;position:absolute;margin:0 0 6px;padding:10px 12px;background-color:#4c505b;border-radius:2px;height:82px;width:400px;overflow:hidden}
+.noblePay--pay .item .banks .banks__con{position:relative;width:396px;height:82px;overflow:hidden}
+.noblePay--pay .item .banks ul{position:relative;width:390px}
+.noblePay--pay .item .banks li{float:left;position:relative;width:58px;border-radius:4px;padding:0 0 0 38px;height:30px;line-height:30px;text-align:left;cursor:pointer;overflow:hidden}
+.noblePay--pay .item .banks li em{height:26px;line-height:28px;vertical-align:top}
+.noblePay--pay .item .banks li .i-arrow-d{vertical-align:top;position:relative;top:50%;margin:-2px 0 0 5px}
+.noblePay--pay .item .banks li .i-bank{position:absolute;top:50%}
+.noblePay--pay .item .banks li.last{position:absolute;min-width:108px;height:26px;padding:0;border:1px solid #ff8a00;background:0 0}
+.noblePay--pay .item .banks li.last .i-selector{position:absolute;top:0;right:-10px;margin:0}
+.noblePay--pay .item .banks li.j-bank-more{display:none}
+.noblePay--pay .item .banks li.selected{background-color:#6a6e7b}
+.noblePay--pay .item .scrollBank,.noblePay--pay .item .scrollBank .banks__con{height:108px}
+.noblePay--pay .item .money{font-size:24px;color:#ff9600}
+.noblePay--pay .item .money_yb .unitW,.noblePay--pay .item .tips_yb .unitW{font-size:12px}
+.noblePay--pay .item .unit{font-size:12px;color:#ccc;margin-left:4px}
+.noblePay--pay .item .money_yb{color:#9397a4;margin-left:10px;font-size:12px;cursor:pointer}
+.noblePay--pay .item .money_yb span{color:#cbcbcb}
+.noblePay--pay .item .refresh_hyb,.noblePay--pay .item .refresh_yb,.noblePay--pay .item .tips_yb{display:none;color:#ff8a00;margin-left:10px;font-size:12px;cursor:pointer}
+.noblePay--pay .item .tips_yb span{color:#ccc}
+.noblePay--pay .item a.pay_yb{color:#309eff;font-size:12px}
+.noblePay--pay .item__con__options li{position:relative;float:left;width:94px;height:32px;line-height:32px;margin:0 9px 0 0;text-align:center;border:1px solid #585c68;color:#cbcbcb;cursor:pointer}
+.noblePay--pay .item__con__options li .tips,.noblePay--pay .item__con__options li .tips:hover{width:106px;font-size:12px;line-height:16px;color:#8b8b8b;text-align:left;border-color:transparent}
+.noblePay--pay .item__con__options li .tips .red,.noblePay--pay .item__con__options li .tips:hover .red{color:#c00}
+.noblePay--pay .item__con__options li .i-selector{position:absolute;top:0;right:0;display:none}
+.noblePay--pay .item__con__options li .editPayNum{height:34px;position:relative;z-index:2;outline:0;display:none;border:none;padding:0 8px}
+.noblePay--pay .item__con__options li .baseNum{display:none;position:absolute;right:22px;top:0;z-index:1;line-height:34px;width:25px;height:34px;font-size:12px;color:#909090}
+.noblePay--pay .item__con__options li :hover{border-color:#ff9600}
+.noblePay--pay .item__con__options li.selected{border-color:#ff9600;color:#fff}
+.noblePay--pay .item__con__options li.selected .i-selector{display:block}
+.noblePay--pay .item__con__options li.selected .editPayNum{padding-right:32px;text-align:center;display:block}
+.noblePay--pay .item__con__options li.selected .inTips{display:none}
+.noblePay--pay .item__con__options li.selected .baseNum{display:block}
+.noblePay--pay .item__con__options li.disable{border-color:#414141;background-color:#414141;color:#888;cursor:default}
+.noblePay--pay .item__con__options li.editItem{position:relative;min-width:94px;width:auto!important;overflow:hidden}
+.noblePay--pay .item__con__options li.editItem .inTips{position:absolute;width:74px;text-align:center;left:50%;top:0;z-index:3;margin-left:-37px;line-height:34px}
+.noblePay--pay .item__con__options2 li{width:auto;padding:0 10px}
+.noblePay--pay .item__con__options2 li .tips{width:auto;line-height:34px;margin-left:-10px}
+.noblePay--pay .payArea{padding-top:17px}
+.noblePay--pay .payArea .item{margin:0 0 10px}
+.noblePay--pay .payArea .item1{margin:0!important}
+.noblePay--pay .payArea .item1 .item__con__options li{margin-bottom:10px}
+.noblePay--pay .qrcode{display:none;width:130px;height:130px;padding:5px;margin-left:74px;border:1px solid #8b8b8b;overflow:hidden}
+.noblePay--pay .qrcode__desc{width:100%;line-height:16px;color:#fff;text-align:center}
+.noblePay--pay .qrCode__img{display:none;position:relative;overflow:hidden;width:139px;height:139px;background:#fff}
+.noblePay--pay .qrCode__img.clickAble{cursor:pointer;background:#ccc}
+.noblePay--pay .qrCode__img img{position:absolute;left:-25px;top:-25px;width:190px;height:190px}
+.noblePay--pay .qrCode__img p{display:none;position:absolute;top:50%;left:0;margin-top:-22px;text-align:center;font-size:12px;line-height:22px;height:44px;padding:0 10px;color:#333}
+.noblePay--pay .qrCode__img p b{color:#000;margin:0 3px}
+.noblePay--pay .qrCode_loading{padding-top:46px;text-align:center;height:92px;width:139px;border:1px solid #8b8b8b}
+.noblePay--pay .qrCode_loading p{font-size:12px;line-height:30px;color:#fff}
+.icenter .noblePay--pay{color:#333;background-color:#fff}
+.icenter .noblePay--pay .header{background-color:#eee}
+.icenter .noblePay--pay .i-close{background-image:url(//hd.huya.com/noblepay/img/sprite/global.png?1557219811072);background-position:-180px -174px}
+.icenter .noblePay--pay .payDes h2 b{color:#ff8a00}
+.icenter .noblePay--pay .item .item__label{color:#333}
+.icenter .noblePay--pay .payArea .item1 .item__con__options li{border-color:#c9ccd5;color:#333}
+.icenter .noblePay--pay .payArea .item1 .item__con__options .selected{border-color:#ff8a00}
+.icenter .noblePay--pay .payDes{border-bottom:1px solid #f0f0f0}
+.icenter .noblePay--pay .item .tips_yb span,.icenter .noblePay--pay .item .unit{color:#666}
+.icenter .noblePay--pay .item .banks{border-color:#c9ccd5;background-color:#eee}
+.icenter .noblePay--pay .item .banks ul{border-color:#c9ccd5}
+.icenter .noblePay--pay .item .banks li{color:#333;background-color:#fff;border-color:#f0f0f0}
+.icenter .noblePay--pay .item .banks .selected{border-color:#ff8a00}
+.icenter .noblePay--pay .payArea .item .banks .last{background-color:transparent;border-color:#ff8a00}
+.icenter .noblePay--pay .item__con__options li{border-color:#c9ccd5;color:#333}
+.icenter .noblePay--pay .item__con__options li.disable{border-color:#414141;background-color:#414141;color:#888}
+.icenter .noblePay--pay .item__con__options li.selected{border-color:#ff8a00}
+.icenter .noblePay--pay .item__con__options li.editItem .inTips{background:#fff;color:#333}
+.big_pay_tips{color:#b55334;margin-bottom:8px;padding-left:64px;margin-top:-9px}
+/*弹出自定义*/
+body .layui-layer-shouhu .layui-layer-rim{overflow-y: hidden; overflow-x: hidden;}

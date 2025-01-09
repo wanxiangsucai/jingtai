@@ -1,0 +1,6 @@
+/*bottom*/
+#con{width:100%;margin: 0 auto;min-width:1200px;}  
+#con .ccwCopyR, .ccwCopyR a{width:100%; text-align:center;font-size:12px; margin-top:15px; color: #333;min-width:1200px;}
+#con .ccwCopyRL{width:100%;text-align:center; height:44px;line-height:44px; font-size:16px;background-color: #e6e6e6;min-width:1200px;}
+#con .ccwCopyPic{width:360px; margin:0 auto;height:50px; line-height:50px; overflow:hidden;padding-top: 50px;padding-bottom: 20px;}
+#con .ccwCopyPic img{ padding-right:10px;float: left;}

@@ -1,0 +1,38 @@
+    .wrap{margin:0 auto;width:1200px;margin-bottom:300px;}
+    .wrap a:hover{color:#FF6D00;}
+    .wrap ul,.wrap li{list-style:none;}
+    .majorcolor{color:#FF6D00;}
+    .leftwrap{float:left;}
+    .rightwrap{float:left;margin-left:20px;}
+    .index01{margin-top:30px;width:900px;height:375px;border:2px solid #FF6D00;position:relative;}
+    .index01 .headtitle{width:800px;height:32px;background-color:#FF6D00;
+    position:absolute;left:50px;top:-15px;display:flex;justify-content:center;align-items:center;}
+    .index01 .headtitle h5{color:#FFF;}
+    .index01 ul,.index01 li{margin:0;padding:0;list-style:none;}
+    .xuwei{margin-top:10px;}
+    .xuwei img{width:900px;height:120px;}
+    .pic-artc{margin-top:20px;width:900px;}
+    .pic-artc .h004{font-size:18px;border-bottom:2px solid #FF6D00;}
+    .pic-artc .info-block{display:flex;flex-wrap:wrap;}
+    .pic-artc .info-block2 a{color:#333;}
+    .info-block2 ul{margin:0;padding:0;}
+    .info-block2 ul >li{float:left;width:440px;height:30px;}
+    .info-block .child-block{width:210px;height:230px;margin:6px;border:1px solid #FF6D00; background-color:#F17C67;}
+    .info-block .child-block img{width:208px;height:138px;}
+    .info-block .child-block a dd{color:#FFF;font-size:14px;font-weight:bold;padding:5px 8px;}
+    .mix-content{padding:20px 0;}
+    .mix-content ul >li{border-bottom:1px solid #ccc;padding:4px 5px;height:33px;}
+    .mix-content a{font-size:14px;color:#333;}
+    .mix-content .num{display:inline-block;text-align:center;margin-right:2px;padding:2px;width:21px;height:21px;background-color:#FF6D00;color:#FFF;border-radius:21px;font-size:0.8rem;}
+    .rightwrap .r-area{width:275px;height:295px;margin-top:30px;}
+    .rightwrap .r-area p{border-bottom:2px solid #FF6D00;}
+    .rightwrap .tag-cloud-name{display:flex;flex-wrap:wrap; -webkit-flex-wrap:wrap; justify-content:flex-start; flex-direction:row;}
+    .rightwrap .tag-cloud-name a{display:block;min-width:40px;max-width:75px;height:30px;margin:5px;padding:3px;background-color:#FF6D00;color:#FFF;opacity:0.7;line-height:25px;text-align:center;}
+    .rightwrap .tag-cloud-name a:hover{opacity:1.0;}
+    .rightwrap .r-area .sortblock{display:inline-block;min-width:60px;}
+    .r-area .sortblock >a{padding:5px;color:#F17C67;}
+    .r-area .sortblock >a:hover{color:#FF6D00;}
+    .r-area dl{padding-left:25px;}
+    .r-area dl >dh{color:#FF6D00;}
+    .r-area dl >dd{padding-left:15px;}
+    .clear{clear:both;}

@@ -1,0 +1,104 @@
+/*推广海报开始*/
+body, button, input, select, textarea {font:14px 'Microsoft Yahei','Simsun';}
+
+.tuiguang {width:100%; perspective:1200px; overflow:hidden;}
+.tuiguang .haibao {margin:20px 0; display: -webkit-box; transform-style: preserve-3d;}
+.tuiguang .haibao .hbtp {width:55%; transform-style: preserve-3d;}
+
+
+.tuiguang .haibao .hbtp .logo_icon{position:absolute; left:10px; top:10px;}
+.tuiguang .haibao .hbtp .logo_icon .logo{height:20px;}
+.tuiguang .haibao .hbtp .ewm_icon{position:absolute; bottom:10px; right:10px; text-align:center;}
+.tuiguang .haibao .hbtp .ewm{width:40px;}
+.tuiguang .haibao .hbtp .user_icon{position:absolute; bottom:30px; left:10px; text-align:center; font-size:12px; color:#FFF;}
+.tuiguang .haibao .hbtp .user_icon .touxiang{width:20px; border-radius:100%; /*border:1px solid #FFF;*/}
+.tuiguang .haibao .hbtp .fenxiang{position:absolute; text-align:center; bottom:10px; left:10px; font-size:12px; color:#FFF;}
+.tuiguang .haibao .hbtp .tu {width:100%; /*border-radius:10px;*/ /*margin:0 auto;*/ display:block}
+/*推广海报结束*/
+
+/*推广链接开始*/
+.tui_url {background:#fff; /*margin:15px;*/ padding:15px; /*border-radius:10px;*/ overflow:hidden;}
+.tui_url .url_head {float:left;}
+.tui_url .url_head textarea {margin-top:5px; border:none; resize:none;}
+.tui_url .url_butter {float:right; margin-top:5px;  text-align: center;}
+.tui_url .url_butter input {
+    width:70px;
+    background-image: linear-gradient(180deg, #FF353A 0%, #FF6866 100%);
+    padding: 7px 0px;
+    border-radius:30px;
+    color: #fff;
+    border: none;
+}
+/*推广链接结束*/
+
+/*推广说明开始*/
+.tui_sm {background:#fff; margin-top:15px; padding:15px;}
+.tui_sm .head {font-weight:bold;}
+.tui_sm li {margin-top:5px; font-size:12px;}
+.tui_sm li span {color:orange;}
+.tui_sm li em {color:#FF6866;}
+/*推广说明结束*/
+
+/*推广记录开始*/
+.tui_jl {background:#fff; margin-top:15px; display:flex; flex-direction:column;}
+.tab-nav {width:100%;}
+.tab-nav-item {height:44px; line-height:44px; position:relative; text-align:center; float: left; width:33.3%;}
+.tab-nav-item a {color:#666;}
+.tab-nav-item.tab-active {background:#eee;}
+.tab-nav-item.tab-active a {color:#FF353A;}
+
+.shuoming {height: 44px; line-height: 44px; text-align: center; background:#f7f7f7; border-top:1px #eee solid;}
+.shuoming span {padding:0 10px;}
+.shuoming span i{color:#ff4d65;}
+.shuoming span:nth-child(2) i{color:#08acee;}
+.shuoming span:nth-child(3) i{color:#f7912e;}
+
+.tab-panel-item {/*width: 100%; position:absolute; transform:translateX(100%);*/ display:none;}
+.tab-panel-item.tab-active {/*position:relative; transform:translateX(0);*/ display:block;}
+.aui-flex {padding:15px; position:relative; display:flex; align-items:center; border-top:1px #eee solid;}
+
+.aui-film-img {width:50px; margin-right:10px;}
+.aui-film-img img {width:100%; border-radius:50%;}
+.aui-film-img p {font-size:12px; text-align:center; margin-top:5px; color:#999;}
+
+.aui-flex-box {width:100%;}
+.aui-flex-box h1 {font-size:13px; margin-bottom:5px; font-weight:bold;}
+.aui-flex-box h1 em {color:#78b586; background:#ddf1d6; border-radius:20px; font-size:12px; padding:2px 10px;}
+.aui-flex-box h2 {color:#777777; font-size:13px; margin-bottom:5px;}
+.aui-flex-box h2 em {color:#FF6866; margin:0 2px;}
+.aui-flex-box span {display: block; padding:5px 0; margin:5px 0;}
+.aui-flex-box span a em { border:1px solid #FF6866; color:#FF6866; font-size:12px; border-radius:5px; padding:2px 4px;}
+.aui-flex-box span a:nth-child(2) em {border-color:#08acee; color:#08acee;}
+.aui-flex-box span a:nth-child(3) em {border-color: #f7912e; color: #f7912e;}
+
+.aui-film-button {position:absolute; right:15px; top:35px;}
+.aui-film-button button {
+    border-radius:40px;
+    border:none;
+    background:linear-gradient(180deg, #FF353A 0%, #FF6866 100%);
+    color: #fff;
+    font-size:12px;
+    padding:5px 12px;
+}
+/*推广记录结束*/
+
+
+
+/*生成海报开始*/
+.schb {margin-bottom:15px; text-align:center;}
+#sc_haibao {background-image:linear-gradient(180deg, #FF353A 0%, #FF6866 100%); padding:10px 30px; margin:0 10px; border-radius:30px; color:#fff; border:none;}
+
+.photoPic{width:100%; position:fixed; top:0; left:0; bottom:0; background:rgba(0,0,0,.8); z-index:200; transition:all 1s; display:none;}
+.photoPic img{width:100%; transform:scale(1.1); transition:all .2s;}
+.photoPic span{width:100%; text-align:center; margin:15px 0 10px 0; display:inline-block; color:#fff;}
+.photoPic i{width:100%; text-align:center; color:#fff; font-size:25px;}
+.animate{height:100%; opacity:1;}
+.animate img{transform:scale(1);}
+.imgbox{position:relative; text-align:center; width:100%;}
+/*生成海报结束*/
+
+
+/*显示更多开始*/
+.ShowMores{padding:10px;}
+.ShowMores span{display:block;background:#eee;color:#999; font-size:16px;border-radius: 5px;padding:10px;text-align:center;}
+/*显示更多开始*/

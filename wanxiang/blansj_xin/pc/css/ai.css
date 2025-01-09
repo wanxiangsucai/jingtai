@@ -1,0 +1,611 @@
+body,dd,dt,h1,h2,h3,h4,h5,h6,li,p,ul {
+	margin: 0;
+	padding: 0
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: 400
+}
+
+dd,li,ul {
+	list-style: none
+}
+
+img {
+	border: none;
+	outline: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+	color: inherit
+}
+
+input {
+	outline: none
+}
+
+em {
+	font-style: normal
+}
+
+html {
+	height: 100%
+}
+
+body {
+	position: relative;
+	font: 12px/1.5 microsoft yahei,arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background-color: #fafafa;
+	min-width: 1200px;
+	color: #323232;
+	min-height: 100%;
+	box-sizing: border-box
+}
+
+button,input,select,textarea {
+	font-size: 1em;
+	font-family: inherit
+}
+
+::-webkit-input-placeholder {
+	color: #a9a9a9
+}
+
+:-moz-placeholder {
+	color: #a9a9a9
+}
+
+::-moz-placeholder {
+	color: #a9a9a9
+}
+
+:-ms-input-placeholder {
+	color: #a9a9a9
+}
+
+.scroll::-webkit-scrollbar {
+	width: 8px;
+	background: #eee
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background: #ddd
+}
+
+.hidden {
+	display: none!important
+}
+
+.disabled {
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+	cursor: default;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+:disabled {
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+	cursor: default;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.layout {
+	width: 1200px;
+	margin: 0 auto
+}
+
+.mr0 {
+	margin-right: 0!important
+}
+
+.weak {
+	color: #878787
+}
+
+.weaker {
+	color: #9e9e9e
+}
+
+
+.clearfix:after,.clearfix:before {
+	content: '';
+	display: table;
+	font: 0/0 a
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.mod-header-user .user em {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	max-width: 100%;
+	word-wrap: normal
+}
+
+.fixed-bar .backtop:before {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0
+}
+
+.mod-header {
+	width: 100%;
+	font-size: 14px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	color: #fff;
+	z-index: 10;
+	transition: background .3s ease
+}
+
+.mod-header .layout {
+
+	position: relative
+}
+
+.mod-header-logo {
+	float: left;
+	width: 189px;
+	height: 60px;
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: 0 -64px;
+	margin-left: 12px
+}
+
+.mod-header-nav {
+	position: relative;
+	float: left
+}
+
+.mod-header-nav li {
+	position: relative;
+	float: left;
+	line-height: 1
+}
+
+.mod-header-nav a:hover {
+	text-decoration: none
+}
+
+.mod-header-nav .top-cat {
+	text-align: center;
+	padding: 24px 12px;
+	margin-right: 12px
+}
+
+.mod-header-nav .top-cat:first-child {
+	margin: 0 12px
+}
+
+.mod-header-nav .top-cat h2 {
+	position: relative;
+	    font-size: 14px;
+}
+
+.mod-header-nav .top-cat h2 a {
+	padding: 0;
+	position: relative;
+	color: #ffffff;
+}
+
+.mod-header-nav .top-cat-arrow {
+	content: "";
+	width: 20px;
+	height: 12px;
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: -331px -158px;
+	transition: -webkit-transform .3s ease;
+	transition: transform .3s ease;
+	transition: transform .3s ease,-webkit-transform .3s ease;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 4px
+}
+
+.mod-header-nav .top-cat.hassub:active .top-cat-arrow,.mod-header-nav .top-cat.hassub:hover .top-cat-arrow {
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg)
+}
+
+.mod-header-nav .slider {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	height: 3px;
+	background-color: #fff;
+	transition: width .3s ease-out,-webkit-transform .3s ease-out;
+	transition: transform .3s ease-out,width .3s ease-out;
+	transition: transform .3s ease-out,width .3s ease-out,-webkit-transform .3s ease-out
+}
+
+.mod-header-user {
+	line-height: 25px;
+	position: absolute;
+	top: 14px;
+	right: 0;
+	font-size: 0
+}
+
+.mod-header-user .console {
+	display: inline-block;
+	padding: 0 12px;
+	vertical-align: middle;
+	font-size: 14px
+}
+
+.mod-header-user .console:hover {
+	color: #126ee1
+}
+
+.mod-header-user .user {
+	padding-left: 11px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	border-left: 1px solid #fff;
+	font-size: 14px;
+	margin-right: 22px
+}
+
+.mod-header-user .user em {
+	color: #fff;
+	display: inline-block;
+	max-width: 102px;
+	vertical-align: bottom
+}
+
+.mod-header-user .user i {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(../img/cpimg/sprite);
+	background-position: -291px -174px;
+	width: 20px;
+	height: 12px;
+	margin-left: 5px
+}
+
+.mod-header-user .user .dropdown {
+	position: absolute;
+	padding-top: 19px;
+	top: 25px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	display: none
+}
+
+.mod-header-user .user .dropdown a {
+	display: block;
+	line-height: 40px;
+	background-color: #333
+}
+
+.mod-header-user .user:hover {
+	color: #126ee1
+}
+
+.mod-header-user .user:hover .dropdown {
+	display: block
+}
+
+.mod-header-user .user:hover a {
+	color: #fff
+}
+
+.mod-header-user .user:hover a:hover {
+	color: #126ee1
+}
+
+.mod-header-user .try {
+	background-color: #fff;
+	color: #0052d9;
+	padding: 8px 18px;
+	border-radius: 3px;
+	line-height: 1;
+	display: inline-block;
+	transition: all .3s ease;
+	vertical-align: middle;
+	font-size: 14px;
+	margin-right: 22px
+}
+
+.mod-header.active,.mod-header.hover,.mod-header:hover {
+	background-color: #333
+}
+
+.mod-header.active .mod-header-logo,.mod-header.hover .mod-header-logo,.mod-header:hover .mod-header-logo {
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: 0 -128px
+}
+
+.mod-header.active .mod-header-user .user i:after,.mod-header.hover .mod-header-user .user i:after,.mod-header:hover .mod-header-user .user i:after {
+	border-top-color: #333
+}
+
+.mod-header.active .mod-header-user .try,.mod-header.hover .mod-header-user .try,.mod-header:hover .mod-header-user .try {
+	color: #fff;
+	background-color: #0052d9
+}
+
+.mod-header .cat {
+	position: relative
+}
+
+.mod-header .cat .layout {
+	min-width: 0
+}
+
+.mod-header .cat-ico {
+	display: inline-block;
+	width: 49px
+}
+
+.mod-header .cat-box {
+	color: #fff;
+	font-size: 0;
+	box-sizing: border-box;
+	padding: 0 0 0 50px;
+	background-color: rgba(51,51,51,.95);
+	position: absolute;
+	width: 100%;
+	top: 60px;
+	left: 0;
+	text-align: left;
+	transition: -webkit-transform .3s ease-out;
+	transition: transform .3s ease-out;
+	transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+	-webkit-transform: scaleY(0);
+	-ms-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: center top;
+	-ms-transform-origin: center top;
+	transform-origin: center top
+}
+
+.mod-header .cat-box.active,.mod-header .cat-box:hover {
+	-webkit-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	transform: scaleY(1)
+}
+
+.mod-header .cat-group {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	margin-left: 12px;
+	padding: 20px 0
+}
+
+.mod-header .cat-group:first-child {
+	margin-left: 0
+}
+
+.mod-header .cat-tit {
+	font-size: 16px;
+	padding-bottom: 7px
+}
+
+.mod-header .cat-tit i {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 16px
+}
+
+.mod-header .cat-item {
+	display: block;
+	width: 390px;
+	box-sizing: border-box;
+	padding: 7px 0 7px 50px;
+	margin-bottom: 4px;
+	font-size: 14px;
+	line-height: 1
+}
+
+.mod-header .cat-item:hover {
+	background-color: #42464c
+}
+
+.mod-header .cat-item a {
+	color: #fff
+}
+
+.mod-header .cat-item a:hover {
+	color: #1070e1
+}
+
+.mod-header .cat-item-sub {
+	margin-top: 7px;
+	font-size: 12px
+}
+
+.mod-header .cat-item-sub a {
+	display: inline-block;
+	vertical-align: middle;
+	color: #a3a3a3;
+	margin-top: 4px;
+	padding-right: 24px;
+	line-height: 22px
+}
+
+.mod-header .cat-item-sub a:last-child {
+	padding-right: 0
+}
+
+.mod-header .cat-item-sub a.disabled {
+	color: #a3a3a3;
+	cursor: default;
+	pointer-events: none;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)"
+}
+
+.mod-header .cat-item-row {
+	display: table-row
+}
+
+.mod-header .cat-item-row a {
+	display: table-cell
+}
+
+.mod-header .cat-tag {
+	display: inline-block;
+	vertical-align: middle;
+	width: 28px;
+	height: 12px;
+	margin-left: 6px;
+	margin-top: -2px
+}
+
+.mod-header .cat-tag.is-beta {
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: -299px -158px
+}
+
+.mod-header .cat-tag.is-hot {
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: -267px -158px
+}
+
+.mod-header .cat-tag.is-new {
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: -321px -124px
+}
+
+.mod-header .ico-lan {
+	width: 24px;
+	height: 30px;
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: -267px -124px
+}
+
+.mod-header .ico-voice {
+	width: 33px;
+	height: 30px;
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: -267px -90px
+}
+
+.mod-header .ico-image {
+	width: 33px;
+	height: 30px;
+	background-image: url(../img/cpimg/sprite.png);
+	background-position: -304px -90px
+}
+
+.upgrade-box-cont h3 {
+	font-size: 32px;
+	line-height: 1;
+	margin: 22px auto
+}
+
+.upgrade-box-cont p {
+	color: #c3deff;
+	width: 26em;
+	margin: 0 auto
+}
+
+.upgrade-box-btm {
+	margin-top: 45px
+}
+
+.upgrade-box-btm .btn {
+	width: 180px;
+	line-height: 48px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	display: inline-block
+}
+
+.upgrade-box-btm .btn-ff {
+	margin: 0 16px
+}
+
+.upgrade-box-btm .btn:hover {
+	background-color: hsla(0,0%,100%,.2)
+}
+
+.upgrade-box-btm i {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: text-bottom
+}
+
+.ie-placeholder {
+	color: #aaa
+}
+
+@media screen and (max-width:1400px) {
+	.mod-header .cat-box {
+		padding: 0 0 0 18px
+	}
+
+	.mod-header .cat-group {
+		margin-left: 6px
+	}
+}
+
+html[lang=en] body {
+	font-family: Arial,sans-serif
+}
+.mod-header .case-menu {
+    color: #fff;
+    box-sizing: border-box;
+    padding: 14px 0;
+    background-color: rgba(51,51,51,.95);
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    text-align: center;
+    transition: transform .3s ease-out;
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -ms-transform-origin: center top;
+    transform-origin: center top;
+}
+
+.mod-header-nav .top-cat.hassub:active .case-menu, .mod-header-nav .top-cat.hassub:hover .case-menu {
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}
+/**/
+body{background:#fff!important;}.wp,#wp{width:100%;}.deanpartones{width:100%;min-width:1180px;height:410px;margin-bottom:200px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/bk.jpg) bottom center no-repeat;background-size:cover;}.deanoverbox{width:1180px;margin:0px auto;height:460px;position:relative;top:20px;background:#fff;z-index:1;box-shadow:0 4px 8px 0 rgba(7,17,27,.1);}.deanflexbles{width:1180px;height:460px;position:absolute;top:0;left:0;z-index:2;}.flexslider{height:460px;overflow:hidden;width:100%;left:0;top:0;border-radius:4px 4px 0 0;position:relative;width:1180px;z-index:1;}.flex-control-nav{position:absolute;z-index:2;bottom:30px;right:-480px;z-index:2;width:100%;text-align:center;}.flex-control-nav li{display:inline-block;width:12px;height:12px;margin:0 5px;}.flex-control-nav a{display:inline-block;width:12px;height:12px;border-radius:50%;margin-left:8px;background-color:rgba(7,17,27,.4);transition:transform .2s;cursor:pointer;box-shadow:0 0 0 2px rgba(255,255,255,.8) inset;text-indent:9999px;overflow:hidden;}.flex-control-nav .flex-active{box-shadow:0 0 0 2px rgba(7,17,27,.4) inset;background-color:#fff;}.slides{position:relative;z-index:1;}.slides li{height:460px;}.slides li a{display:block;width:100%;min-width:1180px;height:460px;}.flex-direction-nav{z-index:3;width:100%;margin:0 auto;position:relative;}.flex-direction-nav li a{display:block;width:40px;height:80px;overflow:hidden;cursor:pointer;position:absolute;top:200px;opacity:0;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-ms-transition:all 0.3s linear;transition:all 0.3s linear;}.flex-direction-nav li a.flex-prev{left:240px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/arrowsleft1.png) center no-repeat;}.flex-direction-nav li a.flex-prev:hover{background:rgba(0,0,0,0.6) url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/arrowsleft1.png) center no-repeat;}.flex-direction-nav li a.flex-next{right:0;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/arrowsright1.png) center no-repeat;}.flex-direction-nav li a.flex-next:hover{background:rgba(0,0,0,0.6) url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/arrowsright1.png) center no-repeat;}.flexslider:hover .flex-direction-nav li a{opacity:1;}.deansidebar{width:224px;height:460px;position:absolute;top:0;left:0;z-index:11;background:rgba(7,17,27,.5);}.deansidebar ul li{border-bottom:1px solid rgba(255,255,255,.2);}.deanliwraps{height:63px;line-height:64px;font-size:12px;cursor:pointer;padding:0 24px;position:relative;}.deanliwraps a{font-size:16px;color:#fff;}.deanliwraps i{display:block;position:absolute;top:25px;right:20px;width:16px;height:16px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/rightarrow.png) center no-repeat;}.deansidebar ul li:hover{background:rgba(7,17,27,.3);}.deansidebar ul li:first-child{margin-top:7px;}.deansidebar ul li:last-child{border-bottom:0;}.deanhiddenmenu{position:absolute;left:224px;top:0;width:730px;padding:0 40px;height:460px;overflow:hidden;z-index:31;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-ms-transition:all 0.3s linear;transition:all 0.3s linear;display:none;}.deansidebar ul li:hover .deanhiddenmenu{display:block;}.deanhiddenmenu1{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/1Bg.png);background-size:100%;}.deanhiddenmenu2{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/2Bg.png);background-size:100%;}.deanhiddenmenu3{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/3Bg.png);background-size:100%;}.deanhiddenmenu4{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/4Bg.png);background-size:100%;}.deanhiddenmenu5{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/5Bg.png);background-size:100%;}.deanhiddenmenu6{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/6Bg.png);background-size:100%;}.deanhiddenmenu7{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/flash/7Bg.png);background-size:100%;}.deanh_title{color:#07111b;font-size:16px;line-height:16px;margin-top:32px;font-weight:700;margin-bottom:13px;letter-spacing:4px;}.deancates-boxed{line-height:28px;height:28px;overflow:hidden;}.deancates-boxed a{font-size:14px;color:#07111b;line-height:28px;}.deancates-boxed span{margin:0 10px;font-size:14px;color:#666;}.deancates-boxed a:hover{color:#f01414}.deanbase-box{height:28px;line-height:28px;}.deansmall-title{display:block;line-height:28px;font-weight:300;font-size:14px;color:#4d555d;float:left;letter-spacing:4px;}.deantag-box{width:596px;float:left;margin-left:15px;}.deantag-box a{font-size:14px;color:#07111b;line-height:28px;}.deantag-box span{margin:0 10px;font-size:14px;color:#666;}.deantag-box a:hover{color:#f01414}.deanadvance-box{height:56px;}.deanrecomedbox{}.deanrecomedbox dl{}.deanrecomedbox dl dd{height:28px;overflow:hidden;margin-bottom:8px;}.deanrecomedbox dl dd a{display:block;height:28px;font-size:14px;color:#07111b;line-height:28px;}.deanrecomedbox dl dd a span{font-size:12px;background:#f3f5f7;height:20px;line-height:20px;color:#4d555d;padding:4px 8px;margin-right:8px;}.deanrecomedbox dl dd a:hover{color:#f01414;}.deanrecomedbox dl dd.deantjkc{}.deanrecomedbox dl dd.deantjkc span{color:#f01414;background:rgba(240,20,20,.1);}.deanrecomedbox dl dd.deantjkc a{color:#f01414;}.deanpath-banner{width:1180px;height:118px;margin-top:20px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;overflow:hidden;background:#fff;box-shadow:0 4px 8px 0 rgba(7,17,27,.1);}.deanpath-banner a{display:block;float:left;width:236px;height:118px;overflow:hidden;transition:.3s all;}.deanpath-banner a img{display:block;width:100%;height:100%;}.deanpath-banner a:hover{margin-top:-4px;}.deanparttwos{width:100%;min-width:1180px;background:#fff;padding:50px 0;}.deancommontitlesfd{text-align:center;}.deancommontitlesfd h1{font-size:35px;height:50px;line-height:50px;overflow:hidden;font-weight:300;color:#333;margin-bottom:10px;padding-bottom:30px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/h1_bottom.png) center bottom no-repeat;}.deancommontitlesfd p{font-size:14px;color:#999;height:40px;line-height:40px;overflow:hidden;font-weight:300;}.deanintroduces{margin-top:30px;}.deanintroduces ul{width:1206px;}.deanintroduces ul li{width:220px;float:left;margin:0 20px 20px 0;height:250px;border-radius:4px;background:#fff;position:relative;box-shadow:0 4px 8px 0 rgba(7,17,27,.1);transition:.3s all linear;}.deancoursecard_top{height:88px;line-height:88px;padding:0 20px;overflow:hidden;position:absolute;top:0;left:0;z-index:1;width:180px;border-radius:4px 4px 0 0;}.deancart_color{background-color:#FB729A;background:linear-gradient(270deg,rgba(255,115,155,.7),#ff739b);}.dean_green{background-color:#01B85A;background:linear-gradient(270deg,rgba(0,185,90,.7),#00b95a);}.deancoursecard_top i{float:left;display:block;width:25px;height:88px;color:#fff;line-height:48px;margin-right:8px;}.deancoursecard_top i.deancc_icon_php{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/php.png) center no-repeat;}.deancoursecard_top span{display:block;float:left;font-size:14px;font-weight:300;color:#fff;line-height:88px;}.deancourseinners{padding:98px 10px 10px;position:relative;}.deancourseinners a{display:block;width:120px;height:32px;line-height:32px;background:#fff;text-align:center;font-size:14px;color:#666;border:1px solid #cdcdcd;border-radius:4px;position:absolute;top:145px;left:50px;opacity:0;-webkit-transition:all 0.5s linear;-moz-transition:all 0.5s linear;-o-transition:all 0.5s linear;-ms-transition:all 0.5s linear;transition:all 0.5s linear;}.deancourseinners a:hover{border:1px solid #f01414;color:#f01414;}.deancourseinners h5{line-height:30px;overflow:hidden;margin-bottom:5px;font-size:15px;color:#000;font-weight:300;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-ms-transition:all 0.3s linear;transition:all 0.3s linear;}.deancourseinners p{height:50px;margin-bottom:10px;line-height:25px;overflow:hidden;font-size:12px;color:#aaa;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-ms-transition:all 0.3s linear;transition:all 0.3s linear;}.deancitdf{width:200px;height:25px;line-height:25px;overflow:hidden;position:absolute;top:215px;left:10px;}.deancitdf span{display:block;float:left;height:25px;line-height:25px;font-size:12px;color:#f01414;}.deancitdf em{display:block;float:right;height:25px;line-height:25px;font-size:12px;color:#aaa;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/ks.png) left center no-repeat;padding-left:25px;}.deancoursecard_bk{position:absolute;width:220px;height:88px;left:0;top:0;border-radius:4px 4px 0 0;overflow:hidden;z-index:0;}.deancoursecard_bk1{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/1.jpg) center no-repeat;}.deanintroduces ul li:hover{box-shadow:0 8px 16px 0 rgba(7,17,27,.2);}.deanintroduces ul li:hover .deancourseinners a{opacity:1;}.deanintroduces ul li:hover .deancourseinners h5{opacity:0.2;}.deanintroduces ul li:hover .deancourseinners p{opacity:0.2;}.dean_red{background-color:#ff739b;background:linear-gradient(270deg,rgba(255,115,155,.7),#ff739b);}.deancoursecard_top i.deancc_icon_java{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/java.png) center no-repeat;}.deancoursecard_bk2{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/2.jpg) center no-repeat;}.dean_cyan{background-color:#00c8c8;background:linear-gradient(270deg,rgba(0,200,200,.7),#00c8c8);}.deancoursecard_top i.deancc_icon_ui{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/ui.png) center no-repeat;}.deancoursecard_bk3{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/3.jpg) center no-repeat;}.deancoursecard_top i.deancc_icon_jquery{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/jquery.png) center no-repeat;}.deancoursecard_bk4{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/4.jpg) center no-repeat;}.dean_purple{background-color:#d273e6;background:linear-gradient(270deg,rgba(210,115,230,.7),#d273e6);}.deancoursecard_top i.deancc_icon_html5{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/html5.png) center no-repeat;}.deancoursecard_bk5{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/5.jpg) center no-repeat;}.dean_blue{background-color:#4b96dc;background:linear-gradient(270deg,rgba(75,150,220,.7),#4b96dc);}.deancoursecard_top i.deancc_icon_mysql{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/mysql.png) center no-repeat;}.deancoursecard_bk6{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/6.jpg) center no-repeat;}.dean_yellow{background-color:#ff9600;background:linear-gradient(270deg,rgba(255,150,0,.7),#ff9600);}.deancoursecard_top i.deancc_icon_python{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/python.png) center no-repeat;}.deancoursecard_bk7{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/7.jpg) center no-repeat;}.deancoursecard_top i.deancc_icon_android{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/android.png) center no-repeat;}.deancoursecard_bk8{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/8.jpg) center no-repeat;}.deancoursecard_top i.deancc_icon_IOS{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/ios.png) center no-repeat;}.deancoursecard_bk9{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/9.jpg) center no-repeat;}.deancoursecard_top i.deancc_icon_data{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/data.png) center no-repeat;}.deancoursecard_bk10{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/intros/10.jpg) center no-repeat;}.deanparthrees{width:100%;min-width:1180px;height:440px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/customersBg.jpg) no-repeat;padding:50px 0 30px 0;}.deanadvanced{margin-top:50px;}.deanadvanced ul{width:1206px;}.deanadvanced ul li.deanadones{float:left;width:160px;padding:0 40px;border-right:1px solid #CEDAED;}.deanadvanced ul li.deanadoness{float:left;width:155px;padding:0 40px;border-right:0;}.deanadvanced ul li.deanadones h5{font-size:16px;color:#fff;font-weight:300;height:30px;line-height:30px;text-align:center;margin-bottom:15px;overflow:hidden;}.deanadicon{width:80px;height:80px;margin:0 auto 20px auto;border-radius:100%;}.deanadicon1{background:#50D5FE url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/icon1.png) center no-repeat;}.deanadvanced ul li.deanadones p{height:75px;line-height:25px;overflow:hidden;font-size:14px;color:#fff;}.deanadicon2{background:#FAAD5B url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/icon2.png) center no-repeat;}.deanadicon3{background:#77D986 url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/icon3.png) center no-repeat;}.deanadicon4{background:#3DE3E1 url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/icon4.png) center no-repeat;}.deanadicon5{background:#FD729A url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/icon5.png) center no-repeat;}.deanclasstabs{}.deanclasstabs ul{display:table;margin:20px auto 30px auto;border:1px solid #ededed;border-radius:4px;}.deanclasstabs ul li{float:left;border-right:1px solid #ededed;width:120px;height:35px;line-height:35px;text-align:center;font-size:14px;color:#666;cursor:pointer;}.deanclasstabs ul li.cur{background:#f01414;color:#fff;}.deamclassbox{}.deamclassbox ul li{display:none;}.deanclassgh{}.deanclassgh dl{width:1206px;}.deanclassgh dl dd{width:220px;float:left;margin:0 20px 20px 0;border-radius:4px;background:#fff;position:relative;box-shadow:0 4px 8px 0 rgba(7,17,27,.1);transition:.3s all linear;}.deanclassgh dl dd:hover{box-shadow:0 8px 16px 0 rgba(7,17,27,.2);}.dean_moco_wrap{width:220px;height:175px;}.dean_moco_wrap a{display:block;position:relative;width:220px;height:175px;overflow:hidden;}.dean_moco_box{width:220px;height:175px;}.dean_moco_box img{width:220px;height:125px;}.dean_moco_intro{position:absolute;padding:0 20px;transition:top .5s;top:65px;height:144px;width:180px;background:#fff;}.dean_moco_intro h3{padding:16px 0 6px;font-size:14px;max-height:40px;overflow:hidden;color:#07111b;line-height:21px;}.dean_moco_intro p{color:#93999f;font-size:12px;height:40px;overflow:hidden;line-height:20px;}.dean_moco_wrap a:hover .dean_moco_intro{top:28px;}.dean_moco_wrap a:hover .dean_moco_intro h3{color:#F01414}.dean_moco_bottom{position:absolute;padding:0 20px;bottom:0;width:180px;height:46px;background-color:#fff;color:#93999f;font-size:12px;line-height:36px;}.dean_moco_bottom span{font-size:12px;color:#93999f;display:block;height:36px;line-height:36px;}.dean_moco_bottom span.deancolor_red{float:left;color:#F01414}.dean_moco_bottom span.deanonlinest{float:right;}.deanzxbox{width:100%;min-width:1180px;background:#f4f4f4;padding:40px 0;}.deannewscv{margin-top:30px;}.deannewsl{width:580px;float:left;}.deannewsl h3{margin-bottom:24px;line-height:20px;color:#07111b;font-size:20px;font-weight:200;}.deannewbgdsf a{color:#fff;font-size:20px;font-weight:200;}.deannewbgdsf a:hover{color:#F01414;}.deannewbgh{height:446px;background:#fff;border-radius:4px;box-shadow:0 4px 8px 0 rgba(7,17,27,.1);position:relative;overflow:hidden;}.deannewbgdsf{width:100%;height:100px;font-size:20px;line-height:100px;padding-left:40px;box-sizing:border-box;color:#fff;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/bg1.jpg) center no-repeat;}.deannewbgh ul.deanxft{padding:30px;}.deannewbgh ul.deanxft li{height:24px;line-height:24px;margin-bottom:16px;overflow:hidden;}.deannewbgh ul.deanxft li a.deantaglabels{float:left;display:inline-block;padding:5px 10px;background:#fff;font-size:12px;color:#4d555d;line-height:12px;border:1px solid #b9bdc1;border-radius:20px;margin-right:12px;}.deannewbgh ul.deanxft li i{display:inline-block;float:left;line-height:24px;margin-right:9px;}.deannewbgh ul.deanxft li a.deantag_content{display:inline-block;float:left;color:#000;font-size:14px;line-height:24px;}.deannewbgh ul.deanxft li a.deantaglabels:hover{border:1px solid #F01414;color:#F01414;}.deannewbgh ul.deanxft li a.deantag_content:hover{color:#F01414;}.deannews_more{width:520px;height:58px;font-size:14px;position:absolute;bottom:0;left:30px;border-top:1px solid #d9dde1;}.deannews_more a{float:right;margin-right:5px;}.deannews_more a:hover span{color:#F01414;}.deannews_more a span{color:#93999f;line-height:58px;}.deannews_more a i{color:#b7bbbf;line-height:58px;font-size:12px;margin-left:10px;}.deannewsr{float:right;width:580px;}.deannewsr h3{margin-bottom:24px;line-height:20px;color:#07111b;font-size:20px;font-weight:200;}.deannewbgdsfx{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/bg2.jpg) center no-repeat;}.deanteacherbx{width:100%;min-width:1180px;height:440px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/teacherbg.jpg) bottom left no-repeat;padding:50px 0 30px 0;}.deantboxdf{}.deantboxdf ul{width:1206px;}.deantboxdf ul li{float:left;width:220px;margin:0 20px 0 0;border-radius:4px;background:#fff;position:relative;box-shadow:0 4px 8px 0 rgba(7,17,27,.1);transition:.3s all linear;}.deantcpic{width:100px;height:100px;margin:20px auto 0 auto;}.deantcpic img{width:100px;height:100px;border-radius:100%;}.deantciner{padding:0 15px 25px 15px;}.deantciner h5{font-size:18px;height:24px;text-align:center;line-height:24px;margin:10px 0;color:#01C26F;font-weight:400;}.deantciner p{text-align:center;height:20px;line-height:20px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #ededed;overflow:hidden;font-size:14px;color:#969696;}.deantcjssd{font-size:12px;line-height:20px;color:#93999f;height:56px;overflow:hidden;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;-ms-transition:all 0.2s linear;transition:all 0.2s linear;}.deantcenters{display:block;width:150px;height:30px;line-height:30px;margin:0 auto;border-radius:20px;border:2px solid #01c26f;color:#01c26f;font-size:14px;text-align:center;opacity:0;position:absolute;top:219px;left:35px;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-ms-transition:all 0.3s linear;transition:all 0.3s linear;}.deantboxdf ul li:hover{box-shadow:0 8px 16px 0 rgba(7,17,27,.2);}.deantboxdf ul li:hover .deantcjssd{opacity:0.3;}.deantboxdf ul li:hover .deantcenters{opacity:1;}.deantcenters:hover{background:#01c26f;color:#fff;}.deandffbox{width:100%;min-width:1180px;background:#fff;padding:40px 0;}.deannewbgdsf2{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/bg3.jpg) center repeat;}.deannewbgdsf3{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/bg4.jpg) center repeat;}.deannewbghxx{height:600px;}.deanjiaoliubx{padding:30px;}.deanjiaoliubx dl dd{padding-bottom:15px;margin-bottom:15px;border-bottom:1px dashed #ededed;}.deanjltops{height:30px;line-height:30px;}.deanjltpics{float:left;width:200px;}.deanjltpics a{display:block;height:30px;line-height:30px;}.deanjltazvz{width:30px;height:30px;float:left;position:relative;}.deanjltazvz img{width:30px;height:30px;border-radius:100%;}.deanjltazvz i{display:block;width:20px;height:18px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/reg.png) center no-repeat;position:absolute;top:0;left:0;}.deanjltpics a span{display:block;float:left;margin-left:10px;height:30px;line-height:30px;font-size:15px;color:#333;}.deanjltpics a em{float:left;display:inline-block;margin-top:6px;margin-left:10px;padding:2px 10px;background:#fff;font-size:12px;color:#4d555d;line-height:12px;border:1px solid #b9bdc1;border-radius:20px;}.deanjltrty{float:right;height:30px;line-height:30px;font-size:14px;color:#999;}.deanjltxt{height:30px;line-height:30px;position:relative;margin-top:10px;}.deanjltxt a{font-size:14px;color:#333;text-indent:20px;display:inline-block;float:left;width:340px;height:30px;line-height:30px;overflow:hidden;}.deanjltxt em{display:block;width:15px;height:12px;position:absolute;}.deanjltxt em.deanquote1{top:0;left:0;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/quote1.png) center no-repeat;}.deanjltxt em.deanquote2{bottom:-5px;right:0;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/quote2.png) center no-repeat;}.deanjltxt a:hover{color:#F01414;}.deanjlbtms{height:30px;line-height:30px;float:right;font-size:12px;color:#999;}.deanjtyutabs{margin-bottom:15px;}.deanjtyutabs ul{width:530px;}.deanjtyutabs ul li{margin:0 10px 0 0;width:164px;height:30px;line-height:30px;text-align:center;float:left;background:#fff;font-size:14px;color:#4d555d;border:1px solid #b9bdc1;border-radius:20px;cursor:pointer;}.deanjtyutabs ul li.on{background:#F01414;font-size:14px;color:#fff;border:1px solid #F01414;}.deanjtlrbb{}.deanjtlrbb ul li{display:none;}.deanjtjieda{}.deanjtjieda dl dd{height:50px;line-height:50px;border-bottom:1px dashed #ededed;margin-bottom:0;padding-bottom:0;}.deanjtjieda dl dd:last-child{border-bottom:0;}.deanjtjieda dl dd i{display:block;float:left;width:10px;height:50px;line-height:50px;font-size:16px;color:#333;}.deanjtjieda dl dd a{display:block;float:left;margin-left:10px;font-size:14px;color:#333;width:350px;overflow:hidden;height:50px;line-height:50px;}.deanjtjieda dl dd a:hover{color:#F01414;}.deanjtjieda dl dd span{float:right;display:block;height:50px;line-height:50px;font-size:12px;color:#666;}.deanfourboxs{margin-top:30px;width:1206px;margin-bottom:30px;}.deanfbone{width:280px;float:left;margin:0 20px 0 0;border-radius:4px;}.deanfbone h3{margin-bottom:24px;line-height:20px;color:#07111b;font-size:20px;font-weight:200;}.deanfbbox{box-shadow:0 4px 8px 0 rgba(7,17,27,.1);background:#fff;height:350px;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-ms-transition:all 0.3s linear;transition:all 0.3s linear;}.deanfbbox:hover{transform:translate(0,-5px);-webkit-transform:translate(0,-5px);-moz-transform:translate(0,-5px);-o-transform:translate(0,-5px);-ms-transform:translate(0,-5px);box-shadow:0 8px 16px 0 rgba(7,17,27,.2);}.deanfbbox ul li{}.deanfbbox ul li.deansptopsd{width:280px;height:130px;}.deanfbbox ul li.deansptopsd a{display:block;width:280px;height:130px;position:relative;}.deanfbbox ul li.deansptopsd a img{width:280px;height:130px;border-radius:4px 4px 0 0;}.deanfbbox ul li.deansptopsd a p{width:280px;height:130px;position:absolute;left:0;top:0;border-radius:4px 4px 0 0;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/mod.png) 0 0 repeat;background-size:cover;}.deanfbbox ul li.deansptopsd a p span{width:260px;height:20px;position:absolute;left:10px;bottom:20px;line-height:20px;font-size:14px;color:#fff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}.deanfbbox ul li.deansptopsp{padding:0px 15px;margin:5px 0;height:30px;line-height:30px;overflow:hidden;}.deanfbbox ul li.deansptopsp a{font-size:13px;color:#333;}.deanfbbox ul li.deansptopsp a:hover{color:#F01414;}.deancasebox{width:100%;min-width:1180px;height:385px;background:#fff url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/bgd.jpg) center left no-repeat;background-size:cover;padding:50px 0 30px 0;}.deancasebgs{margin-top:30px;position:relative;}.deancasebgs .tempWrap{width:1186px!important;}.deancasebgs ul{overflow:hidden;width:1180px;}.deancasebgs ul li{width:220px;float:left;margin:0 20px 20px 0;border-radius:4px;background:#fff;position:relative;box-shadow:0 4px 8px 0 rgba(7,17,27,.1);transition:.3s all linear;}.deancasebgs ul li:hover{box-shadow:0 8px 16px 0 rgba(7,17,27,.2);}.dean_moco_bottom{position:absolute;padding:0 20px;bottom:0;width:180px;height:46px;background-color:#fff;color:#93999f;font-size:12px;line-height:36px;}.dean_moco_bottom span{font-size:12px;color:#93999f;display:block;height:36px;line-height:36px;}.dean_moco_bottom span.deandatelines{float:left;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/date.png) left center no-repeat;padding-left:22px;}.dean_moco_bottom span.deanviews{float:right;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/view.png) left center no-repeat;padding-left:26px;}.deancasebgs a.prev{display:block;position:absolute;top:56px;left:-55px;width:30px;height:65px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/left.png) center no-repeat;}.deancasebgs a.next{display:block;position:absolute;top:56px;right:-55px;width:30px;height:65px;background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/right.png) center no-repeat;}.deancasebgs a.prev:hover{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/left_hover.png) center no-repeat;}.deancasebgs a.next:hover{background:url(http://114.215.130.132/gn/gates/template/dean_gates_170408/deancss/right_hover.png) center no-repeat;}.deanclients{margin-top:30px;}.deanclients ul{width:1206px;}.deanclients ul li{float:left;background:#fff;border-radius:4px;box-shadow:0 4px 8px 0 rgba(7,17,27,.1);margin:0 15px 15px 0;width:184.2px;}.deanclients ul li a img{width:184.2px;height:70px;}.deangoons{width:100%;min-width:1180px;background:#fff url(/public/static/blansj_xin/pc/img/gos.jpg) center left no-repeat;background-size:cover;background-attachment:fixed;padding:50px 0 30px 0;}.deanjoined{}.deanjoined a{display:block;width:170px;height:45px;line-height:45px;background:#F01414;font-size:16px;color:#fff;text-align:center;border-radius:4px;margin:20px auto;}.deanjoined a:hover{opacity:0.8;}.deanfooter{margin-top:0;}
+.mod-header .case-menu-row {
+    display: block;
+    padding: 10px 0;
+}.mod-header .case-menu-row:hover {
+    background-color: #42464c;
+    color: #1070e1;
+}

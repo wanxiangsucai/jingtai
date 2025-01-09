@@ -1,0 +1,240 @@
+/* 代码整理：懒人之家 www.lanrenzhijia.com */@charset "UTF-8";
+
+/** 
+ * MTV.com CSS Drop-Down Menu Theme
+ *
+ * @file		default.css
+ * @name		MTV
+ * @version		0.1
+ * @type		transitional
+ * @browsers	Windows: IE6+, Opera7+, Firefox1+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.lwis.net/
+ * @copyright	2008 Live Web Institute. All Rights Reserved.
+ *
+ * Module Classes: *.dir {} *.on {} *.open {} li.hover {} li.first {} li.last {}
+ * Expected directory tag - li
+ *
+ */
+
+
+/*------------------------------------------------------------------------------------------------------/
+	@section	Style Framework  */
+
+
+	/* First-level expected directory tag - li */
+
+	ul.dropdown li {
+	 padding: 5px;
+	}
+
+	ul.dropdown *.dir {
+	 padding-right: 30px;
+	 background-image: none;
+	 background-position: 100% 50%;
+	 background-repeat: no-repeat;
+	}
+
+		/* Non-first level */
+
+
+
+
+	/* Components override */
+
+	ul.dropdown-vertical *.dir {
+	 background-image: url(images/nav-arrow-right.png);
+	}
+
+	ul.dropdown-vertical-rtl *.dir {
+	 padding-right: 15px;
+	 background-image: url(images/nav-arrow-left.png);
+	 background-position: 0 50%;
+	}
+
+
+
+.menu-item a span {
+    color: #999;
+    font-size: 12px;
+    display: block;
+    padding-top: 5px;
+    line-height: 1.8;
+}
+.menu-area-tit {
+    border-bottom: none;
+}
+/*------------------------------------------------------------------------------------------------------/
+	@section	Base Drop-Down Styling  */
+
+
+
+	/* ALL LEVELS (incl. first) */
+
+	ul.dropdown {
+	 font: bold 14px/normal Arial, Helvetica, sans-serif;
+	}
+
+
+
+		ul.dropdown li.hover,
+		ul.dropdown li:hover {
+		}
+
+		/* Links */
+
+		ul.dropdown a:link,
+		ul.dropdown a:visited { color: #000; text-decoration: none;}
+		ul.dropdown .menu-area a:hover {
+		background-color: #00a4ff;
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 40px;
+		color: #fff;
+		}
+		ul.dropdown .sub-menu-area a:hover {
+		 background-color: #00a4ff;
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 40px;
+		color: #fff;
+		}
+		ul.dropdown .menu-area span:hover {
+		 background-color: #00a4ff;
+		 color: #fff;
+		}
+
+
+
+		ul.dropdown a:active {
+		 color: #fff;
+		}
+
+
+		/* NON-FIRST LEVEL */
+
+		ul.dropdown ul {
+		 left: -20px;
+		 right: 0;
+		 width: 200px;
+		 margin-top: -1px;
+		 border-top: 1px solid #1a1a1a;
+		 border-left: solid 1px #4c4c4c;
+		 height: 801px;
+		position: absolute;
+		background-color: #f7f8fa;
+		box-sizing: border-box;
+		border-bottom: #E5E8ED 1px solid;
+		}
+
+
+		ul.dropdown ul ul {
+		 top: 0;
+		 right: auto;
+		 left: 100%;
+		 border-top: none;
+		 border-left: none;
+		 font-weight: normal;
+		}
+
+			ul.dropdown ul ul li {
+			}
+	
+.has-sub-menu .J-qcMenuTitle{
+    font-weight: 400;
+    color: #999;
+	border-bottom: #ddd 1px solid;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	ul.dropdown ul ul h3{
+	font-weight: 400;
+    display: inline-block;
+	}
+.has-sub-menu{
+	margin: 0 20px;
+}
+/* Mixed */
+
+ul.dropdown ul li a,
+ul.dropdown ul *.dir { border-color: #f7f8fa; border-left: none; }
+
+ul.dropdown ul ul li a,
+ul.dropdown ul ul *.dir { border-color: #f7f8fa3; }
+
+ul.dropdown ul ul ul li a,
+ul.dropdown ul ul ul *.dir { border-color: #f7f8fa; }
+
+ul.dropdown .menu-area span:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    width: 8px;
+    height: 11px;
+    margin-top: 0px;
+    background-image: url(/public/static/blansj_xin/bbs/img/base-201911291451.svg);
+    background-position: 95.83% 69.52000000000001%;
+    background-size: 2800% 1658.3333333333333%;
+    background-repeat: no-repeat;
+}
+ul.dropdown .menu-area span:hover:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    width: 8px;
+    height: 12px;
+    margin-top: 0px;
+    background-image: url(/public/static/blansj_xin/bbs/img/base-201911291451.svg);
+    background-position: 95.83% 69.52000000000001%;
+    background-size: 2800% 1658.3333333333333%;
+    background-repeat: no-repeat;
+}
+ul.dropdown .menu-area h2 a:after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    background-image: url(/public/static/blansj_xin/bbs/img/base-201911291451.svg);
+    right: 5px;
+    /* top: 13px; */
+    margin-top: 4px;
+    background-position: 98.79% 86.2%;
+    /* background-size: 2500% 8%; */
+    background-repeat: no-repeat;
+}
+ul.dropdown .menu-area h2 a:hover:after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    background-image: url(/public/static/blansj_xin/bbs/img/base-201911291451.svg);
+    right: 5px;
+    /* top: 13px; */
+    margin-top: 4px;
+    background-position: 97.64% 30.89%;
+    /* background-size: 2500% 8%; */
+    background-repeat: no-repeat;
+}.sub-menu-area h2{
+	font-weight: 400;
+    /* padding-left: 10px; */
+    border-bottom: #ddd 1px solid;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    color: #999;
+	}
+/* Custom elements */
+
+#n-movies { width: 250px; text-align: center; }
+#n-movies ul { right: auto; left: 0; width: 249px; text-align: left; }
+#n-movies ul ul { left: 249px; width: 150px; }
+#n-movies ul a { width: 232px; }
+#n-movies ul a.dir { width: 210px; }
+#n-movies ul ul a { width: 133px; }
+#n-movies ul ul a.dir { width: 111px; }
+#n-movies ul ul ul { left: 100%; }

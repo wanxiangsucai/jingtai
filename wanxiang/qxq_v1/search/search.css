@@ -1,0 +1,80 @@
+/*搜索频道首页样式*/
+
+/*历史搜索样式*/
+.ss_lishi {padding:10px 15px; display:flex;  flex-direction:column;}
+.ss_lishi .top {height:40px; line-height:40px; font-size:14px;}
+.ss_lishi .top .L {float:left; color:#666; font-weight:bold;}
+.ss_lishi .top .R {float:right; color:#999;}
+.ss_lishi .ls_ci a {background:#f5f5f5; color:#888888; font-size:14px; border-radius:20px; padding:3px 15px; display:block; float:left;  margin-bottom:10px; margin-right:10px;}
+.ss_lishi .zan_sou {border-top:1px dashed #eeeeee; margin-top:30px; height:30px;}
+.ss_lishi .zan_sou i{position:relative; color:#888888; background:#f5f5f5; border-radius:50%; width:30px; height:30px; line-height:30px; top:-15px; left:45%;}
+
+/*选项卡样式*/
+.search_xxk {display:flex; flex-direction:column; background:#fff;}
+.search_xxk ul {padding-bottom:5px;}
+.search_xxk ul li {float:left; position: relative; width:25%; text-align:center;}
+.search_xxk ul li a {color:#666; font-size:14px; font-weight:bold; height:40px; line-height:40px;}
+.search_xxk ul li.s_active a {color:#f60;}
+.search_xxk ul li.s_active:before {position:absolute; bottom:0px; left:50%; margin-left:-13px; z-index:1; display:block; width:26px; height:3px; border-radius:30px; -webkit-transition:all .3s ease; -moz-transition:all .3s ease; -o-transition:all .3s ease; transition:all .3s ease; background:#f60; content:'';}
+.search_xxk .s_show {display:none; padding:15px;}
+.search_xxk .s_show.s_active {display:block;}
+
+/*搜索词标签样式*/
+.search_xxk .s_show .ss_ci {position:relative; overflow:hidden;}
+.search_xxk .s_show .ss_ci a {background:#f5f5f5; color:#888888; font-size:14px; border-radius:20px; padding:3px 15px; display:block; float:left;  margin-bottom:10px; margin-right:10px;}
+.search_xxk .s_show .ss_ci i {color:#FF3E3F; margin-right:5px;}
+
+/*搜索频道列表页样式*/
+/*分类样式*/
+ul.pindao {width:100%; background:#fff; white-space:nowrap; display:inline-block; overflow-y:hidden; height:50px;}
+ul.pindao li {display:inline-block; text-align:center;}
+ul.pindao li .ck {color:red;}
+ul.pindao li a {margin:0 10px; display:block; line-height:50px; position:relative; font-size:15px; color:#333;}
+ul.pindao li .ck:before{content: '';display: block;position: absolute;width: 100%;height: 2px;
+    background:red;left: 0;bottom:0px;}
+
+/*列表样式*/
+ul.ss_list {padding:0 7px;}
+/*通用单图样式*/
+ul.ss_list li {padding:15px; margin-bottom:10px; background:#fff; border-radius:10px; box-shadow:0 2px 2px #eee;}
+ul.ss_list li a {display:block;}
+ul.ss_list li em {color:red;}
+ul.ss_list li .title{font-size:18px; line-height:24px; padding-bottom:10px;}
+ul.ss_list li .title a{color:#333;}
+ul.ss_list li .title a i{margin-right:3px;}
+ul.ss_list li .picurl{padding-bottom:10px;}
+ul.ss_list li .picurl a{display:flex; position:relative;}
+ul.ss_list li .picurl a img{width:100%; height:180px; object-fit:cover; border-radius:10px;}
+ul.ss_list li .miaosu{font-size:14px; line-height:22px; padding-bottom:10px;}
+ul.ss_list li .miaosu a{color:#666;}
+ul.ss_list li .bottom{display:flex; font-size:14px;}
+ul.ss_list li .bottom a{color:#999;}
+ul.ss_list li .bottom .L{width:50%;}
+ul.ss_list li .bottom .R{width:50%; text-align:right;}
+ul.ss_list li .url{color:#999;}
+
+/*cms多图补充样式*/
+ul.ss_list li .img_d a{display:flex;}
+ul.ss_list li .img_d a img{margin-right:1.5%; object-fit:cover;}
+ul.ss_list li .img_d a img:last-child{margin-right:0%;}
+ul.ss_list li .picurl a img.play {width:12%; height:auto; position:absolute; left:44%; bottom:40%; }
+
+
+/*圈子样式*/
+li.search_qun .show {display:flex; position:relative;}
+li.search_qun .show .left {width:100px; height:100px; margin-top:5px;}
+li.search_qun .show .left img {width:100px; height:100px; border-radius:10px;}
+li.search_qun .show .right {margin-left:10px;}
+li.search_qun .show .right .title {color:#333; font-size:16px; padding-bottom:5px;}
+li.search_qun .show .right .dizhi {font-size:14px; color:#888888; line-height:22px;}
+li.search_qun .show .right .time {font-size:14px; color:#888888; line-height:22px;}
+li.search_qun .show .right .shuju {display:flex; margin-top:5px;}
+li.search_qun .show .right .shuju p {background:#f5f5f5; border-radius:15px 0 15px; color:#888888; font-size:12px; padding:0px 10px; margin-left:10px;}
+li.search_qun .show .right .shuju p i{margin-right:5px;}
+li.search_qun .show .right .shuju p:first-child {margin-left:0;}
+li.search_qun .show .right .shuju p:nth-child(2) {background:#e7f5ff;}
+li.search_qun .show .right .shuju p:nth-child(3) {background:#fff1e1;}
+li.search_qun .show .qunliao {background-color: #FF3E3F; font-size:12px; border-radius:15px 0 15px; position:absolute; top:13px; right:10px; padding:0 10px;}
+li.search_qun .qunliao a{color:#fff;}
+li.search_qun .des{font-size:14px; color:#888888; line-height:22px; padding-top:10px;}
+li.search_qun .bottom{padding-top:10px;}

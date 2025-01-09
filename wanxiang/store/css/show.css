@@ -1,0 +1,34 @@
+@charset "utf-8";
+.store-wrap{width:1170px;margin:0 auto;padding:15px;margin-bottom:50px;overflow: hidden;}
+    .store-wrap .leftmenu{float: left;width:230px;text-align: center;}
+    .store-wrap .rightinfo{float:right;width:900px;padding:15px;}
+    .store-wrap .rightinfo img{max-width:650px;display:block;margin:15px auto;cursor: pointer;}
+    .store-wrap .rightinfo .cont{font-size:16px;}
+    .store-wrap .rightinfo .ctip{font-size:14px;text-align: center;color:#555;margin-top:10px;
+    border-bottom:2px solid #E8E8E8; padding-bottom:15px;}
+    .store-wrap .rightinfo .cnote{font-size:14px;background-color:#F5F5F5; margin:20px auto;
+    padding:15px;border-radius:15px;width:750px;}
+    .cnote table {border-spacing:0.85rem;color:#999;}
+    .ctip span{margin-left:10px;margin-right:10px;}
+    .store-wrap .rightinfo h1{font-size:22px;font-weight:bold;text-align: center;}
+    .sorts li{width:180px;height:25px;margin:1px;padding:5px 15px;background-color:#FF9900;}
+    .sorts li a{font-size:16px;color:#FFF;}
+    .sorts li:hover{background-color:rgb(255,51,0);}
+    .clearfix{clear:both;}
+    .sorts li.ck{background-color:rgb(255,51,0);}    
+    .newlist li{overflow:hidden;width:180px;margin-bottom:15px;border:2px solid #FFFFFF;}
+    .newlist li a:hover{color:#FF9900;}
+    .newlist li:hover{border:2px solid #FF9900;}
+    .newlist li:hover a{color:#FF9900;}
+    .newlist img{width:180px; height:135px;}
+    .newlist p{padding:10px 2px;}
+    .newnote{border-bottom: 1px solid #E8E8E8;margin-top:35px;margin-bottom:5px;
+    text-align:left;font-size:14px;color:#35C4B8;font-weight:600;}
+    .downinfo{width:650px;margin:30px auto;padding:15px;}
+    .downinfo > a{padding:10px 15px; color:#FFF;min-width:80px;text-align:center;display:inline-block;
+    font-size:18px;margin:5px 10px;}
+    .downinfo > a:hover{opacity:0.85;}
+    .downinfo .note2{margin-top:15px;font-size:16px;}
+    .bgreen{background-color:#35C4B8;}
+    .bred{background-color:rgb(255,51,0);}
+    .byellow{background-color:#FF9900;}

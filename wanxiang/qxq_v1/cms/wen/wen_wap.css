@@ -1,0 +1,68 @@
+body {background:#f7f7f7; font-family:"Microsoft yahei"; color:#666; font-size:14px;}
+
+/*列表样式*/
+.wen_list{overflow:hidden;}
+ul.list_tw {padding:0 7px;}
+/*通用单图样式*/
+ul.list_tw li {padding:15px; margin-bottom:10px; background:#fff; border-radius:10px; box-shadow:0 2px 2px #eee;}
+ul.list_tw li a {display:block;}
+ul.list_tw li em {color:red;}
+ul.list_tw li .title{font-size:16px; line-height:24px; padding-bottom:10px;}
+ul.list_tw li .title a{color:#333;}
+ul.list_tw li .title a i{margin-right:3px;}
+ul.list_tw li .picurl{padding-bottom:10px;}
+ul.list_tw li .picurl a{display:flex; position:relative;}
+ul.list_tw li .picurl a img{width:100%; height:180px; object-fit:cover; border-radius:10px;}
+ul.list_tw li .miaosu{font-size:14px; line-height:22px; padding-bottom:10px;}
+ul.list_tw li .miaosu a{color:#666;}
+ul.list_tw li .bottom{display:flex; font-size:14px;}
+ul.list_tw li .bottom a{color:#999; display:inline-block;}
+ul.list_tw li .bottom .L{width:60%; text-align:left; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+ul.list_tw li .bottom .L em{color:#999; margin-left:15px;}
+ul.list_tw li .bottom .R{width:40%; text-align:right; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}}
+ul.list_tw li .url{color:#999;}
+
+/*cms多图补充样式*/
+ul.list_tw li .img_d a{display:flex;}
+ul.list_tw li .img_d a img{margin-right:1.5%; object-fit:cover;}
+ul.list_tw li .img_d a img:last-child{margin-right:0%;}
+ul.list_tw li .picurl a img.play {width:12%; height:auto; position:absolute; left:44%; bottom:40%; }
+
+
+/*内容页样式*/
+.wap_show{padding:10px;overflow:hidden;background:#fff;}
+.wap_show .title{font-size:22px;color:#333;margin-top:5px;}
+.wap_show .user{height:40px;margin-top:10px;padding-bottom:12px;border-bottom:1px #eee solid;
+position:relative;}
+.wap_show .user img{display:block;float:left;width:38px;height:38px;border-radius:50%;}
+.wap_show .user span{display:block;margin-left:8px;float:left;}
+.wap_show .user span p{height:18px; line-height:18px; margin-top:2px;}
+.wap_show .user span p a{color:#666;}
+.wap_show .user span p b{color:#fff; font-size:12px; padding:1px 3px 0px 3px; background:#ffa3a3; border-radius:3px;}
+.wap_show .user span em{height:18px; line-height:18px; font-size:12px;color:#999; display:block;}
+.wap_show .user span em b{color:#ccc; font-size:12px; margin:0 5px;}
+.wap_show .user span em .manage_topic {display: inline-block;}
+.wap_show .user span em .manage_topic i {padding:0 5px 0 10px; font-size:12px;}
+.wap_show .user .gz-btn{position:absolute; right:0px; top:5px; color:#fff; text-align:center; height:28px; line-height:28px; padding:0 15px; border-radius:30px; background:#FF7414 !important;}
+
+.cms-content{font-size:16px;line-height:22px;margin-top:8px;color:#333;}
+.cms-content img{display:block; margin-top:10px; width:100%; max-width:100%;}
+.cms-content .ContentBox .Cont:after {border:solid 15px; border-top-color:#FFF; border-right-color:#FFF; border-bottom-color:#CCC; border-left-color:#CCC;}
+
+ul.wap_show_cz{display:table; margin:35px auto 10px auto;}
+ul.wap_show_cz li {float:left; margin:0 10px;}
+ul.wap_show_cz li a {display:block; color:#fff; width:50px; height:80px; position:relative;}
+ul.wap_show_cz li a i {display:block; font-size:20px; width:50px; height:50px; line-height:50px; text-align:center; background:#eee; border-radius:50%;}
+ul.wap_show_cz li a p {height:30px; line-height:30px; text-align:center; font-size:14px; color:#666;}
+ul.wap_show_cz li a span {width:20px; height:20px; line-height:20px; border-radius:100%; background:#fff; position:absolute; top:-5px; right:-5px; padding:3px;}
+ul.wap_show_cz li a span em {display:block; width:20px; height:20px; line-height:20px; border-radius:100%; background:#FC6E51; text-align:center; font-size:12px; color:#fff;}
+
+
+/*自定义字段样式*/
+.OtherInfos{margin-top:10px; background:#FFF; width:100%; overflow:hidden;}
+.OtherInfos .SideBox{width:50%; display:block; float:left; padding-top:15px;}
+.OtherInfos .SideBox:nth-last-child(-n+1){padding-bottom:15px;}
+.OtherInfos .SideBox .tag{float:left;}
+.OtherInfos .SideBox .tag span{color:#333; font-size:14px; padding:10px 15px;}
+.OtherInfos .SideBox .cont{float:left; color:#999; font-size:14px;}
+.OtherInfos .SideBox .cont img{display:initial; width:25px; height:25px; max-width:25px; max-height:25px; margin-right:3px;}

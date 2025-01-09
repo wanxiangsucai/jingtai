@@ -1,0 +1,45 @@
+body {background:#f7f7f7; font-family:"Microsoft yahei"; color:#666; font-size:14px;}
+
+/*CMS轮播图样式*/
+#wap_lunbo{margin:0 auto; position:relative; overflow:hidden;}
+#wap_lunbo .qie{width:100%; height:11px;  position:absolute; z-index:1; bottom:5px; text-align:center;}
+#wap_lunbo .qie ul{display:inline-block; height:5px;padding:3px 5px; background-color:rgba(255,255,255,0.7); 
+		-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; font-size:0; vertical-align:top;
+	}
+#wap_lunbo .qie ul li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#8C8C8C; margin:0 5px;  vertical-align:top; overflow:hidden;}
+#wap_lunbo .qie ul .on{ background:#FE6C9C;}
+#wap_lunbo .img_tu{ position:relative; z-index:0; }
+#wap_lunbo .img_tu li img{width:100%;display:block;}
+#wap_lunbo .img_tu li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+
+/*作品管理*/
+.my_rukou{margin-bottom:10px; background:#fff;}
+.my_rukou ul{display:flex; overflow:hidden; padding:5px 10px;}
+.my_rukou ul li{height:75px; width:50%; background:#fff; position:relative;}
+.my_rukou ul li:nth-child(1):before{content: '';border-right:1px #eee solid;height:90%;
+display:block;position:absolute;right:0px;top:5%;}
+.my_rukou ul li span{width:50px; height:50px; position:absolute; right:10px; top:12px; border-radius:50%; display:block;}
+.my_rukou ul li:nth-child(1) span{box-shadow:0 1px 2px #FFB0AC;}
+.my_rukou ul li:nth-child(2) span{box-shadow:0 1px 2px #AEF0EE;}
+.my_rukou ul li:nth-child(2) em{color:#39DD75;}
+.my_rukou ul li span i{position:absolute;left:50%;top: 50%; color:#FF423C; font-size:25px; -webkit-transform: translate3D(-50%, -50%, 0); -ms-transform: translate3D(-50%, -50%, 0); transform: translate3D(-50%, -50%, 0);}
+.my_rukou ul li:nth-child(2) span i{color:#39DD75;}
+.my_rukou ul a{display:block;height:65px;width:100%;}
+.my_rukou ul li p{padding:5px 0 0 10px;margin:0;font-size:12px;color:#888;}
+.my_rukou ul li p em{font-size:20px;color:#FF423C;font-weight:100;display:block;margin-top:7px;}
+
+/*模型入口*/
+.cms_rukou {margin-bottom:10px; background:#fff;}
+.cms_rukou ul {display:flex; overflow:hidden; padding:15px;}
+.cms_rukou li {flex:1; padding-right:10px;}
+.cms_rukou li:nth-last-child(-n+1) {padding-right:0px;}
+.cms_rukou li a {display:block; position:relative;}
+.cms_rukou li a em{position:absolute; bottom:10px; font-size:14px; font-weight:bold; width:100%; text-align:center;}
+.cms_rukou li:nth-child(1) a em{color:#58ddff;}
+.cms_rukou li:nth-child(2) a em{color:#9ba7ff;}
+.cms_rukou li:nth-child(3) a em{color:#ff938f;}
+.cms_rukou li a img {width:100%; height:auto; border:0; border-radius:5px;}
+.cms_rukou p {display:flex; overflow:hidden; padding:0 15px 15px 15px;}
+.cms_rukou p em{position:absolute; font-size:16px; font-weight:bold; margin-top:10px; right:40px; color:#e99aff; text-align:right;}
+.cms_rukou p em b{font-size:13px; color:#f4cbff;}
+.cms_rukou p img {width:100%; border-radius:5px;}

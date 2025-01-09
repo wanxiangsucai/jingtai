@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+</style>
+<head>
+  <meta charset="UTF-8">
+  <title>演示文档</title>
+  <script type="text/javascript" src="http://n.xinyouw.org//public/static/blansj_xin/member/js/jquery.min.js"></script>
+  <style type="text/css">
+     *{padding: 0;margin:0;}
+      .nav{width: 500px;margin: 0 auto}
+      #content{width: 500px;height: 300px;display: none;}
+      .nav span{width:150px;display: block;background: rgb(150,0,0);margin: 0 auto;text-align: center;cursor: pointer;}
+  </style>
+</head>
+<body>
+<div class="nav">
+  <div id="content"><img src="qsmy.jpg" alt="" width="500" height="300"></div>
+  <span>展开><</span>
+</div>
+<script>
+  $('.nav span').click(function(){
+    var dis=$('#content').css('display')
+    if (dis=='none'){
+      $(this).html('隐藏<>')
+    }else{
+      $(this).html('展开><')
+    }
+    $('#content').slideToggle()
+    
+  })
+</script>
+</body>
+</html>

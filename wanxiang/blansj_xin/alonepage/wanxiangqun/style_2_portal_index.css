@@ -1,0 +1,157 @@
+#wp,.deanwp,.wp{width:100%}
+a:hover{text-decoration:none}
+#wowslider-container1{zoom:1;position:relative;max-width:1920px;margin:0 auto 0;z-index:2;border:none;text-align:left;height:420px;overflow:hidden}
+* html #wowslider-container1{width:1920px}
+#wowslider-container1 .ws_images ul{position:relative;width:10000%;height:auto;left:0;list-style:none;margin:0;padding:0;border-spacing:0;overflow:visible}
+#wowslider-container1 li{height:420px;width:1920px}
+#wowslider-container1 li.deanhdpli1{background:url(ad/1.jpg) no-repeat center center}
+#wowslider-container1 li.deanhdpli2{background:url(ad/2.jpg) no-repeat center center}
+#wowslider-container1 li.deanhdpli3{background:url(ad/3.jpg) no-repeat center center}
+#wowslider-container1 li.deanhdpli4{background:#ff5c7a url(ad/4.png) no-repeat center center}
+#wowslider-container1 li.deanhdpli5{background:#b2d388 url(ad/5.png) no-repeat center center}
+#wowslider-container1 li a{height:420px;width:100%;display:block}
+#wowslider-container1 li a span{display:none;width:420px;height:50px;border-radius:5px;overflow:hidden;padding:0 15px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-align:center;line-height:50px;position:absolute;right:50%;bottom:50px;margin-right:-250px;background:url(black.png) 0 0 repeat;color:#fff;font-size:18px}
+#wowslider-container1 .ws_images{position:relative;left:0;top:0;width:100%;height:100%;overflow:hidden}
+#wowslider-container1 .ws_images a{width:100%;display:block;color:transparent}
+#wowslider-container1 img{max-width:none!important}
+#wowslider-container1 .ws_images img{width:100%;border:none 0;max-width:none;padding:0}
+#wowslider-container1 a{text-decoration:none;outline:0;border:none}
+#wowslider-container1 .ws_bullets{font-size:0;float:left;position:absolute;z-index:1}
+#wowslider-container1 .ws_bullets div{position:relative;float:left}
+#wowslider-container1 .wsl{display:none}
+#wowslider-container1 object,#wowslider-container1 sound{position:absolute}
+#wowslider-container1 .ws_bullets{padding:9px}
+#wowslider-container1 .ws_bullets a{width:13px;height:13px;background:url(bottomNavOFF.png) 0 0 no-repeat;float:left;text-indent:-4000px;position:relative;margin-left:8px;color:transparent}
+#wowslider-container1 .ws_bullets a.ws_selbull,#wowslider-container1 .ws_bullets a:hover{background:url(bottomNavON.png) 0 0 no-repeat}
+#wowslider-container1 a.ws_next,#wowslider-container1 a.ws_prev{position:absolute;display:none;top:50%;margin-top:-30px;z-index:1;height:41px;width:41px}
+#wowslider-container1 a.ws_next{background:url(rightNavON.png) 0 0 no-repeat;right:260px}
+#wowslider-container1 a.ws_next:hover{border-radius:41px}
+#wowslider-container1 a.ws_prev{background:url(leftNavON.png) 0 0 no-repeat;left:260px}
+#wowslider-container1 a.ws_prev:hover{border-radius:41px}
+* html #wowslider-container1 a.ws_next,* html #wowslider-container1 a.ws_prev{display:block}
+#wowslider-container1:hover a.ws_next,#wowslider-container1:hover a.ws_prev{display:block}
+#wowslider-container1 .ws_playpause{display:none;width:27px;height:27px;position:absolute;top:50%;left:50%;margin-left:-13px;margin-top:-13px;z-index:1}
+#wowslider-container1:hover .ws_playpause{display:block}
+#wowslider-container1 .ws_pause{background-image:url(pause.png)}
+#wowslider-container1 .ws_play{background-image:url(play.png)}
+#wowslider-container1 .ws_pause:hover,#wowslider-container1 .ws_play:hover{background-position:100% 100%!important}
+#wowslider-container1 .ws_bullets{bottom:11px;left:50%}
+#wowslider-container1 .ws_bullets div{left:-60%}
+#wowslider-container1 .ws-title{position:absolute;display:block;bottom:15px;left:10px;margin:9px;margin-right:10px;padding:8px 10px;background:#559674;color:#fff;z-index:1;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:20px;line-height:22px;font-weight:700}
+#wowslider-container1 .ws-title div{padding-top:5px;font-size:14px;line-height:16px;font-weight:400}
+#wowslider-container1 .ws_images ul{animation:wsBasic 12s infinite;-moz-animation:wsBasic 12s infinite;-webkit-animation:wsBasic 12s infinite}
+#wowslider-container1 .ws_effect img,#wowslider-container1 .ws_effect>*,#wowslider-container1 .ws_images img{border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}
+.deanysc{width:1180px;margin:0 auto;margin-top:50px}
+.deanlvtitle{width:1180px;margin:0 auto;text-align:center;height:40px;line-height:30px;border-bottom:1px solid #f9f9f9;margin-bottom:30px}
+.deanlvtitle h3{font-size:26px;font-weight:400;float:left;font-style:normal}
+.deanlvtitle h3 em{border-bottom:1px solid #4a9bec;color:#4a9bec;height:40px;line-height:30px;font-style:normal;float:left;display:block}
+.deanlvtitle h3 i{line-height:30px;font-style:normal;float:left;display:block}
+.deanlvtitle span{display:block;font-size:14px;color:#959595;float:left;padding-left:20px}
+.deanysc ul li{width:240px;height:260px;padding:20px;color:#666;float:left;margin-right:20px}
+.deanysc ul li span{display:block;width:74px;height:74px;border-radius:74px;background-repeat:no-repeat;background-image:url(index_bj.png);margin:0 auto;margin-bottom:30px}
+.deanysc ul li .deanspan1{background-position:-148px 0}
+.deanysc ul li .deanspan2{background-position:-296px 0}
+.deanysc ul li .deanspan3{background-position:-444px 0}
+.deanysc ul li .deanspan4{background-position:-592px 0}
+.deanyoushi h3{font-size:20px;margin-bottom:15px;font-weight:400;text-align:center}
+.deanyoushi p{font-size:14px;line-height:26px;color:#959595;height:58px;overflow:hidden}
+.deanM{width:1180px;margin:0 auto}
+.deanM ul{margin-top:30px}
+.deanM ul li{float:left;width:20%;height:365px;background:#4a9bec;color:#fff;text-align:center;cursor:pointer}
+.deanM ul li.deanM2{background:#9e8aff}
+.deanM ul li.deanM3{background:#99d80d}
+.deanM ul li.deanM4{background:#ffc039}
+.deanM ul li.deanM5{background:#ea6394}
+.deanM ul li:hover{box-shadow:0 0 8px rgba(0,0,0,.1)}
+.deanM ul li h1{font-weight:400;font-size:12px;padding-top:5px;padding-bottom:10px}
+.deanM ul li h2{font-weight:400;font-size:14px;padding-top:15px}
+.deanM ul li h3{font-weight:400;font-size:16px;padding-top:30px;padding-bottom:10px}
+.deanM ul li h4{font-weight:400;font-size:14px}
+.deanM ul li h5{font-weight:400;font-size:14px}
+.deanM ul li b{font-size:26px}
+.deanquan{text-align: left;margin: 10px 10px;}
+.deanM ul li a{display:block;width:80%;border-radius:1px;height:30px;line-height:30px;text-align:center;font-size:16px;color:#666;background:rgba(255,255,255,.7);margin:15px auto}
+.deanM ul li:hover a{background:rgba(255,255,255,1)}
+.deanpdwrap{width:100%;background:#fafafa;padding:30px 0;margin-top:40px}
+.deanproduct{width:1180px;margin:0 auto}
+.deanptitle{position:relative;width:1180px;height:50px}
+.deanptitle span{display:block;position:absolute;left:50%;top:0;margin-left:-75px;width:150px;height:50px;line-height:50px;color:#606060;font-size:22px;font-weight:500;background:#fcfcfc url(light.png) 10px 5px no-repeat;z-index:3;text-indent:45px}
+.deanptitle h2{display:block;position:absolute;top:10px;left:250px;width:680px;height:18px;border-bottom:1px solid #e6e6e6;z-index:1}
+.deantabname{margin-top:30px}
+.deantabname li{float:left;cursor:pointer;padding:0 15px;height:30px;line-height:30px;font-size:14px;background:#eee;color:#656565}
+.deantabname li.cur{background:#4a9bec;color:#fff}
+.deantabc li{display:none}
+.deantabc li dl dd{width:280px;float:left;background:#fff;margin-top:20px;margin-right:17px;border:1px solid #f0f0f0}
+.deantabc li dl dd:hover{box-shadow:0 0 5px rgba(0,0,0,.1);border:1px solid #ddd}
+.deanimg{width:280px;height:210px;position:relative;overflow:hidden}
+.deanps{font-size:14px;color:#fff;background:rgba(0,0,0,.3) 0 0 repeat;position:absolute;height:60px;padding:10px;width:260px;position:absolute;top:210px;left:0}
+.deanpinfo{padding:10px 15px;width:250px}
+.deanpinfo h3{font-size:16px;font-weight:500;height:30px;line-height:30px}
+.deanpinfo h3 a{color:#606060}
+.deanpinfo h3 a:hover{color:#3598db}
+.deanpinfo .deantype{color:#999;font-size:12px;margin-top:3px;display:block}
+.deanpinfo .deantype em{color:#3598db;font-style:normal}
+.deanmorep{width:220px;display:block;height:35px;line-height:35px;text-align:center;margin:30px auto;font-size:16px;background:#f0f0f0 url(arrow1.png) 150px 3px no-repeat;color:#656565;border-radius:3px}
+.deanmorep:hover{background:#4a9bec url(arrow2.png) 180px 3px no-repeat;color:#fff}
+.deannewlist{width:1180px;margin:0 auto;margin-top:30px}
+.deannewhd{float:left;width:370px;margin-right:35px}
+.deannews{float:left;width:370px}
+.deannewforum{float:right;width:370px}
+.deanh2{height:40px;line-height:40px}
+.deanh2 span{font-size:18px;color:#606060;float:left}
+.deanh2 a{font-size:14px;color:#585858;float:right;display:block;float:right;background:url(more.png) right 16px no-repeat;padding-right:10px}
+.deanh2 a:hover{background:url(morehover.png) right 16px no-repeat;color:#f60}
+.deanboxsame{margin-top:10px;position:relative;width:370px;height:171px;overflow:hidden}
+.deanboxsametitle{display:block;width:370px;height:40px;text-align:center;line-height:40px;font-size:16px;color:#fff;position:absolute;bottom:0;left:0;background:url(black.png) 0 0 repeat}
+.deanboxsametitle:hover{background:rgba(74,155,236,.7) 0 0 repeat}
+.deanboxul{margin-top:15px}
+.deanboxul li{height:30px;line-height:30px;font-size:14px}
+.deanboxul li a{color:#606060;float:left;display:block;background:url(circle.png) 0 15px no-repeat;text-indent:12px}
+.deanboxul li a:hover{color:#f60;background:url(circlehover.png) 0 15px no-repeat}
+.deanboxul li span{float:right;color:#999;font-size:12px}
+.deanboxsameul{margin-top:15px}
+.deanboxsameul li{height:30px;line-height:30px;font-size:14px;background:url(new.gif) right 5px no-repeat}
+.deanboxsameul li a{color:#606060;float:left}
+.deanboxsameul li a:hover{color:#f60}
+.deanboxsameul li span{float:right;color:#999;font-size:12px;padding-right:30px}
+.deanteacher{width:100%;margin-top:50px;padding:50px 0;background:url(say.jpg) top center repeat-x}
+.deanteacher .deantitleh2{font-size:28px;height:50px;line-height:50px;padding:10px 0;font-weight:400;text-align:center}
+.deanteacherc{width:1180px;margin:0 auto;margin-bottom:15px;position:relative}
+.deanscroll{position:relative;width:1180px;overflow:hidden}
+.deanteacher .prev{background:url(toogler.png) 0 0 no-repeat;width:22px;height:43px;position:absolute;display:block;z-index:10;top:130px;cursor:pointer}
+.deanteacher .next{background:url(toogler.png) -26px 0 no-repeat;width:22px;height:43px;position:absolute;display:block;z-index:10;top:130px;cursor:pointer}
+.deanteacher .prev{left:-55px}
+.deanteacher .next{right:-35px}
+.deanlistimg{position:relative;width:1180px;height:320px;overflow:hidden}
+.deanlistimg ul{width:1300px;height:320px}
+.deanlistimg li{float:left;display:inline;width:273px;height:318px;overflow:hidden;background:rgba(255,255,255,.2);position:relative;text-align:center;margin-right:20px}
+.deanlistimg li:hover{background:rgba(0,0,0,.3)}
+.deanlistimg li .deantechinfo{width:275px;height:230px}
+.deanlistimg li .deantechinfo .deantechavar{padding-top:20px;padding-bottom:15px}
+.deanlistimg li .deantechinfo .deantechavar img{width:128px;height:128px;border-radius:128px}
+.deanlistimg li .deantechinfo .deantechname{display:block;color:#fff;padding:5px 0;font-size:18px}
+.deanlistimg li .deantechinfo .deantechname:hover{color:#fff;text-decoration:underline}
+.deanlistimg li .deantechinfo span{display:block;text-align:center;font-size:14px;color:#eee}
+.deanlistimg li .deantechp{height:60px;color:#fff;font-size:14px;padding:15px;border-top:1px solid #aaa;line-height:30px;text-align:left}
+#diyscroll{float:left}
+.productflow.prev:hover{background:url(toogler.png) 0 0 no-repeat}
+.deanparter{width:1180px;margin:0 auto;margin-top:50px}
+.deanparter .deanptitle span{background:#fff url(parter.png) 10px 12px no-repeat;text-indent:55px}
+.deanparter ul{margin-top:30px;border-left:1px solid #f0f0f0;border-top:1px solid #f0f0f0}
+.deanparter ul li{float:left;width:168px;height:80px;vertical-align:middle}
+.deanparter ul li a{display:block;width:166px;height:78px;border-right:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;text-align:center}
+.deanparter ul li a:hover{border-bottom:1px solid #4a9bec}
+.deanparter ul li a img{padding-top:16px}
+.deanparter ul li a img:hover{opacity:1}
+.deanlink{width:1180px;margin:50px auto;padding-top:30px}
+.deanlink ul{margin-top:30px}
+.deanlink .deanptitle span{background:#fff url(link.png) 8px 9px no-repeat;text-indent:50px}
+.deanlink ul li{height:30px;line-height:30px;font-size:14px;float:left;margin-right:15px;margin-bottom:15px}
+.deanlink ul li a{display:block;border:1px solid #e6e6e6;float:left;color:#606060;padding:0 15px}
+.deanlink ul li a:hover{border-bottom:1px solid #4a9bec}
+#mu{z-index:100;width:1180px!important;border:0!important;margin:0 auto!important}
+#mu ul{background:#fff!important;padding:5px 0;width:1180px!important;border:0!important;margin:0 auto!important}
+.frame-1{background-color:transparent!important;background-image:none!important;border:0 none!important;margin:0!important;padding:0!important;border-width:0;height:auto}
+.frame-1-c{background-color:transparent!important;background-image:none!important;border:0 none!important;margin:0!important;padding:0!important;border-width:0;height:auto}
+.move-span{background-color:transparent!important;background-image:none!important;border:0 none!important;margin:0!important;padding:0!important;border-width:0;height:auto}
+.move-span .content{background-color:transparent!important;background-image:none!important;border:0 none!important;margin:0!important;padding:0!important;border-width:0;height:auto}

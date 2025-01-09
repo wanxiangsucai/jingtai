@@ -1,0 +1,59 @@
+<style type="text/css">
+#waterfall{text-align:center; width:100%; margin:0 auto;}
+#waterfall img{width:253px;}
+#waterfall .Acell{width:273px; padding:10px 0px 5px 0px; border:1px solid #E3E3E3; background:#fff; margin-top:20px;box-shadow: 0px 2px 3px 1px #ccc;}
+.waterfall_column{padding-bottom:8px;}
+#waterfall .Acell p{padding:5px 0;}
+#waterfall .Acell:hover{box-shadow: 0px 2px 3px 1px #999;}
+</style>
+
+ 
+<div id="waterfall"> 
+	{qb:hy name="waterfall001" type="cms" mid="-1" rows="20"}
+    <div class="Acell"><a href="{$rs.url}" target="_blank"><img src="{$rs.picurl}" onerror="this.src='__STATIC__/images/nopic.png'"></a><p><a href="{$rs.url}" target="_blank">{$rs.title}</a></p></div>
+	{/qb:hy}
+</div>
+
+
+<script src="__STATIC__/model_style/default/waterfall001/water.js"></script> 
+<script type="text/javascript">
+$(function(){
+	var space=10,num=4,width=$('#waterfall').width(); //1200
+	if(width<801){
+		space=5;
+		num=3;
+	}
+	var baseW = Math.floor(width/num);
+	set_size();
+	var page=1;
+	var load=true;
+	var opt={
+		getResource:function(index,render){
+			if( $(window).height()+$(window).scrollTop()+300 < $(document).height() || !load ){
+				return ;
+			}
+			load = false;
+			page++;
+			$.get("{qb:hy_url name='waterfall001' /}"+page,function(res){
+				if(res.code==0 && res.data!=''){
+					load = true;
+					render( res.data.replace(/<\/div>([\s]+)<div class="Acell">/g,'</div><div class="Acell">') );
+					setTimeout(function(){set_size();},100);
+				}else if(res.code==1){
+					layer.msg(res.msg);
+				}else{					
+					layer.msg('没有了!');
+				}
+			});
+		  //return $(html);
+		},
+		column_width:baseW-space,//290 列宽
+		column_space:space,//10 列间距
+	};
+	$('#waterfall').waterfall(opt);
+	function set_size(){
+		$("#waterfall img").width(baseW-space*2-7-20);
+		$("#waterfall .Acell").width(baseW-space*2-7);
+	}
+});
+</script>

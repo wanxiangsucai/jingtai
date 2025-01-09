@@ -1,0 +1,365 @@
+@charset "utf-8";.noblePay--pay .banks ul,.noblePay--pay .item,.noblePay--popup .popup__con .btnArea{zoom:1}
+#banksScroll .jspVerticalBar{width:2px;right:0}
+.jspContainer{overflow:hidden;position:relative}
+.jspHorizontalBar,.jspPane,.jspVerticalBar{position:absolute}
+.jspVerticalBar{top:0;right:2px;width:4px;height:100%}
+.jspHorizontalBar{bottom:0;left:0;width:100%;height:8px;background:red}
+.jspCap{display:none}
+.jspArrow,article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+.jspHorizontalBar .jspCap{float:left}
+.jspTrack{background:0 0;position:relative}
+.jspDrag{position:relative;top:0;left:0;cursor:pointer;background:#707070}
+.jspDragBottom,.jspDragTop{position:absolute;width:4px;height:4px;left:0}
+.jspHorizontalBar .jspDrag,.jspHorizontalBar .jspTrack{float:left;height:100%}
+.jspArrow{background:#50506d;text-indent:-20000px;cursor:pointer;padding:0;margin:0}
+.jspArrow.jspDisabled{cursor:default;background:#80808d}
+.jspVerticalBar .jspArrow{height:16px}
+.jspHorizontalBar .jspArrow{width:16px;float:left;height:100%}
+.jspVerticalBar .jspArrow:focus{outline:0}
+.jspCorner{background:#eeeef4;float:left;height:100%}
+* html .jspCorner{margin:0 -3px 0 0}
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{margin:0}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+a{background-color:transparent}
+a:active,a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted}
+b,optgroup,strong{font-weight:700}
+dfn{font-style:italic}
+h1{font-size:2em}
+mark{background:#ff0;color:#000}
+.noblePay .i-bank-ICBC,.noblePay .i-close:hover,.noblePay .i-error,.noblePay .i-selector{background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img,legend{border:0}
+svg:not(:root){overflow:hidden}
+hr{box-sizing:content-box;height:0}
+pre,textarea{overflow:auto}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button{overflow:visible}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input{line-height:normal}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+fieldset{border:1px solid silver}
+table{border-collapse:collapse;border-spacing:0}
+.noblePay .ico{display:inline-block;background-repeat:no-repeat}
+.noblePay .i-close:hover{background-position:-208px -167px}
+.noblePay .i-error{width:16px;height:17px;left:15px;background-position:-208px -21px}
+.noblePay .i-selector{width:12px;height:12px;background-position:-192px -78px}
+.noblePay .i-bank-ICBC{width:16px;height:16px;left:15px;margin-top:-8px;background-position:-208px -82px}
+.noblePay .i-bank-ABC{width:18px;height:17px;left:14px;margin-top:-9px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-156px -156px}
+.noblePay .i-bank-CCB,.noblePay .i-bank-CMB{height:16px;margin-top:-8px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.noblePay .i-bank-CMB{width:19px;left:14px;background-position:0 -179px}
+.noblePay .i-bank-CCB{width:16px;left:15px;background-position:-208px -102px}
+.noblePay .i-bank-BOC{width:17px;height:17px;left:15px;margin-top:-9px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-208px 0}
+.noblePay .i-bank-BCOM,.noblePay .i-bank-PSBC{height:18px;left:14px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);margin-top:-9px}
+.noblePay .i-bank-PSBC{width:19px;background-position:-48px -134px}
+.noblePay .i-bank-BCOM{width:18px;background-position:-46px -156px}
+.noblePay .i-bank-GDB{width:20px;height:17px;left:13px;margin-top:-9px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-71px -134px}
+.noblePay .i-bank-CMBC,.noblePay .i-bank-PAB{left:14px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.noblePay .i-bank-CMBC{width:19px;height:16px;margin-top:-8px;background-position:-178px -156px}
+.noblePay .i-bank-PAB{width:18px;height:9px;margin-top:-4px;background-position:-166px -134px}
+.noblePay .i-bank-CEB{width:14px;height:18px;left:16px;margin-top:-9px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-208px -122px}
+.noblePay .i-bank-CIB{width:22px;height:14px;left:12px;margin-top:-7px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-95px -134px}
+.noblePay .i-bank-CITIC,.noblePay .i-bank-HZB{width:18px;left:14px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.noblePay .i-bank-HZB{height:13px;margin-top:-6px;background-position:-23px -179px}
+.noblePay .i-bank-CITIC{height:18px;margin-top:-9px;background-position:-112px -156px}
+.noblePay .i-bank-BJRCB{width:17px;height:13px;left:15px;margin-top:-7px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-45px -179px}
+.noblePay .i-bank-SPDB,.noblePay .i-bank-SRCB{left:14px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.noblePay .i-bank-SRCB{width:18px;height:18px;margin-top:-9px;background-position:-90px -156px}
+.noblePay .i-bank-SPDB{width:15px;height:12px;margin-top:-6px;background-position:-147px -134px}
+.noblePay .i-bank-SHB{width:19px;height:19px;left:12px;margin-top:-9px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-23px -156px}
+.noblePay .i-bank-NJCB{width:17px;height:16px;left:14px;margin-top:-8px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-208px -42px}
+.noblePay .i-bank-CBHB{width:22px;height:12px;left:12px;margin-top:-6px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-121px -134px}
+.noblePay .i-bank-BEA,.noblePay .i-bank-GZCB,.noblePay .i-bank-HXB,.noblePay .i-bank-NBCB{margin-top:-9px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.noblePay .i-bank-NBCB{width:18px;height:18px;left:14px;background-position:-68px -156px}
+.noblePay .i-bank-HXB{width:19px;height:18px;left:12px;background-position:-25px -134px}
+.noblePay .i-bank-GZCB{width:18px;height:18px;left:14px;background-position:-134px -156px}
+.noblePay .i-bank-BEA{width:13px;height:19px;left:17px;background-position:-208px -144px}
+.noblePay .i-arrow-d{width:9px;height:5px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-208px -186px}
+.noblePay .i-weixin{width:19px;height:19px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:0 -156px}
+.noblePay .i-alipay{width:16px;height:16px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-208px -62px}
+.noblePay .i-close{width:15px;height:15px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:0 -199px}
+.noblePay .i-fail,.noblePay .i-success,.noblePay .i-warning{width:24px;height:24px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.noblePay .i-fail{background-position:-140px -78px}
+.noblePay .i-success{background-position:-112px -78px}
+.noblePay .i-warning{background-position:-84px -78px}
+.noblePay .i-loading{width:23px;height:23px}
+.noblePay .i-noble-1,.noblePay .i-noble-2,.noblePay .i-noble-3{height:18px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);width:21px}
+.noblePay .i-noble-1,.noblePay .i-noble-2{background-position:0 -134px}
+.noblePay .i-noble-3{background-position:-165px -110px}
+.noblePay .i-noble-4{width:21px;height:19px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-48px -110px}
+.noblePay .i-noble-5,.noblePay .i-noble-6{height:20px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.noblePay .i-noble-5{width:21px;background-position:-24px -110px}
+.noblePay .i-noble-6{width:20px;background-position:-96px -110px}
+.noblePay--popup{position:absolute;left:50%;width:340px;height:240px;margin:0 0 0 -170px;z-index:999;text-align:center;color:#fff;font-size:14px;background-color:#333}
+.noblePay--popup .close{position:absolute;right:0;top:0;padding-top:9px;height:25px;width:34px;text-align:center}
+.noblePay--popup .close .i-close{width:15px;height:15px;vertical-align:top;background-repeat:no-repeat;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:0 -199px}
+.noblePay--popup .close:hover .i-close{background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-208px -167px}
+.noblePay--popup .popup__con .btnArea .b-submit,.noblePay--popup .popup__con .btns .b-submit{background-position:-104px -39px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.noblePay--popup .header{text-align:left;height:34px;line-height:34px;font-size:14px;color:#ccc;background-color:#191919}
+.noblePay--popup .header h3{font-size:14px;margin:0 0 0 15px}
+.noblePay--popup .popup__con{padding:43px 16px 0 28px;color:#ccc}
+.noblePay--popup .popup__con .tips{line-height:24px}
+.noblePay--popup .popup__con .tips em{display:inline-block;vertical-align:top;margin-left:10px;line-height:24px;font-size:16px}
+.noblePay--popup .popup__con .tips b{font-weight:400;color:#ff8a00}
+.noblePay--popup .popup__con .tips span{font-size:12px}
+.noblePay--popup .popup__con .desc{min-height:70px;margin:12px 0 0;color:#8b8b8b;font-size:12px;line-height:20px}
+.noblePay--popup .popup__con .desc b{color:#ff8a00}
+.noblePay--popup .popup__con .desc img{vertical-align:middle}
+.noblePay--popup .popup__con .desc a{text-decoration:none;color:#09b3f1}
+.noblePay--popup .popup__con .desc a:hover{text-decoration:underline}
+.noblePay--popup .popup__con .btnArea:after{content:"";display:table;clear:both}
+.noblePay--popup .popup__con .btnArea .checkArea{float:left;line-height:28px;color:#8e8f8f;font-size:12px}
+.noblePay--popup .popup__con .btnArea .checkArea input{width:14px;height:14px;vertical-align:middle;cursor:pointer}
+.noblePay--popup .popup__con .btnArea .checkArea label{padding:0 0 0 4px;cursor:pointer}
+.noblePay--popup .popup__con .btnArea .btn{float:right;width:80px;height:28px;line-height:28px;font-size:12px}
+.noblePay--popup .popup__con .btns{font-size:0}
+.noblePay--popup .popup__con .btns .b-normal{margin-left:5px;background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:0 -78px}
+.noblePay--popup .popup__con .btns .btn{margin:0;width:80px;height:28px;line-height:28px;font-size:12px}
+.noblePay--popup .qrcode{display:none;position:absolute;right:25px;top:62px;border-color:#434343;width:140px;height:162px}
+.noblePay--popup .qrcode__desc{width:100%;line-height:16px;color:#fff;text-align:center}
+.noblePay--popup .qrCode__img{display:none;position:relative;overflow:hidden;width:139px;height:139px;background:#fff}
+.noblePay--popup .qrCode__img.clickAble{cursor:pointer;background:#ccc}
+.noblePay--popup .qrCode__img img{position:absolute;left:-25px;top:-25px;width:190px;height:190px}
+.noblePay--popup .qrCode__img p{display:none;position:absolute;top:50%;left:0;margin-top:-22px;text-align:center;font-size:12px;line-height:22px;height:44px;padding:0 10px;color:#333}
+.noblePay--popup .qrCode__img p b{color:#000;margin:0 3px}
+.noblePay--popup .qrCode_loading{padding-top:46px;text-align:center;height:92px;width:139px;border:1px solid #8b8b8b}
+.noblePay--popup .qrCode_loading p{font-size:12px;line-height:30px;color:#fff}
+.popup-big{width:440px;height:260px;margin:-130px 0 0 -220px;text-align:left}
+.popup-big .popup__con{padding:36px 0 0 32px}
+.popup-big .popup__con .desc{margin:8px 0 0;width:250px;min-height:72px}
+.popup-page{position:relative;z-index:1;left:0;height:225px;margin:0 auto}
+.popup-page .popup__con .desc{position:relative;min-height:50px;padding:0 0 20px 34px}
+.popup-page .popup__con .errorTips{display:none;position:absolute;bottom:10px;left:34px;line-height:20px;color:#c00}
+.icenter .noblePay--popup .popup__con .tips em,.noblePay{color:#333}
+.popup-page .b-submit{margin-left:34px}
+.popup-page .qrcode{top:30px;right:20px;background:0 0;border:none}
+.pop-mask{position:fixed;z-index:998;top:0;left:0;width:100%;height:100%;background:#000;opacity:.4}
+.icenter .noblePay--popup .close .i-close,.noblePay .b-submit,.noblePay .b-submit:hover{background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337)}
+.popup-tips .popup__con{padding-top:30px}
+.popup-tips .popup__con .tips{text-align:left;padding-left:0}
+.popup-tips .popup__con .desc{text-align:left;padding-left:34px;padding-bottom:10px}
+.icenter .noblePay--popup{background-color:#fff}
+.icenter .noblePay--popup .header{background-color:#eee;color:#333}
+.icenter .noblePay--popup .close .i-close{background-position:-208px -167px}
+article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0;outline:0}
+li{list-style:none}
+em{font-style:normal}
+.hide{display:none}
+.noblePay{font:12px/1.5 "Microsoft YaHei",Tahoma,Arial,"Helvetica Neue",Helvetica,sans-serif}
+.noblePay .btn,.noblePay .btn:hover{color:#fff;text-decoration:none}
+.noblePay .btn{display:inline-block;vertical-align:middle;width:100px;height:35px;text-align:center;line-height:35px;font-size:14px;background-repeat:no-repeat}
+.noblePay .b-submit--invalid,.noblePay .b-submit--invalid:hover{background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-104px 0}
+.noblePay .b-submit{margin:0 0 0 74px;background-position:0 0}
+.noblePay .b-submit:hover{background-position:0 -39px}
+.noblePay--pay .banks li em,.noblePay--pay .inline{display:inline-block;vertical-align:middle}
+.noblePay--pay{position:absolute;z-index:999;left:50%;top:30px;margin-left:-250px;width:500px;min-height:320px;color:#ccc;text-align:left;background-color:#333}
+.noblePay--pay .banks ul:after,.noblePay--pay .item:after,.noblePay--pay .item__con__options:after{content:"";display:table;clear:both}
+.noblePay--pay .header{position:relative;width:100%;height:42px;text-align:left;background-color:#191919}
+.noblePay--pay .header h1{font-size:14px;margin-left:18px;line-height:42px}
+.noblePay--pay .header a{position:absolute;right:0;top:0;height:42px;width:42px}
+.noblePay--pay .header .ico{position:absolute;right:13px;top:13px}
+.noblePay--pay .con{width:426px;padding:20px 37px}
+.noblePay--pay .payDes{border-bottom:1px solid #3b3b3b}
+.noblePay--pay .payDes h2{font-size:14px;line-height:24px;font-weight:400;padding:10px 0}
+.noblePay--pay .payDes h2 b{color:#ccc;font-size:16px;margin:0 5px;font-weight:400}
+.noblePay--pay .payDes h2 b em{color:#c7ae78;font-style:normal}
+.noblePay--pay .payDes h2 span b{font-size:14px;font-weight:400;margin:0;color:#c7ae78}
+.noblePay--pay .payDes h2 .ico{margin-right:5px;vertical-align:top;position:relative;top:2px}
+.noblePay--pay .payDes h2 .timeTips{font-size:12px;margin-left:68px;color:#909090}
+.noblePay--pay .item{min-height:36px}
+.noblePay--pay .item .item__label{float:left;width:74px;line-height:36px;color:#e0e0e0}
+.noblePay--pay .item .item__con{float:left;width:352px;color:#e0e0e0}
+.noblePay--pay .item .banks{visibility:hidden;position:absolute;width:334px;margin:0 0 6px;border:1px solid #535353;padding:1px;background-color:#444}
+.noblePay--pay .item .banks .banks__con{position:relative;width:334px;height:82px;overflow:hidden}
+.noblePay--pay .item .banks ul{position:relative;width:330px;border:1px solid #535353;border-width:1px 0 0 1px}
+.noblePay--pay .item .banks li{float:left;position:relative;border:1px solid #535353;background-color:#333;border-width:0 1px 1px 0;width:71px;padding:0 0 0 38px;height:26px;line-height:26px;text-align:left;cursor:pointer;overflow:hidden}
+.noblePay--pay .item .banks li em{height:26px;line-height:26px;vertical-align:top}
+.noblePay--pay .item .banks li .i-arrow-d{vertical-align:top;position:relative;top:50%;margin:-2px 0 0 5px}
+.noblePay--pay .item .banks li .i-bank{position:absolute;top:50%}
+.noblePay--pay .item .banks li.last{position:absolute;min-width:108px;height:26px;padding:0;border:1px solid #ff8a00;background:0 0}
+.noblePay--pay .item .banks li.last .i-selector{position:absolute;bottom:0;right:0;margin:0}
+.noblePay--pay .item .banks li.j-bank-more{display:none}
+.noblePay--pay .item .scrollBank,.noblePay--pay .item .scrollBank .banks__con{height:108px}
+.noblePay--pay .item .money{font-size:24px;color:#ff8a00}
+.noblePay--pay .item .money_yb .unitW,.noblePay--pay .item .tips_yb .unitW{font-size:12px}
+.noblePay--pay .item .unit{font-size:12px;color:#ccc;margin-left:4px}
+.noblePay--pay .item .money_hyb,.noblePay--pay .item .money_yb{color:#ccc;margin-left:10px;font-size:12px;cursor:pointer}
+.noblePay--pay .item .money_hyb span,.noblePay--pay .item .money_yb span{color:#ff8a00}
+.noblePay--pay .item .refresh_hyb,.noblePay--pay .item .refresh_yb,.noblePay--pay .item .tips_yb{display:none;color:#ff8a00;margin-left:10px;font-size:12px;cursor:pointer}
+.noblePay--pay .item .tips_yb span{color:#ccc}
+.noblePay--pay .item a.pay_yb{color:#09b3f1;text-decoration:underline;font-size:12px}
+.noblePay--pay .item__con__options li{position:relative;float:left;width:74px;height:34px;line-height:34px;margin:0 9px 0 0;text-align:center;border:1px solid #535353;cursor:pointer}
+.noblePay--pay .item__con__options li .tips,.noblePay--pay .item__con__options li .tips:hover{width:106px;font-size:12px;line-height:16px;color:#8b8b8b;text-align:left;border-color:transparent}
+.noblePay--pay .item__con__options li .tips .red,.noblePay--pay .item__con__options li .tips:hover .red{color:#c00}
+.noblePay--pay .item__con__options li .i-selector{position:absolute;bottom:0;right:0;display:none;visibility:hidden;zoom:1}
+.noblePay--pay .item__con__options li .editPayNum{height:34px;position:relative;z-index:2;outline:0;border:none;padding:0 8px}
+.noblePay--pay .item__con__options li .baseNum{display:none;position:absolute;right:5px;top:0;z-index:1;line-height:34px;width:25px;height:34px;font-size:12px;color:#909090}
+.noblePay--pay .item__con__options li :hover{border-color:#ff8a00}
+.noblePay--pay .item__con__options li.selected{border-color:#ff8a00;color:#fff}
+.noblePay--pay .item__con__options li.selected .i-selector{display:block;visibility:visible}
+.noblePay--pay .item__con__options li.selected .editPayNum{padding-right:32px;text-align:center}
+.noblePay--pay .item__con__options li.selected .inTips{display:none}
+.noblePay--pay .item__con__options li.selected .baseNum{display:block}
+.noblePay--pay .item__con__options li.disable{border-color:#414141;background-color:#414141;color:#888;cursor:default}
+.noblePay--pay .item__con__options li.editItem{position:relative;min-width:74px;width:auto!important;overflow:hidden}
+.noblePay--pay .item__con__options li.editItem .inTips{position:absolute;width:74px;text-align:center;left:50%;top:0;z-index:3;margin-left:-37px;line-height:34px;background:#333}
+.noblePay--pay .item__con__options2 li{width:auto;padding:0 10px}
+.noblePay--pay .item__con__options2 li .tips{width:auto;line-height:34px;margin-left:-10px}
+.noblePay--pay .payArea{padding-top:17px}
+.noblePay--pay .payArea .item{margin:0 0 10px}
+.noblePay--pay .payArea .item1{margin:0!important}
+.noblePay--pay .payArea .item1 .item__con__options li{margin-bottom:10px}
+.noblePay--pay .qrcode{display:none;width:130px;height:130px;padding:5px;margin-left:74px;border:1px solid #8b8b8b;overflow:hidden}
+.noblePay--pay .qrcode__desc{width:100%;line-height:16px;color:#fff;text-align:center}
+.noblePay--pay .qrCode__img{display:none;position:relative;overflow:hidden;width:139px;height:139px;background:#fff}
+.noblePay--pay .qrCode__img.clickAble{cursor:pointer;background:#ccc}
+.noblePay--pay .qrCode__img img{position:absolute;left:-25px;top:-25px;width:190px;height:190px}
+.noblePay--pay .qrCode__img p{display:none;position:absolute;top:50%;left:0;margin-top:-22px;text-align:center;font-size:12px;line-height:22px;height:44px;padding:0 10px;color:#333}
+.noblePay--pay .qrCode__img p b{color:#000;margin:0 3px}
+.noblePay--pay .qrCode_loading{padding-top:46px;text-align:center;height:92px;width:139px;border:1px solid #8b8b8b}
+.noblePay--pay .qrCode_loading p{font-size:12px;line-height:30px;color:#fff}
+.icenter .noblePay--pay{color:#333;background-color:#fff}
+.icenter .noblePay--pay .header{background-color:#eee}
+.icenter .noblePay--pay .i-close{background-image:url(//hd.huya.com/guardPay/img/sprite/global.png?1557222839337);background-position:-208px -167px}
+.icenter .noblePay--pay .item .item__label,.icenter .noblePay--pay .payDes h2 b{color:#333}
+.icenter .noblePay--pay .payArea .item1 .item__con__options li{border-color:#c9ccd5;color:#333}
+.icenter .noblePay--pay .payArea .item1 .item__con__options .selected{border-color:#ff8a00}
+.icenter .noblePay--pay .payDes{border-bottom:1px solid #f0f0f0}
+.icenter .noblePay--pay .item .tips_yb span,.icenter .noblePay--pay .item .unit{color:#666}
+.icenter .noblePay--pay .item .banks{border-color:#c9ccd5;background-color:#eee}
+.icenter .noblePay--pay .item .banks ul{border-color:#c9ccd5}
+.icenter .noblePay--pay .item .banks li{color:#333;background-color:#fff;border-color:#f0f0f0}
+.icenter .noblePay--pay .item .banks .selected{border-color:#ff8a00}
+.icenter .noblePay--pay .payArea .item .banks .last{background-color:transparent;border-color:#ff8a00}
+.safetyVerifPopupBox .main{width:auto}
+.big_pay_tips{color:#ccc;margin-bottom:8px;padding-left:74px}
+/**/
+.hidden{display:none}
+.main{text-align:left;margin:0 auto;width:730px;overflow:hidden;background-color:#333;color:#b3b3b3}
+.main .header{height:57px;overflow:hidden;margin:5px 20px 0;background:url(//hd.huya.com/guardOpen/images/ad.png) center right no-repeat}
+.main .header p{margin:10px 0}
+.main .power{margin:10px 20px 0}
+.main .power .power_box{height:70px;width:33%;border:4px solid #242424;padding-left:100px;float:left}
+.main .power .yindou{background:url(//hd.huya.com/guardOpen/images/1.png) 20px 10px no-repeat #262626;margin-bottom:1px}
+.main .power .fayan{background:url(//hd.huya.com/guardOpen/images/2.png) 20px 13px no-repeat #262626;margin:0 1px 1px;}
+.main .power .guibin{background:url(//hd.huya.com/guardOpen/images/3.png) 20px 15px no-repeat #262626;margin-bottom:1px}
+.main .power .jinchang{background:url(//hd.huya.com/guardOpen/images/4.png) 20px 15px no-repeat #262626}
+.main .power .ruchang{background:url(//hd.huya.com/guardOpen/images/5.png) 20px 13px no-repeat #262626;margin:0 1px 1px;position:relative}
+.main .power .ruchang .title{color:#f7be27}
+.main .power .ruchang .description{color:#8c6f21}
+.main .power .ruchang i{position:absolute}
+.main .power .ruchang .level12{width:30px;height:17px;top:-2px;right:-6px;background:url(//hd.huya.com/guardOpen/images/level12.png) no-repeat}
+.main .power .gaoji{background:url(//hd.huya.com/guardOpen/images/6.png) 20px 15px no-repeat #262626;position:relative}
+.main .power .gaoji .title{color:#f7be27}
+.main .power .gaoji .description{color:#8c6f21}
+.main .power .gaoji i{position:absolute}
+.main .power .gaoji .level520{width:38px;height:17px;top:-2px;right:-6px;background:url(//hd.huya.com/guardOpen/images/level520.png) no-repeat}
+.main .power .title{font-size:14px;margin-top:15px}
+.main .power .description{color:#585858}
+.main .month_select{overflow:hidden;padding:20px 20px 0}
+.main .month_select .change{line-height:37px}
+.main .month_select .change .au_main_name{display:inline-block;vertical-align:top;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.main .choice .choice_open{float:left;margin:10px 10px 0 0}
+.main .choice .choice_ul{float:left}
+.main .choice .choice_ul li{cursor:pointer;float:left;min-width:86px;height:35px;line-height:35px;border:1px solid #525252;padding-left:30px;padding-right:2px;position:relative}
+.main .choice .choice_ul i{position:absolute;bottom:0;right:0;width:12px;height:12px;background:url(//hd.huya.com/guardOpen/images/select.png);display:none}
+.main .choice .choice_ul .select{border-color:#fe8a00}
+.main .choice .choice_ul .select i{display:block}
+.main .choice .choice_ul .v1{background:url(//hd.huya.com/guardOpen/images/pro_v1.png) 5px center no-repeat;margin-left:8px;min-width:78px}
+.main .choice .choice_ul .v2{background:url(//hd.huya.com/guardOpen/images/pro_v1.png) 5px center no-repeat;margin-left:8px;min-width:78px}
+.main .choice .choice_ul .v3{background:url(//hd.huya.com/guardOpen/images/pro_v2.png) 5px center no-repeat;margin:0 8px;min-width:70px}
+.main .choice .choice_ul .v4{background:url(//hd.huya.com/guardOpen/images/pro_v3.png) 5px center no-repeat;margin:0 8px 0 0;min-width:78px}
+.main .choice .choice_ul .v5{background:url(//hd.huya.com/guardOpen/images/pro_v4.png) 5px center no-repeat}
+.main .change{height:37px}
+.main .change .pro_last,.main .change .pro_time,.main .change i{color:#c8ae7d}
+.main .change .pro_level_1{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v1.png) no-repeat}
+.main .change .pro_level_2{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v1.png) no-repeat}
+.main .change .pro_level_3{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v2.png) no-repeat}
+.main .change .pro_level_4{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v3.png) no-repeat}
+.main .change .pro_level_5{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v4.png) no-repeat}
+.main .input_month_area{height:35px;padding-top:20px}
+.main .define{margin:0 20px}
+.main .define .define_level{float:left;margin:10px 10px 0 0}
+.main .define .define_num{padding-top:10px}
+.main .define .define_num i{float:left}
+.main .define .define_num .v{margin-right:5px}
+.main .define .define_num .add,.main .define .define_num .del,.main .define .define_num .num{height:30px;width:20px;border:1px solid #535353;text-align:center;line-height:30px;margin-top:-7px}
+.main .define .define_num .num{border-left:0;border-right:0;width:35px;float:left;background-color:#333;color:#b3b3b3}
+.main .define .define_num .add,.main .define .define_num .del{background-color:#3d3d3d;cursor:pointer}
+.main .define .define_num p{margin-left:5px;color:#8c8c8c}
+.main .add_time{margin:0 20px}
+.main .add_time .add_t{float:left;margin:10px 10px 0 0}
+.main .add_time .time_num{padding-top:10px}
+.main .add_time .time_num i{float:left}
+.main .add_time .time_num .add,.main .add_time .time_num .del,.main .add_time .time_num .num{height:30px;width:20px;border:1px solid #535353;text-align:center;line-height:30px;margin-top:-7px}
+.main .add_time .time_num .num{border-left:0;border-right:0;width:35px;float:left;background-color:#333;color:#b3b3b3}
+.main .add_time .time_num .add,.main .add_time .time_num .del{background-color:#3d3d3d;cursor:pointer}
+.main .add_time .time_num p{margin-left:5px;color:#8c8c8c}
+.main .add_time .time_num p span{color:#c9ae77;display:inline-block;height:19px}
+.main .add_time .time_num p .v1{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v1.png) no-repeat}
+.main .add_time .time_num p .v2{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v1.png) no-repeat}
+.main .add_time .time_num p .v3{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v2.png) no-repeat}
+.main .add_time .time_num p .v4{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v3.png) no-repeat}
+.main .add_time .time_num p .v5{padding-left:21px;background:url(//hd.huya.com/guardOpen/images/pro_v4.png) no-repeat}
+.main .footer{border-top:1px solid #262626;padding:20px;background-color:#2c2c2c}
+.main .footer .need{font-size:16px}
+.main .footer .open_money{color:#ff8901}
+.main .footer .open_after{color:#666}
+.main .footer .open_after .open_end,.main .footer .open_after .open_v{color:#c8ae7d}
+.main .footer .open_sure{width:115px;height:22px;line-height:42px;border-radius:5px;color:#fff;font-size:16px;background-color:#ff8a00;padding:10px 20px}
+.popup{position:absolute;left:50%;top:30px;width:500px;margin:0 0 0 -250px;z-index:10001;color:#fff;background-color:#333}
+.popup .header{text-align:left;height:42px;line-height:42px;font-size:14px;color:#ccc;background-color:#191919}
+.popup .header h3{margin:0 0 0 15px}
+.popup .close{position:absolute;right:0;top:0;padding-top:13px;height:33px;width:34px;text-align:center}
+.popup .con{width:426px;padding:20px 37px}
+.popup .con .payDes{border-bottom:1px solid #3b3b3b}
+.popup .con .payDes h2{font-size:14px;line-height:24px;font-weight:400;padding:10px 0}
+.popup .con .payDes h2 em{color:#c9ad7b;font-size:16px;margin:0 5px}
+.popup .con .icon{display:inline-block;margin-right:5px;vertical-align:top;width:20px;height:20px}
+.popup .con .i_pro_1{background:url(//hd.huya.com/guardOpen/images/pro_v1.png)}
+.popup .con .i_pro_2{background:url(//hd.huya.com/guardOpen/images/pro_v2.png)}
+.popup .con .i_pro_3{background:url(//hd.huya.com/guardOpen/images/pro_v3.png)}
+.popup .con .i_pro_4{background:url(//hd.huya.com/guardOpen/images/pro_v4.png)}
+.popup .con .submit_pay{width:115px;height:22px;line-height:42px;border-radius:5px;color:#fff;font-size:16px;background-color:#ff8a00;padding:10px 20px;margin-left:75px}
+.over_time_tips{height:28px;line-height:28px;color:#ff8901;padding-left:20px}
+.icenter .main{background-color:#fff;color:#333}
+.icenter .main .power .power_box{border-color:#f0f0f0;background-color:#fafafa}
+.icenter .main .power .title{color:#676767}
+.icenter .main .power .description{color:#999}
+.icenter .main .power .gaoji .title,.icenter .main .power .ruchang .title{color:#fe8b00}
+.icenter .main .power .gaoji .description,.icenter .main .power .ruchang .description{color:#fe8b00}
+.icenter .main .choice .choice_ul li{border-color:#c9ccd5}
+.icenter .main .choice .choice_ul li.select{border-color:#fe8a00}
+.icenter .main .add_time .time_num .add,.icenter .main .add_time .time_num .del,.icenter .main .define .define_num .add,.icenter .main .define .define_num .del{background-color:#fafafa;border-color:#c8ccd5;color:#999}
+.icenter .main .add_time .time_num .num,.icenter .main .define .define_num .num{background-color:#fff;border-color:#c8ccd5;color:#333}
+.icenter .main .footer{background-color:#f5f5f5;border-top:1px solid #f5f5f5}
+.icenter .main .power .yindou{background-image:url(http://hd.huya.com/guardOpen/images/1-i.png)}
+.icenter .main .power .fayan{background-image:url(http://hd.huya.com/guardOpen/images/2-i.png)}
+.icenter .main .power .guibin{background-image:url(http://hd.huya.com/guardOpen/images/3-i.png)}
+.icenter .main .power .jinchang{background-image:url(http://hd.huya.com/guardOpen/images/4-i.png)}
+.icenter .main .power .ruchang{background-image:url(http://hd.huya.com/guardOpen/images/5-i.png)}
+.icenter .main .power .gaoji{background-image:url(http://hd.huya.com/guardOpen/images/6-i.png)}
+.icenter .main .footer .open_after .open_end,.icenter .main .footer .open_after .open_v{color:#ff8901}
+.icenter .main .header{background-image:url(http://hd.huya.com/guardOpen/images/ad-i.png)}
+.icenter .main .add_time .time_num p .v2,.icenter .main .add_time .time_num p span,.icenter .main .change .pro_last,.icenter .main .change .pro_time,.icenter .main .change i{color:#fe8a00}
+/*弹出自定义*/
+body .layui-layer-shouhu .layui-layer-title{background:#000000; color:#ffffff; border: none;font-weight: 800;}
+body .layui-layer-shouhu .layui-layer-btn{border-top:1px solid #E9E7E7}
+body .layui-layer-shouhu .layui-layer-btn a{background:#333;}
+body .layui-layer-shouhu .layui-layer-btn .layui-layer-btn1{background:#999;}
+body .layui-layer-shouhu .layui-layer-setwin .layui-layer-close1{background-position: -149px -32px;}
+body .layui-layer-shouhu .layui-layer-setwin a{width: 29px;height: 39px;margin-top: -8px;}
+body .layui-layer-shouhu .layui-layer-content{overflow-y: hidden; overflow-x: hidden;}

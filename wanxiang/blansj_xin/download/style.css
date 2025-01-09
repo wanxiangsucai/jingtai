@@ -1,0 +1,278 @@
+/*
+*初始化样式
+*/
+body, form, ul, li, p, dl, dd, dt ,h,td,th,h3{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size:12px;
+	background:url(topbg.gif) repeat-x;
+}
+.clear {
+    clear: both;
+}
+li,ul{
+	list-style: none;
+} 
+TD {
+	color: #333333;
+	VERTICAL-ALIGN: top;
+} 
+input,textarea{
+	border:1px solid #ccc;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.wrap{
+	width:1200px;
+	margin:auto;
+}
+.mt10{
+	margin-top:10px;
+}
+img{
+	border:0;
+}
+/*
+*顶部信息
+*/
+.TopContainer{
+	height:30px;
+	width:1200px;
+	overflow:hidden;
+	margin:auto;
+	line-height:32px;
+	color:#666;
+}
+.TopContainer a:link,.TopContainer a:visited,.TopContainer a:hover{
+	color:#666;
+}
+.TopContainer .userinfo{
+	float:left;
+	height:30px;
+}
+.TopContainer .userinfo span{
+	display:block;
+	float:left;
+	padding-right:5px;
+}
+.TopContainer .userinfo em{
+	color:red;
+	font-style:normal;
+}
+.TopContainer .userinfo .input{
+	padding-top:4px;
+}
+.TopContainer .userinfo .input input{
+	width:100px;
+	height:15px;
+}
+.TopContainer .userinfo .sub{
+	padding:4px 10px 0 5px;
+}
+.TopContainer .userinfo .sub input{
+	border:0;
+}
+.TopContainer .userinfo .img{
+	padding:5px 0 0 5px;
+}
+.TopContainer .userinfo .sub input{
+	background:#FFF;
+}
+.TopContainer .siteinfo{
+	float:right;
+}
+.TopContainer .siteinfo span{
+	color:red;
+}
+/*
+*logo
+*/
+.Logo_Ad_Info{
+	width:1200px;
+	height:60px;
+	margin:10px auto;
+}
+.Logo_Ad_Info .logo{
+	width:225px;
+	height:60px;
+	float:left;
+}
+.Logo_Ad_Info .ad{
+	width:470px;
+	height:60px;
+	float:left;
+}
+.Logo_Ad_Info .info{
+	width:280px;
+	height:55px;
+	border:#DDD solid 1px;
+	float:right;
+	padding-top:3px;
+	line-height:17px;
+	overflow:hidden;
+	background:#FAFAFA;
+}
+.Logo_Ad_Info .info a{
+	display:block;
+	width:125px;
+	height:17px;
+	padding-left:10px;
+	overflow:hidden;
+	float:left;
+}
+/*
+*主导航菜单
+*/
+#Mainmenu{
+	width:980px;
+	height:41px;
+	padding-left:10px;
+	overflow:hidden;
+	line-height:45px;
+	margin:auto;
+	background:url(menubg.gif) no-repeat;
+}
+#Mainmenu li{
+	float:left;
+	padding-left:15px;
+	background:url(spacing.gif) right 15px no-repeat;
+}
+#Mainmenu li span{
+	display:block;
+	padding-right:16px;
+}
+#Mainmenu li span a{
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+}
+#Mainmenu li.ck{
+	background:url(over1.gif) left 5px no-repeat;
+}
+#Mainmenu li.ck span{
+	background:url(over1.gif) right 5px no-repeat;
+}
+#Mainmenu li.ck span a{
+	color:#333;
+}
+#Mainmenu li.up{
+	background:none;
+}
+/*
+*头部搜索
+*/
+.MainSearch{
+	width:988px;
+	height:39px;
+	border:#EBEBEB solid 1px;
+	border-top:0;
+	background:url(searchbg.gif) repeat-x;
+	margin:0 auto 8px auto;
+	line-height:42px;
+}
+.MainSearch span{
+	display:block;
+	float:left;
+	padding-right:3px;
+}
+.MainSearch span.tag{
+	padding:0 5px 0 20px;
+}
+.MainSearch span.input{
+	padding:8px 10px 0 0;
+}
+.MainSearch span.input input{
+	width:220px;
+	height:25px;
+	border:0;
+	background:url(keyword.gif) no-repeat;
+	padding-left:2px;
+	line-height:25px;
+}
+.MainSearch span.rad{
+	padding:10px 1px 0 0;
+}
+.MainSearch span.rad input{
+	border:0;	
+}
+.MainSearch span.sub{
+	padding:8px 0 0 10px;	
+}
+.MainSearch span.sub input{
+	border:0;;	
+}
+/*
+*页面地图
+*/
+#nav_guide{
+	width:988px;
+	height:25px;
+	line-height:28px;
+	overflow:hidden;
+	border:#EBEBEB solid 1px;
+	margin:0 auto 8px auto;
+	color:#666;
+}
+#nav_guide a:link,#nav_guide a:visited,#nav_guide a:hover{
+	color:#666;
+}
+#nav_guide .t1{
+	float:left;
+	padding:0 5px 0 30px;
+	background:url(home_icon.gif) 10px 7px no-repeat;
+}
+#nav_guide .t2{
+	float:left;
+}
+/*
+*copyright样式
+*/
+#copyright{
+	clear:both;
+	margin:10px auto 0 auto;
+	text-align:center;
+	border-top:1px solid #ddd;
+	width:1200px;
+	line-height:20px;
+	padding:8px 0 15px 0;
+	color:#888;
+}
+/*********************************************************************
+**********************************************************************
+AJAX在线编辑DIV容器
+这个会员看不到.只是版主管理员才可以看到.这是后台风格
+一般不必修改了.修改了会员也看不到
+**********************************************************************
+*********************************************************************/
+#AjaxEditTable{
+	border:1px solid #BEDDFF;
+	background:#FFF;
+}
+#AjaxEditTable .head{
+	height: 21px;
+	background: #DBEAFF;
+	border-bottom:1px solid #BEDDFF;
+	padding:3px 5px 0 7px;
+}
+#AjaxEditTable .head a{
+	color:#FFF;
+}
+#AjaxEditTable .head span{
+	DISPLAY: block; 
+	FLOAT: right;
+}
+#AjaxEditTable .middle{
+	background:#FFF;
+	line-height:18px;
+	padding:5px;
+}
+#AjaxEditTable .middle input,#AjaxEditTable .middle textarea{
+	border:1px solid #BEDDFF;
+	background:#FFF;
+}

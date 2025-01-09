@@ -1,0 +1,53 @@
+/*通用评论模块*/
+.wapcomment{background: #FFF;margin-top:10px;padding:10px;}
+.wapcomment .head{height:30px;line-height:30px;overflow: hidden;margin-bottom:8px;
+	border-bottom:#eee solid 1px;padding-bottom:8px;}
+.wapcomment .head .tag{float:left;font-size:16px;}
+.wapcomment .head .more{float:right;}
+.wapcomment .head .more button{padding:0 15px;border:none;background:none;
+color:#FF8915;font-size:14px;}
+.wapcomment .head .more i{padding-right:5px;font-size:20px;position:relative;top:5px;}
+.wapcomment .listcomment .lists{border-bottom:#eee solid 1px;display: table;width: 100%;}
+.wapcomment .listcomment .lists .icon, .wapcomment .listcomment .lists .infos{
+	display: table-cell;
+	padding: 10px 0 10px 0;
+	vertical-align: top;
+}
+.wapcomment .listcomment .lists .icon{width:45px;padding-right: 10px;}
+.wapcomment .listcomment .lists .icon img{max-width: 100%;height:45px;border-radius: 50%;box-shadow: 1px 1px 1px #666;}
+.wapcomment .listcomment .lists .infos .name a{display: block;height: 30px;line-height: 30px;color: #666;
+	    color: #4CBEFE;font-size:16px;}
+.wapcomment .listcomment .lists .infos .comment{line-height: 20px;}
+.wapcomment .listcomment .lists .infos dl{display: table;width: 100%;margin-top: 5px;}
+.wapcomment .listcomment .lists .infos dl dt,.wapcomment .listcomment .lists .infos dl dd{
+	display: table-cell;
+	vertical-align: middle;
+	color: #888;
+}
+.wapcomment .listcomment .lists .infos dl dd{text-align: right;}
+.wapcomment .listcomment .lists .infos dl dd span{display: inline-block;padding-left: 10px;}
+.wapcomment .listcomment .lists .repalyinfs{background: #F7F7F7;}
+.wapcomment .listcomment .lists .repalyinfs div{padding:10px;line-height: 20px;border-top:#FFF solid 1px;
+	color: #666;font-size: 14px;}
+.wapcomment .listcomment .lists .repalyinfs div a{color:#888;}
+.postcommentbox{text-align: center;}
+.postcommentbox textarea::placeholder{color:#999;}
+.postcommentbox textarea{width: 92%;padding: 1%;height: 150px;margin: 10px auto;border:#ddd solid 1px;}
+.postcommentbox button{
+	padding:3px 10px;
+	border: #999 solid 1px;
+	background: #CCC;
+	color: #FFF;
+	margin: 0 10px;
+	cursor: pointer;
+}
+.postcommentbox button:nth-child(1){border:#F30 solid 1px;background: #F60;}
+.ShowMoreComment{text-align: center;padding: 10px;}
+.ShowMoreComment button{padding: 5px 10px;color: #999;}
+
+/*判断有无内容*/
+.no-comment{margin-top:15px;display:flex;justify-content:center;padding:20px 0px;
+}
+.no-comment span{display:flex;flex-direction:column;}
+.no-comment i{display:block;text-align:center;font-size:50px;color:#eee;margin-bottom:5px;}
+.no-comment p{color:#999;font-size:12px;display:block;text-align:center;}
